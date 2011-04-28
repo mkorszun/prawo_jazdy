@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:baselineAligned="false" android:orientation="vertical" android:id="@+id/summary_exam_layout">
+	<ImageView android:id="@+id/summary_header_image" android:src="@drawable/congrats2"
+		android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content"></ImageView>
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_gravity="center_horizontal" android:id="@+id/summary_exam_info" android:textSize="20dip" android:layout_marginBottom="10dip" ></TextView>
+	<TextView android:text="TextView" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:id="@+id/summary_questions_count" android:layout_height="wrap_content" ></TextView>
+	<TextView android:text="TextView" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/summary_correct_answers_count" ></TextView>
+	<TextView android:text="TextView" android:layout_gravity="center_horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/summary_mistakes_count" ></TextView>
+	<TextView android:text="@string/summary_back_button_info"
+		android:id="@+id/summary_text_line" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="center" android:layout_margin="20dip" android:layout_weight="1"></TextView>
+</LinearLayout>

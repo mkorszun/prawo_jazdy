@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:paddingLeft="10dp"
+			android:paddingRight="10dp">
+
+			<TableRow android:layout_height="wrap_content" android:id="@+id/tableRow1"
+				android:layout_width="fill_parent">
+				<TextView android:id="@+id/timer" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:textSize="20dip"></TextView>
+				<TextView android:id="@+id/pageNumberText" android:text="0"
+					android:textSize="20dip" android:layout_height="wrap_content"
+					android:layout_width="fill_parent" android:gravity="right"></TextView>
+			</TableRow>
+
+			<ImageView android:id="@+id/imageView" 
+				android:adjustViewBounds="true" android:scaleType="fitCenter"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:gravity="center_horizontal" android:layout_gravity="center_horizontal"></ImageView>
+			<TextView android:text="Kto jest najwiekszym chujem w calej galaktyce"
+				android:id="@+id/questionText" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:textSize="15dip"
+				android:paddingLeft="5dp" android:textColor="@color/white"></TextView>
+			<TableRow android:layout_width="fill_parent" android:id="@+id/answerRow1"
+				android:layout_height="wrap_content" android:paddingTop="2dp">
+				<CheckBox android:text="" android:id="@+id/answer1"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="15dip"></CheckBox>
+			</TableRow>
+			<TableRow android:layout_width="fill_parent" android:id="@+id/answerRow2"
+				android:layout_height="wrap_content" android:paddingTop="2dp">
+				<CheckBox android:text="" android:id="@+id/answer2"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="15dip"></CheckBox>
+			</TableRow>
+			<TableRow android:layout_width="fill_parent" android:id="@+id/answerRow3"
+				android:layout_height="wrap_content" android:paddingTop="2dp">
+				<CheckBox android:text="" android:id="@+id/answer3"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:textSize="15dip"></CheckBox>
+			</TableRow>
+
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:orientation="horizontal" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:paddingTop="2dp">
+				<Button android:text="@string/previous_button"
+					android:layout_weight="1" android:id="@+id/previous"
+					android:layout_width="0dip" android:layout_height="wrap_content"></Button>
+				<Button android:text="@string/next_button"
+					android:layout_weight="1" android:id="@+id/next"
+					android:layout_width="0dip" android:layout_height="wrap_content"></Button>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

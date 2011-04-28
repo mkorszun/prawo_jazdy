@@ -1,0 +1,2700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prawo Jazdy</string>
+    <string name="menu_app_title">Prawo Jazdy</string>
+    <string name="menu_app_version">ver. 0.1</string>
+    <string name="menu_choose_menu">Wybierz MENU aby rozpocząć.</string>
+    
+    <string name="common_ok">OK</string>
+    <string name="common_cancel">Anuluj</string>
+    
+    <string name="question_pick_text">Wybierz numer pytania (1 - %1$d):</string>
+    
+    <string name="option_exercise">Nauka</string>
+    <string name="option_exam">Egzamin</string>
+    <string name="option_quit">Wyjdź</string>
+    
+    <string name="next_button">Następne</string>
+    <string name="previous_button">Poprzednie</string>
+    <string name="next_button_end">Koniec</string>
+    
+    <string name="end_dialog_exam_text">Czy na pewno chcesz zakończyć test i zobaczyć wyniki?</string>
+    <string name="end_dialog_exam_option1">Tak</string>
+    <string name="end_dialog_exam_option2">Nie</string>
+    
+    <string name="end_dialog_training_text">Czy na pewno chcesz zakończyć naukę?</string>
+    <string name="end_dialog_training_option1">Tak</string>
+    <string name="end_dialog_training_option2">Nie</string>
+    
+    <string name="exit_dialog_exam_text">Czy na pewno chcesz wyjść z testu?</string>
+    <string name="exit_dialog_exam_option1">Tak</string>
+    <string name="exit_dialog_exam_option2">Nie</string>
+    
+    <string name="summary_pass_text">Test zaliczony!</string>
+    <string name="summary_fail_text">Test oblany!</string>
+    <string name="summary_questions_count">Pytań: %1$d</string>
+    <string name="summary_correct_answers_count">Odpowiedzi poprawnych: %1$d</string>
+    <string name="summary_mistakes_count">Odpowiedzi błędnych: %1$d</string>
+    <string name="summary_back_button_info">Wybierz \"Wstecz\" aby przejrzeć poprawne odpowiedzi.</string>
+    
+    <string name="passed_msg">Zdałeś</string>
+    <string name="failed_msg">Oblałeś</string>
+    
+    <string name="show_answer">Pokaż odpowiedź</string>
+    <string name="goto_question">Idź do</string>
+     
+    <string-array name="categories">
+        <item>@string/category1</item>
+        <item>@string/category2</item>
+        <item>@string/category3</item>
+        <item>@string/category4</item>
+        <item>@string/category5</item>
+        <item>@string/category6</item>
+        <item>@string/category7</item>
+        <item>@string/category8</item>
+        <item>@string/category9</item>
+        <item>@string/category10</item>
+        <item>@string/category11</item>
+        <item>@string/category12</item>
+    </string-array>
+    
+    <string name="category1">Pytania ogólne</string>
+    <string name="category2">Znaki i sygnały drogowe</string>
+    <string name="category3">Pierwszeństwo przejazdu</string>
+    <string name="category4">Manewry na drodze</string>
+    <string name="category5">Zachowanie wobec pieszego, rowerzysty i na przejazdach</string>
+    <string name="category6">Używanie świateł i sygnałów</string>
+    <string name="category7">Pierwsza pomoc przedlekarska</string>
+    <string name="category8">Prędkość i hamowanie</string>
+    <string name="category9">Zachowanie przy znakach specjalistycznych</string>
+    <string name="category10">Używanie pojazdu</string>
+    <string name="category11">Technika kierowania pojazdem</string>
+    <string name="category12">Kategoria 12</string>
+    <string name="category13">Kategoria 13</string>
+    <string name="category14">Kategoria 14</string>
+    <string name="category15">Kategoria 15</string>
+    <string name="category16">Kategoria 16</string>
+    <string name="category17">Kategoria 17</string>
+    <string name="category18">Kategoria 18</string>
+    
+   	<string name="question1">W tej sytuacji kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer1_1">jednym niebezpiecznym zakręcie w prawo, </string>
+	<string name="answer1_2">dwóch niebezpiecznych zakrętach, z których pierwszy jest w prawo, </string>
+	<string name="answer1_3">nieokreślonej liczbie niebezpiecznych zakrętów. </string>
+
+	<string name="question2">W tej sytuacji kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer2_1">dwóch niebezpiecznych zakrętach, z których pierwszy jest w prawo, </string>
+	<string name="answer2_2">dwóch niebezpiecznych zakrętach, z których pierwszy jest w prawo, a drugi w lewo, </string>
+	<string name="answer2_3">nieokreślonej liczbie niebezpiecznych zakrętów. </string>
+
+	<string name="question3">W tej sytuacji kierujący pojazdem powinien spodziewać się pierwszego zakrętu po przejechaniu:</string>
+	<string name="answer3_1">50-70 m, </string>
+	<string name="answer3_2">70-100 m, </string>
+	<string name="answer3_3">co najmniej 150 m. </string>
+
+	<string name="question4">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer4_1">jest ostrzegany o zbliżaniu się do skrzyżowania z drogą podporządkowaną, </string>
+	<string name="answer4_2">może skręcić na skrzyżowaniu w lewo, </string>
+	<string name="answer4_3">może spodziewać się pojazdów wjeżdżających na skrzyżowanie z lewej strony. </string>
+
+	<string name="question5">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer5_1">jest ostrzegany o zbliżaniu się do skrzyżowania z drogą podporządkowaną, </string>
+	<string name="answer5_2">może spodziewać się pojazdów wjeżdżających na skrzyżowanie z prawej strony, </string>
+	<string name="answer5_3">może skręcić na skrzyżowaniu w prawo. </string>
+
+	<string name="question6">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer6_1">powinien zachować szczególną ostrożność, </string>
+	<string name="answer6_2">jest ostrzegany o zbliżaniu się do skrzyżowania z drogą podporządkowaną, </string>
+	<string name="answer6_3">może skręcić na skrzyżowaniu w lewo. </string>
+
+	<string name="question7">W tej sytuacji kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer7_1">zbliżaniu się do kilku wzniesień, </string>
+	<string name="answer7_2">poprzecznej nierówności jezdni, </string>
+	<string name="answer7_3">możliwości zmniejszenia przyczepności kół do jezdni. </string>
+
+	<string name="question8">W tej sytuacji kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer8_1">wypukłości na jezdni, zastosowanej w celu spowolnienia ruchu pojazdów, </string>
+	<string name="answer8_2">podłużnej nierówności jezdni, </string>
+	<string name="answer8_3">poprzecznej nierówności jezdni. </string>
+
+	<string name="question9">Znak ten umieszczony na drodze o dopuszczalnej prędkości 60 km/h, oznacza, że należy spodziewać się nierówności jezdni po przejechaniu:</string>
+	<string name="answer9_1">nie więcej niż 100 m, </string>
+	<string name="answer9_2">101-150 m, </string>
+	<string name="answer9_3">co najmniej 150 m. </string>
+
+	<string name="question10">W tej sytuacji kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer10_1">zamknięciu drogi dla ruchu z przeciwnego kierunku, </string>
+	<string name="answer10_2">zwężeniu jezdni po lewej stronie, </string>
+	<string name="answer10_3">zwężeniu jezdni mogącym powodować utrudnienie ruchu. </string>
+
+	<string name="question11">W tej sytuacji kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer11_1">zamknięciu drogi dla ruchu, </string>
+	<string name="answer11_2">zwężeniu jezdni po prawej stronie, </string>
+	<string name="answer11_3">zwężeniu jezdni po obu stronach. </string>
+
+	<string name="question12">W tej sytuacji kierujący pojazdem jest ostrzegany o możliwości poślizgu pojazdu spowodowanego w szczególności:</string>
+	<string name="answer12_1">zmianą nawierzchni jezdni, </string>
+	<string name="answer12_2">okresowym zawilgoceniem jezdni, </string>
+	<string name="answer12_3">stałym zawilgoceniem jezdni. </string>
+
+	<string name="question13">W tej sytuacji kierujący pojazdem jest ostrzegany o możliwości poślizgu pojazdu:</string>
+	<string name="answer13_1">od miejsca ustawienia znaku ostrzegawczego, </string>
+	<string name="answer13_2">na odcinku 3,5 km, </string>
+	<string name="answer13_3">po przejechaniu 3,5 km. </string>
+
+	<string name="question14">W tej sytuacji kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer14_1">miejscu szczególnie uczęszczanym przez dzieci, </string>
+	<string name="answer14_2">przejściu dla pieszych, </string>
+	<string name="answer14_3">miejscu częstych wypadków z pieszymi. </string>
+
+	<string name="question15">W tej sytuacji kierujący pojazdem powinien:</string>
+	<string name="answer15_1">uważnie obserwować całe otoczenie drogi, </string>
+	<string name="answer15_2">dostosować prędkość jazdy do możliwości zatrzymania pojazdu przed przejściem dla pieszych, </string>
+	<string name="answer15_3">być przygotowanym do hamowania pojazdu, jeżeli na przejściu pojawią się piesi. </string>
+
+	<string name="question16">W tej sytuacji kierujący pojazdem powinien spodziewać się przejścia dla pieszych po przejechaniu:</string>
+	<string name="answer16_1">25-50 m, </string>
+	<string name="answer16_2">51-100 m, </string>
+	<string name="answer16_3">co najmniej 150 m. </string>
+
+	<string name="question17">W tej sytuacji kierujący pojazdem powinien:</string>
+	<string name="answer17_1">zachować szczególną ostrożność, </string>
+	<string name="answer17_2">uważnie obserwować całe otoczenie drogi, </string>
+	<string name="answer17_3">być przygotowanym do hamowania pojazdu, jeżeli zobaczy dzieci w pobliżu jezdni. </string>
+
+	<string name="question18">W tej sytuacji można spodziewać się miejsca szczególnie uczęszczanego przez dzieci po przejechaniu:</string>
+	<string name="answer18_1">nie więcej niż 100 m, </string>
+	<string name="answer18_2">101-150 m, </string>
+	<string name="answer18_3">co najmniej 150 m. </string>
+
+	<string name="question19">W tej sytuacji kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer19_1">przejściu dla pieszych, </string>
+	<string name="answer19_2">miejscu częstych potrąceń pieszych, </string>
+	<string name="answer19_3">miejscu częstych wypadków spowodowanych śliską nawierzchnią. </string>
+
+	<string name="question20">W tej sytuacji kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer20_1">zwężeniu jezdni, </string>
+	<string name="answer20_2">miejscu, w którym rozpoczyna się ruch w jednym kierunku, </string>
+	<string name="answer20_3">miejscu, w którym rozpoczyna się ruch dwukierunkowy. </string>
+
+	<string name="question21">Na drodze oznaczonej tym znakiem ruch pojazdów jest:</string>
+	<string name="answer21_1">dozwolony w jednym kierunku, </string>
+	<string name="answer21_2">zabroniony, z wyjątkiem pojazdów kierowanych przez osoby niepełnosprawne o obniżonej sprawności ruchowej, </string>
+	<string name="answer21_3">zabroniony, z wyjątkiem pojazdów przewożących osoby niepełnosprawne o obniżonej sprawności ruchowej. </string>
+
+	<string name="question22">Wjazd na drogę oznaczoną tym znakiem jest:</string>
+	<string name="answer22_1">zabroniony od strony umieszczenia tego znaku, </string>
+	<string name="answer22_2">dozwolony od strony umieszczenia tego znaku, </string>
+	<string name="answer22_3">zabroniony z obu stron tej drogi. </string>
+
+	<string name="question23">W tej sytuacji kierujący pojazdem powinien zatrzymać pojazd:</string>
+	<string name="answer23_1">przed znakiem pionowym, </string>
+	<string name="answer23_2">w miejscu wyznaczonym linią na jezdni, </string>
+	<string name="answer23_3">w dowolnym miejscu przed skrzyżowaniem. </string>
+
+	<string name="question24">W tej sytuacji kierujący pojazdem ma obowiązek:</string>
+	<string name="answer24_1">zatrzymania pojazdu, </string>
+	<string name="answer24_2">ustąpienia pierwszeństwa pojazdom wjeżdżającym na skrzyżowanie z prawej strony, </string>
+	<string name="answer24_3">ustąpienia pierwszeństwa pojazdom wjeżdżającym na skrzyżowanie z lewej strony. </string>
+
+	<string name="question25">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer25_1">powinien skręcić w lewo na skrzyżowaniu, </string>
+	<string name="answer25_2">nie może skręcić w lewo na skrzyżowaniu, </string>
+	<string name="answer25_3">może zawrócić na skrzyżowaniu, jeżeli nie utrudni ruchu innym pojazdom. </string>
+
+	<string name="question26">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer26_1">powinien skręcić w prawo na skrzyżowaniu, </string>
+	<string name="answer26_2">może skręcić w lewo na skrzyżowaniu, </string>
+	<string name="answer26_3">nie może skręcić w prawo na skrzyżowaniu. </string>
+
+	<string name="question27">W tej sytuacji kierujący pojazdem może:</string>
+	<string name="answer27_1">skręcić w prawo na skrzyżowaniu, </string>
+	<string name="answer27_2">zawrócić na skrzyżowaniu, </string>
+	<string name="answer27_3">jechać na wprost przez skrzyżowanie. </string>
+
+	<string name="question28">W tej sytuacji kierujący pojazdem może:</string>
+	<string name="answer28_1">skręcić w lewo na skrzyżowaniu, </string>
+	<string name="answer28_2">zawrócić na skrzyżowaniu, </string>
+	<string name="answer28_3">skręcić w prawo na skrzyżowaniu. </string>
+
+	<string name="question29">W tej sytuacji kierujący pojazdem nie może zawrócić:</string>
+	<string name="answer29_1">na najbliższym skrzyżowaniu, </string>
+	<string name="answer29_2">na wszystkich skrzyżowaniach na tej drodze, </string>
+	<string name="answer29_3">na odcinku pomiędzy dwoma najbliższymi skrzyżowaniami. </string>
+
+	<string name="question30">W tej sytuacji kierujący pojazdem jest uprzedzony o:</string>
+	<string name="answer30_1">miejscu, w którym rozpoczyna się ruch dwukierunkowy, </string>
+	<string name="answer30_2">zwężonym odcinku jezdni, </string>
+	<string name="answer30_3">obowiązku zatrzymania się przed mostem. </string>
+
+	<string name="question31">W tej sytuacji kierujący samochodem osobowym powinien:</string>
+	<string name="answer31_1">zatrzymać się przed mostem, gdyż niemożliwy jest przejazd obu pojazdów, </string>
+	<string name="answer31_2">umożliwić przejazd przez most pojazdowi z przeciwnej strony, </string>
+	<string name="answer31_3">wjechać na most. </string>
+
+	<string name="question32">W tej sytuacji kierujący samochodem osobowym:</string>
+	<string name="answer32_1">może wjechać na most, gdyż jest możliwy jednoczesny przejazd obu pojazdów, </string>
+	<string name="answer32_2">powinien zatrzymać się przed mostem, </string>
+	<string name="answer32_3">jest uprzedzony o zwężonym odcinku jezdni. </string>
+
+	<string name="question33">Za tym znakiem, na chodniku, dozwolony jest postój nie dłuższy niż 5 minut:</string>
+	<string name="answer33_1">samochodu osobowego, </string>
+	<string name="answer33_2">motocykla, </string>
+	<string name="answer33_3">samochodu ciężarowego o dopuszczalnej masie całkowitej 3,5 t. </string>
+
+	<string name="question34">W tej sytuacji pojazdy stojące na chodniku:</string>
+	<string name="answer34_1">powinny być ustawione przy krawędzi jezdni, </string>
+	<string name="answer34_2">mogą pozostać w tym miejscu przez dowolny czas, </string>
+	<string name="answer34_3">mogą pozostać w tym miejscu nie dłużej niż 5 minut. </string>
+
+	<string name="question35">W tej sytuacji postój pojazdu jest zabroniony na:</string>
+	<string name="answer35_1">jezdni - przed tym znakiem, </string>
+	<string name="answer35_2">poboczu - przed tym znakiem, </string>
+	<string name="answer35_3">poboczu - za tym znakiem. </string>
+
+	<string name="question36">W tej sytuacji można zaparkować pojazd na poboczu, na czas:</string>
+	<string name="answer36_1">3 minut - przed tym znakiem, </string>
+	<string name="answer36_2">1 minuty - przed tym znakiem, </string>
+	<string name="answer36_3">dłuższy niż 1 minuta - za tym znakiem. </string>
+
+	<string name="question37">W tej sytuacji, za tym znakiem zatrzymanie pojazdu jest zabronione:</string>
+	<string name="answer37_1">na jezdni, </string>
+	<string name="answer37_2">na poboczu, </string>
+	<string name="answer37_3">na odcinku od miejsca umieszczenia tego znaku do najbliższego skrzyżowania. </string>
+
+	<string name="question38">W tej sytuacji, za tym znakiem, zatrzymanie pojazdu jest:</string>
+	<string name="answer38_1">dozwolone nie dłużej niż 1 minutę, </string>
+	<string name="answer38_2">dozwolone, bez opuszczania go przez kierującego, </string>
+	<string name="answer38_3">zabronione. </string>
+
+	<string name="question39">W tej sytuacji zabronione jest zatrzymanie pojazdu na:</string>
+	<string name="answer39_1">chodniku - za tym znakiem, </string>
+	<string name="answer39_2">chodniku - przed tym znakiem, </string>
+	<string name="answer39_3">jezdni - przed tym znakiem. </string>
+
+	<string name="question40">W tej sytuacji zabronione jest zatrzymanie pojazdu na:</string>
+	<string name="answer40_1">jezdni - za tym znakiem, </string>
+	<string name="answer40_2">chodniku - za tym znakiem, </string>
+	<string name="answer40_3">jezdni - przed tym znakiem. </string>
+
+	<string name="question41">W tej sytuacji zatrzymanie pojazdu na chodniku jest:</string>
+	<string name="answer41_1">dozwolone nie dłużej niż 1 minutę, </string>
+	<string name="answer41_2">dozwolone, bez opuszczania go przez kierującego, </string>
+	<string name="answer41_3">zabronione. </string>
+
+	<string name="question42">Pojazd zostanie usunięty z drogi, jeżeli stoi za tym znakiem na:</string>
+	<string name="answer42_1">jezdni, </string>
+	<string name="answer42_2">chodniku, </string>
+	<string name="answer42_3">częściowo na jezdni i chodniku. </string>
+
+	<string name="question43">Pojazd pozostawiony na jezdni za tym znakiem:</string>
+	<string name="answer43_1">nie zostanie usunięty z drogi, jeżeli ma włączone światła awaryjne, </string>
+	<string name="answer43_2">zostanie unieruchomiony na koszt właściciela przez zastosowanie urządzenia do blokowania kół, </string>
+	<string name="answer43_3">zostanie usunięty z drogi na koszt właściciela. </string>
+
+	<string name="question44">Zatrzymanie pojazdu na jezdni za tym znakiem:</string>
+	<string name="answer44_1">jest dozwolone nie dłużej niż 1 minutę, </string>
+	<string name="answer44_2">spowoduje jego usunięcie z drogi na koszt właściciela, </string>
+	<string name="answer44_3">jest dozwolone, bez opuszczania go przez kierującego. </string>
+
+	<string name="question45">Za tym znakiem zabrania się, na wszystkich drogach w określonej strefie:</string>
+	<string name="answer45_1">zatrzymania pojazdu na jezdni lub chodniku, </string>
+	<string name="answer45_2">postoju pojazdu na jezdni, </string>
+	<string name="answer45_3">postoju pojazdu na chodniku. </string>
+
+	<string name="question46">Na tym skrzyżowaniu kierujący pojazdem:</string>
+	<string name="answer46_1">może skręcić w prawo, </string>
+	<string name="answer46_2">powinien skręcić w lewo, </string>
+	<string name="answer46_3">może zawrócić. </string>
+
+	<string name="question47">W tej sytuacji kierujący pojazdem powinien:</string>
+	<string name="answer47_1">skręcić w prawo, </string>
+	<string name="answer47_2">skręcić w lewo, </string>
+	<string name="answer47_3">zawrócić. </string>
+
+	<string name="question48">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer48_1">powinien skręcić w prawo, </string>
+	<string name="answer48_2">może skręcić w lewo, </string>
+	<string name="answer48_3">może zawrócić. </string>
+
+	<string name="question49">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer49_1">nie może skręcić w prawo, </string>
+	<string name="answer49_2">powinien skręcić w prawo, </string>
+	<string name="answer49_3">może skręcić w lewo. </string>
+
+	<string name="question50">W tej sytuacji, na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy, kierujący pojazdem:</string>
+	<string name="answer50_1">może zawrócić, </string>
+	<string name="answer50_2">może skręcić w prawo lub w lewo, </string>
+	<string name="answer50_3">powinien jechać na wprost. </string>
+
+	<string name="question51">W tej sytuacji kierujący pojazdem ma obowiązek jazdy na wprost:</string>
+	<string name="answer51_1">przed najbliższym skrzyżowaniem - w miejscu, gdzie występuje możliwość zmiany kierunku jazdy, </string>
+	<string name="answer51_2">na najbliższym skrzyżowaniu, jeżeli wcześniej nie ma możliwości zmiany kierunku jazdy, </string>
+	<string name="answer51_3">na wszystkich skrzyżowaniach na tej drodze. </string>
+
+	<string name="question52">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer52_1">nie może skręcić w prawo lub w lewo, </string>
+	<string name="answer52_2">powinien zawrócić, </string>
+	<string name="answer52_3">powinien skręcić w prawo lub w lewo. </string>
+
+	<string name="question53">Znak umieszczony pod sygnalizatorem:</string>
+	<string name="answer53_1">zobowiązuje do skrętu w prawo na skrzyżowaniu, </string>
+	<string name="answer53_2">zabrania skrętu w lewo na skrzyżowaniu, </string>
+	<string name="answer53_3">zobowiązuje do jazdy z prawej strony tego znaku. </string>
+
+	<string name="question54">Znak umieszczony pod sygnalizatorem zobowiązuje kierującego pojazdem do:</string>
+	<string name="answer54_1">jazdy na wprost przez skrzyżowanie, </string>
+	<string name="answer54_2">jazdy z prawej strony tego znaku, </string>
+	<string name="answer54_3">skrętu w prawo na skrzyżowaniu. </string>
+
+	<string name="question55">Znak umieszczony pod sygnalizatorem zobowiązuje kierującego pojazdem do:</string>
+	<string name="answer55_1">zawrócenia na skrzyżowaniu, </string>
+	<string name="answer55_2">skrętu w prawo na skrzyżowaniu, </string>
+	<string name="answer55_3">jazdy z prawej strony tego znaku. </string>
+
+	<string name="question56">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer56_1">ma obowiązek jazdy na wprost przez skrzyżowanie, </string>
+	<string name="answer56_2">jadąc na wprost przez skrzyżowanie - wjedzie na jezdnię o ruchu w jednym kierunku, </string>
+	<string name="answer56_3">ma obowiązek jazdy na wprost przez wszystkie skrzyżowania na tej drodze. </string>
+
+	<string name="question57">Widząc ten znak, kierujący pojazdem:</string>
+	<string name="answer57_1">skręcając w lewo, wjedzie na autostradę, </string>
+	<string name="answer57_2">skręcając w prawo, wjedzie na autostradę, </string>
+	<string name="answer57_3">jadąc na wprost, wjedzie na drogę ekspresową. </string>
+
+	<string name="question58">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer58_1">jest uprzedzony o dozwolonych kierunkach jazdy z poszczególnych pasów ruchu, </string>
+	<string name="answer58_2">może zawrócić na skrzyżowaniu, </string>
+	<string name="answer58_3">nie może jechać na wprost przez skrzyżowanie z prawego pasa ruchu. </string>
+
+	<string name="question59">Droga oznaczona tym znakiem, to:</string>
+	<string name="answer59_1">droga ekspresowa, na której za przejazd pobierana jest opłata, </string>
+	<string name="answer59_2">autostrada, na której za przejazd pobierana jest opłata, </string>
+	<string name="answer59_3">droga, na której pobierana jest opłata za postój w miejscu wyznaczonym. </string>
+
+	<string name="question60">Na drodze oznaczonej tym znakiem zabrania się:</string>
+	<string name="answer60_1">cofania, </string>
+	<string name="answer60_2">ruchu innych pojazdów niż pojazdy samochodowe, chyba że wykonują na niej prace, </string>
+	<string name="answer60_3">zawracania, z wyjątkiem skrzyżowania lub miejsca do tego przeznaczonego. </string>
+
+	<string name="question61">Na drodze oznaczonej tym znakiem zabrania się:</string>
+	<string name="answer61_1">zatrzymania pojazdu w innym miejscu, niż wyznaczone w tym celu, </string>
+	<string name="answer61_2">postoju pojazdu w innym miejscu, niż wyznaczone w tym celu, </string>
+	<string name="answer61_3">holowania pojazdu. </string>
+
+	<string name="question62">W tej sytuacji kierujący pojazdem jest informowany o:</string>
+	<string name="answer62_1">zamknięciu drogi, </string>
+	<string name="answer62_2">wyznaczonym objeździe, </string>
+	<string name="answer62_3">wyznaczonym dla samochodów ciężarowych przejeździe tranzytowym. </string>
+
+	<string name="question63">W tej sytuacji kierujący pojazdem jest uprzedzany o:</string>
+	<string name="answer63_1">końcu wewnętrznego pasa ruchu, </string>
+	<string name="answer63_2">konieczności dalszej jazdy lewym pasem ruchu, </string>
+	<string name="answer63_3">konieczności dalszej jazdy prawym pasem ruchu. </string>
+
+	<string name="question64">W tej sytuacji, dojeżdżając do skrzyżowania, kierujący pojazdem:</string>
+	<string name="answer64_1">powinien zachować szczególną ostrożność, </string>
+	<string name="answer64_2">może wjechać na skrzyżowanie bez zatrzymania, jeżeli nie utrudni ruchu innym pojazdom, </string>
+	<string name="answer64_3">ma zakaz wjazdu na skrzyżowanie bez zatrzymania. </string>
+
+	<string name="question65">W tej sytuacji kierujący pojazdem powinien:</string>
+	<string name="answer65_1">zachować szczególną ostrożność, </string>
+	<string name="answer65_2">rozpocząć hamowanie pojazdu, </string>
+	<string name="answer65_3">umożliwić pieszym przejście przez jezdnię. </string>
+
+	<string name="question66">W tej sytuacji kierujący pojazdem powinien:</string>
+	<string name="answer66_1">zachować szczególną ostrożność, </string>
+	<string name="answer66_2">rozpocząć hamowanie pojazdu, </string>
+	<string name="answer66_3">umożliwić przejazd przez jezdnię rowerzyście. </string>
+
+	<string name="question67">Znak ten oznacza, że należy spodziewać się zwężenia drogi:</string>
+	<string name="answer67_1">na odcinku 100 metrów, </string>
+	<string name="answer67_2">po przejechaniu 100 metrów, </string>
+	<string name="answer67_3">po przejechaniu co najmniej 150 metrów. </string>
+
+	<string name="question68">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer68_1">powinien zachować szczególną ostrożność, </string>
+	<string name="answer68_2">jest ostrzegany o możliwości poślizgu pojazdu, </string>
+	<string name="answer68_3">jest ostrzegany o robotach na drodze. </string>
+
+	<string name="question69">W tej sytuacji kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer69_1">przejściu dla pieszych, </string>
+	<string name="answer69_2">miejscu na drodze szczególnie uczęszczanym przez dzieci, </string>
+	<string name="answer69_3">bliskości miejsca na drodze szczególnie uczęszczanego przez dzieci. </string>
+
+	<string name="question70">W tej sytuacji kierujący pojazdem powinien:</string>
+	<string name="answer70_1">zachować szczególną ostrożność, </string>
+	<string name="answer70_2">uważnie obserwować całe otoczenie drogi, </string>
+	<string name="answer70_3">być przygotowanym na nagłe pojawienie się pieszego na jezdni. </string>
+
+	<string name="question71">W tej sytuacji kierujący pojazdem może:</string>
+	<string name="answer71_1">skręcić w prawo, </string>
+	<string name="answer71_2">skręcić w lewo, </string>
+	<string name="answer71_3">zawrócić. </string>
+
+	<string name="question72">W tej sytuacji kierujący pojazdem może:</string>
+	<string name="answer72_1">zawrócić przed skrzyżowaniem, </string>
+	<string name="answer72_2">zawrócić na skrzyżowaniu, </string>
+	<string name="answer72_3">skręcić w lewo na skrzyżowaniu. </string>
+
+	<string name="question73">W tej sytuacji kierujący pojazdem może:</string>
+	<string name="answer73_1">skręcić na skrzyżowaniu w lewo, </string>
+	<string name="answer73_2">skręcić na skrzyżowaniu w prawo, </string>
+	<string name="answer73_3">zawrócić na skrzyżowaniu. </string>
+
+	<string name="question74">W tej sytuacji kierujący pojazdem może:</string>
+	<string name="answer74_1">zawrócić na odcinku od umieszczenia znaku do skrzyżowania, </string>
+	<string name="answer74_2">zawrócić na najbliższym skrzyżowaniu, </string>
+	<string name="answer74_3">jechać na wprost na najbliższym skrzyżowaniu. </string>
+
+	<string name="question75">Za tym znakiem, na chodniku, zabroniony jest postój:</string>
+	<string name="answer75_1">samochodów osobowych - w dni nieparzyste miesiąca, z wyjątkiem od godziny 21 do 24, </string>
+	<string name="answer75_2">samochodów osobowych - ponad 5 minut, </string>
+	<string name="answer75_3">motocykli do 5 minut. </string>
+
+	<string name="question76">W tej sytuacji kierujący pojazdem powinien:</string>
+	<string name="answer76_1">zachować szczególną ostrożność, </string>
+	<string name="answer76_2">włączyć kierunkowskaz, </string>
+	<string name="answer76_3">skręcić w kierunku sygnalizowanym kierunkowskazem. </string>
+
+	<string name="question77">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer77_1">jest informowany o zwężonym odcinku jezdni, </string>
+	<string name="answer77_2">przejeżdża przez most przed pojazdem zbliżającym się z kierunku przeciwnego, </string>
+	<string name="answer77_3">jest informowany o początku drogi jednokierunkowej. </string>
+
+	<string name="question78">Droga, o zbliżaniu się do której uprzedza ten znak, to:</string>
+	<string name="answer78_1">- droga ekspresowa, na której za przejazd pobierana jest opłata, </string>
+	<string name="answer78_2">- autostrada, na której za przejazd pobierana jest opłata, </string>
+	<string name="answer78_3">- droga, na której pobierana jest opłata za postój w miejscu oznaczonym. </string>
+
+	<string name="question79">Na drodze, o zbliżaniu się do której informuje ten znak, zabrania się:</string>
+	<string name="answer79_1">- zawracania, </string>
+	<string name="answer79_2">- cofania, </string>
+	<string name="answer79_3">- ruchu pieszych. </string>
+
+	<string name="question80">Na drodze, o zbliżaniu się do której uprzedza ten znak, zabrania się</string>
+	<string name="answer80_1">- zatrzymania pojazdu w innym miejscu niż wyznaczone w tym celu, </string>
+	<string name="answer80_2">- postoju pojazdu w innym miejscu niż wyznaczone w tym celu, </string>
+	<string name="answer80_3">- ruchu innych pojazdów niż pojazdy samochodowe, chyba że wykonują na niej prace. </string>
+
+	<string name="question81">Znak ten ostrzega o:</string>
+	<string name="answer81_1">nierówności na drodze, </string>
+	<string name="answer81_2">robotach na drodze, </string>
+	<string name="answer81_3">skrzyżowaniu dróg. </string>
+
+	<string name="question82">Znak ten ostrzega kierującego pojazdem o:</string>
+	<string name="answer82_1">wjeździe na most zwodzony lub obrotowy, </string>
+	<string name="answer82_2">stromym podjeździe, </string>
+	<string name="answer82_3">niebezpiecznym zjeździe. </string>
+
+	<string name="question83">Znak ten ostrzega kierującego pojazdem o:</string>
+	<string name="answer83_1">przelatujących nisko samolotach, </string>
+	<string name="answer83_2">mogących występować silnych bocznych podmuchach wiatru, </string>
+	<string name="answer83_3">robotach drogowych. </string>
+
+	<string name="question84">Znak ten:</string>
+	<string name="answer84_1">oznacza bezwzględny zakaz używania sygnału dźwiękowego, </string>
+	<string name="answer84_2">dopuszcza użycie sygnału dźwiękowego na obszarze zabudowanym w celu ostrzeżenia o bezpośrednim zagrożeniu bezpieczeństwa ruchu drogowego, </string>
+	<string name="answer84_3">obowiązuje od zmierzchu do świtu. </string>
+
+	<string name="question85">Znak ten ostrzega kierującego pojazdem o:</string>
+	<string name="answer85_1">możliwości poślizgu na jezdni, </string>
+	<string name="answer85_2">poprzecznej nierówności jezdni, </string>
+	<string name="answer85_3">wypukłości spowalniającej ruch pojazdów. </string>
+
+	<string name="question86">Wjazd na drogę oznaczoną tym znakiem jest:</string>
+	<string name="answer86_1">dozwolony od strony tego znaku dla pojazdów kierowanych przez osoby niepełnosprawne o obniżonej sprawności ruchowej, </string>
+	<string name="answer86_2">zabroniony z obu stron tej drogi, </string>
+	<string name="answer86_3">zabroniony od strony tego znaku. </string>
+
+	<string name="question87">W tej sytuacji kierujący pojazdem jest uprzedzony o:</string>
+	<string name="answer87_1">miejscu, w którym rozpoczyna się ruch dwukierunkowy, </string>
+	<string name="answer87_2">obowiązku ustąpienia pierwszeństwa pojazdowi nadjeżdżającemu z przeciwka, </string>
+	<string name="answer87_3">pierwszeństwie przejazdu przed pojazdem nadjeżdżającym z przeciwka. </string>
+
+	<string name="question88">Znak ten zabrania wjazdu:</string>
+	<string name="answer88_1">pojazdom wolnobieżnym, </string>
+	<string name="answer88_2">motocyklom jednośladowym, </string>
+	<string name="answer88_3">pojazdom zaprzęgowym. </string>
+
+	<string name="question89">Za tym znakiem zabrania się na wszystkich drogach w określonej strefie:</string>
+	<string name="answer89_1">zatrzymania pojazdu na jezdni, </string>
+	<string name="answer89_2">zatrzymania pojazdu na chodniku na czas dłuższy niż 1 minuta, </string>
+	<string name="answer89_3">postoju pojazdu na jezdni lub chodniku. </string>
+
+	<string name="question90">Znak umieszczony pod sygnalizatorem zezwala kierującemu pojazdem na:</string>
+	<string name="answer90_1">jazdę z lewej strony tego znaku, </string>
+	<string name="answer90_2">jazdę na wprost na skrzyżowaniu </string>
+	<string name="answer90_3">skręt w lewo na skrzyżowaniu. </string>
+
+	<string name="question91">Znak ten (linia ciągła):</string>
+	<string name="answer91_1">rozdziela pasy o tym samym kierunku ruchu, </string>
+	<string name="answer91_2">rozdziela pasy o przeciwnych kierunkach ruchu, </string>
+	<string name="answer91_3">zezwala na przejeżdżanie na sąsiedni pas ruchu. </string>
+
+	<string name="question92">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer92_1">może rozpocząć wyprzedzanie pojazdu 2, </string>
+	<string name="answer92_2">może wjechać na sąsiedni pas ruchu, </string>
+	<string name="answer92_3">nie może najechać na linię ciągłą - na całym jej odcinku. </string>
+
+	<string name="question93">Po wyprzedzaniu pojazdu, kierujący tym pojazdem powinien wjechać na prawy pas ruchu:</string>
+	<string name="answer93_1">po zakończeniu wyprzedzania, </string>
+	<string name="answer93_2">dopiero na końcu odcinka linii ciągłej, </string>
+	<string name="answer93_3">bez sygnalizowania tego manewru. </string>
+
+	<string name="question94">W tej sytuacji jazda prosto tym pojazdem jest:</string>
+	<string name="answer94_1">prawidłowa, gdyż na jezdni nie ma innych pojazdów, </string>
+	<string name="answer94_2">prawidłowa, gdyż dopuszcza się zajmowanie dwóch pasów ruchu, </string>
+	<string name="answer94_3">nieprawidłowa. </string>
+
+	<string name="question95">Znak ten (linia podwójna ciągła):</string>
+	<string name="answer95_1">rozdziela pasy o przeciwnych kierunkach ruchu, </string>
+	<string name="answer95_2">rozdziela pasy o tym samym kierunku ruchu, </string>
+	<string name="answer95_3">zabrania przejeżdżania na sąsiedni pas ruchu. </string>
+
+	<string name="question96">Znak ten (linia podwójna ciągła):</string>
+	<string name="answer96_1">rozdziela pasy ruchu na drodze jednokierunkowej, </string>
+	<string name="answer96_2">rozdziela pasy ruchu o przeciwnych kierunkach ruchu, </string>
+	<string name="answer96_3">zezwala na przejeżdżanie przez tę linię przy wyprzedzaniu pojazdów. </string>
+
+	<string name="question97">W tej sytuacji kierującemu pojazdem zabrania się:</string>
+	<string name="answer97_1">najeżdżania na tę linię, </string>
+	<string name="answer97_2">przejeżdżania przez tę linię, </string>
+	<string name="answer97_3">zawracania na odcinku jezdni oznaczonym tą linią. </string>
+
+	<string name="question98">W tej sytuacji dopuszcza się:</string>
+	<string name="answer98_1">zatrzymanie pojazdu na jezdni, </string>
+	<string name="answer98_2">zatrzymanie pojazdu na poboczu, </string>
+	<string name="answer98_3">postój pojazdu na poboczu. </string>
+
+	<string name="question99">W tej sytuacji zabrania się:</string>
+	<string name="answer99_1">zatrzymania pojazdu na jezdni, </string>
+	<string name="answer99_2">postoju pojazdu na jezdni, </string>
+	<string name="answer99_3">postoju pojazdu na poboczu. </string>
+
+	<string name="question100">W tej sytuacji prawidłowo zaparkowany jest pojazd:</string>
+	<string name="answer100_1">1, </string>
+	<string name="answer100_2">2, </string>
+	<string name="answer100_3">3. </string>
+
+	<string name="question101">W tej sytuacji zabrania się:</string>
+	<string name="answer101_1">zatrzymania pojazdu na poboczu, </string>
+	<string name="answer101_2">zatrzymania pojazdu na jezdni, </string>
+	<string name="answer101_3">postoju pojazdu na poboczu. </string>
+
+	<string name="question102">W tej sytuacji zabrania się:</string>
+	<string name="answer102_1">wjazdu na pobocze, </string>
+	<string name="answer102_2">zatrzymania pojazdu na jezdni, </string>
+	<string name="answer102_3">postoju pojazdu na jezdni. </string>
+
+	<string name="question103">W tej sytuacji zabrania się:</string>
+	<string name="answer103_1">zatrzymania pojazdu na jezdni, </string>
+	<string name="answer103_2">postoju pojazdu na jezdni, </string>
+	<string name="answer103_3">zatrzymania pojazdu na poboczu. </string>
+
+	<string name="question104">W tej sytuacji skręcanie w lewo jest dozwolone z pasa ruchu:</string>
+	<string name="answer104_1">1, </string>
+	<string name="answer104_2">2, </string>
+	<string name="answer104_3">3. </string>
+
+	<string name="question105">W tej sytuacji zawracanie jest dozwolone z pasa ruchu:</string>
+	<string name="answer105_1">1, </string>
+	<string name="answer105_2">2, </string>
+	<string name="answer105_3">3. </string>
+
+	<string name="question106">W tej sytuacji jazda na wprost jest dozwolona z pasa ruchu:</string>
+	<string name="answer106_1">1, </string>
+	<string name="answer106_2">2, </string>
+	<string name="answer106_3">3. </string>
+
+	<string name="question107">W tej sytuacji jazda na wprost jest dozwolona z pasa ruchu:</string>
+	<string name="answer107_1">1, </string>
+	<string name="answer107_2">2, </string>
+	<string name="answer107_3">3. </string>
+
+	<string name="question108">W tej sytuacji skręcanie w prawo jest dozwolone z pasa ruchu:</string>
+	<string name="answer108_1">1, </string>
+	<string name="answer108_2">2, </string>
+	<string name="answer108_3">3. </string>
+
+	<string name="question109">Jadąc pasem ruchu oznaczonym tym znakiem, kierujący pojazdem:</string>
+	<string name="answer109_1">jest uprzedzony o końcu tego pasa ruchu, </string>
+	<string name="answer109_2">powinien włączyć prawy kierunkowskaz, </string>
+	<string name="answer109_3">powinien przygotować się do zmiany pasa ruchu. </string>
+
+	<string name="question110">Jadąc prawym pasem ruchu, kierujący pojazdem:</string>
+	<string name="answer110_1">jest uprzedzony o końcu tego pasa ruchu, </string>
+	<string name="answer110_2">powinien włączyć lewy kierunkowskaz, </string>
+	<string name="answer110_3">powinien przygotować się do zmiany pasa ruchu. </string>
+
+	<string name="question111">Jadąc pasem ruchu oznaczonym tym znakiem, kierujący pojazdem jest:</string>
+	<string name="answer111_1">uprzedzony o nakazie skrętu w prawo na najbliższym skrzyżowaniu </string>
+	<string name="answer111_2">uprzedzony o końcu tego pasa ruchu, </string>
+	<string name="answer111_3">zobowiązany do wjazdu na prawy pas ruchu. </string>
+
+	<string name="question112">Ta linia zatrzymania:</string>
+	<string name="answer112_1">zezwala na przejazd przez skrzyżowanie bez zatrzymania pojazdu, </string>
+	<string name="answer112_2">zezwala na zatrzymanie pojazdu częściowo za nią, </string>
+	<string name="answer112_3">wskazuje miejsce zatrzymania pojazdu. </string>
+
+	<string name="question113">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer113_1">może skręcić w prawo, bez konieczności zatrzymania pojazdu, </string>
+	<string name="answer113_2">może zawrócić, bez konieczności zatrzymania pojazdu, </string>
+	<string name="answer113_3">powinien zatrzymać pojazd przed tą linią. </string>
+
+	<string name="question114">Ta linia zatrzymania:</string>
+	<string name="answer114_1">zabrania wjazdu na skrzyżowanie, </string>
+	<string name="answer114_2">wskazuje miejsce zatrzymania pojazdu, </string>
+	<string name="answer114_3">zezwala na kontynuowanie jazdy bez zatrzymania pojazdu, jeżeli do skrzyżowania nie zbliżają się inne pojazdy. </string>
+
+	<string name="question115">Ta linia zatrzymania:</string>
+	<string name="answer115_1">zobowiązuje do zatrzymania pojazdu, </string>
+	<string name="answer115_2">wskazuje miejsce zatrzymania pojazdu, w celu ustąpienia pierwszeństwa przejazdu, </string>
+	<string name="answer115_3">uprzedza o wjeździe na drogę podporządkowaną. </string>
+
+	<string name="question116">Ta linia zatrzymania:</string>
+	<string name="answer116_1">zezwala na zatrzymanie pojazdu częściowo za nią, </string>
+	<string name="answer116_2">uprzedza o wjeździe na drogę podporządkowaną, </string>
+	<string name="answer116_3">wskazuje miejsce zatrzymania pojazdu, w celu ustąpienia pierwszeństwa przejazdu. </string>
+
+	<string name="question117">Ta linia zatrzymania:</string>
+	<string name="answer117_1">wskazuje miejsce zatrzymania pojazdu przed przejściem dla pieszych, </string>
+	<string name="answer117_2">zezwala na zatrzymanie pojazdu częściowo za nią, </string>
+	<string name="answer117_3">uprzedza o wjeździe na drogę podporządkowaną. </string>
+
+	<string name="question118">Umieszczone na jezdni punktowe elementy odblaskowe barwy czerwonej wyznaczają:</string>
+	<string name="answer118_1">prawą krawędź jezdni, </string>
+	<string name="answer118_2">lewą krawędź jezdni, </string>
+	<string name="answer118_3">pasy ruchu. </string>
+
+	<string name="question119">Umieszczone na jezdni punktowe elementy odblaskowe barwy białej mogą wyznaczać:</string>
+	<string name="answer119_1">prawą krawędź jezdni, </string>
+	<string name="answer119_2">lewą krawędź jezdni, </string>
+	<string name="answer119_3">pasy ruchu. </string>
+
+	<string name="question120">Umieszczone na jezdni punktowe elementy odblaskowe barwy żółtej mogą wyznaczać:</string>
+	<string name="answer120_1">prawą krawędź jezdni, </string>
+	<string name="answer120_2">lewą krawędź jezdni, </string>
+	<string name="answer120_3">pasy ruchu. </string>
+
+	<string name="question121">Znak ten (trójkąt):</string>
+	<string name="answer121_1">uprzedza o zbliżaniu się do drogi z pierwszeństwem przejazdu, </string>
+	<string name="answer121_2">uprzedza o zbliżaniu się do drogi podporządkowanej, </string>
+	<string name="answer121_3">zobowiązuje do zatrzymania pojazdu przed skrzyżowaniem. </string>
+
+	<string name="question122">Ta linia przerywana wyznacza pas ruchu:</string>
+	<string name="answer122_1">powolnego, </string>
+	<string name="answer122_2">przeznaczony na postój pojazdu, </string>
+	<string name="answer122_3">przeznaczony do ruchu pojazdów wykonujących odpłatny przewóz osób. </string>
+
+	<string name="question123">Znak ten wyznacza stanowisko postojowe dla:</string>
+	<string name="answer123_1">pojazdów kierowanych przez osoby niepełnosprawne, o obniżonej sprawności ruchowej,</string>
+	<string name="answer123_2">pojazdów przewożących osoby niepełnosprawne, o obniżonej sprawności ruchowej, </string>
+	<string name="answer123_3">pojazdów przewożących zorganizowane grupy dzieci i młodzieży. </string>
+
+	<string name="question124">Na powierzchni drogi oznaczonej tym znakiem zabrania się:</string>
+	<string name="answer124_1">zatrzymania pojazdu, </string>
+	<string name="answer124_2">postoju pojazdu, </string>
+	<string name="answer124_3">jazdy pojazdem. </string>
+
+	<string name="question125">Unieruchomienie pojazdu na powierzchni drogi oznaczonej tym znakiem jest:</string>
+	<string name="answer125_1">dozwolone nie dłużej niż 1 minutę, </string>
+	<string name="answer125_2">dozwolone, bez opuszczania pojazdu przez kierującego, </string>
+	<string name="answer125_3">zabronione. </string>
+
+	<string name="question126">Te znaki poziome umieszczone na pasach ruchu:</string>
+	<string name="answer126_1">określają dopuszczalną prędkość jazdy, </string>
+	<string name="answer126_2">określają nakazaną prędkość jazdy, </string>
+	<string name="answer126_3">oznaczają wjazd do strefy ograniczonej prędkości. </string>
+
+	<string name="question127">Na jezdni oznaczonej tym znakiem:</string>
+	<string name="answer127_1">wyznaczone jest miejsce do parkowania pojazdów, </string>
+	<string name="answer127_2">wyznaczone jest miejsce przystanku, np. autobusu, </string>
+	<string name="answer127_3">wyznaczona jest powierzchnia wyłączona z ruchu pojazdów. </string>
+
+	<string name="question128">Na powierzchni jezdni oznaczonej tym znakiem, zatrzymanie tego pojazdu jest:</string>
+	<string name="answer128_1">dozwolone, w celu wysadzenia pasażera, </string>
+	<string name="answer128_2">dozwolone, nie dłużej niż 1 minutę, </string>
+	<string name="answer128_3">zabronione. </string>
+
+	<string name="question129">Na powierzchni jezdni oznaczonej tym znakiem:</string>
+	<string name="answer129_1">zabronione jest zatrzymanie tego pojazdu, </string>
+	<string name="answer129_2">zabroniony jest postój tego pojazdu, </string>
+	<string name="answer129_3">wyznaczone jest miejsce przystanku, np. autobusu. </string>
+
+	<string name="question130">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer130_1">powinien stosować się do znaków poziomych barwy żółtej, </string>
+	<string name="answer130_2">powinien stosować się do znaków poziomych barwy białej, </string>
+	<string name="answer130_3">wjeżdża na odcinek drogi o zmienionej organizacji ruchu. </string>
+
+	<string name="question131">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer131_1">powinien stosować się do znaków poziomych barwy białej, </string>
+	<string name="answer131_2">powinien stosować się do znaków poziomych barwy żółtej, </string>
+	<string name="answer131_3">może nie stosować się do znaków poziomych. </string>
+
+	<string name="question132">W tej sytuacji:</string>
+	<string name="answer132_1">obowiązują pasy ruchu wyznaczone liniami barwy białej, </string>
+	<string name="answer132_2">obowiązują pasy ruchu wyznaczone liniami barwy żółtej, </string>
+	<string name="answer132_3">pasy ruchu nie są wyznaczone. </string>
+
+	<string name="question133">W tej sytuacji z pasa ruchu 1 jest:</string>
+	<string name="answer133_1">- dozwolona jazda na wprost, </string>
+	<string name="answer133_2">- dozwolone skręcanie w lewo, </string>
+	<string name="answer133_3">- dozwolone zawracanie. </string>
+
+	<string name="question134">Na miejscu parkingowym oznaczonym tym znakiem mogą parkować:</string>
+	<string name="answer134_1">autobusy szkolne, </string>
+	<string name="answer134_2">pojazdy przewożące osoby niepełnosprawne o obniżonej sprawności ruchowej, </string>
+	<string name="answer134_3">wszelkie pojazdy od zmierzchu do świtu. </string>
+
+	<string name="question135">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer135_1">może wjechać na skrzyżowanie, utrudniając pieszemu opuszczenie jezdni, </string>
+	<string name="answer135_2">powinien zatrzymać się, umożliwiając pieszemu opuszczenie jezdni, </string>
+	<string name="answer135_3">powinien zachować szczególną ostrożność. </string>
+
+	<string name="question136">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer136_1">może skręcić w prawo, </string>
+	<string name="answer136_2">może zawrócić, </string>
+	<string name="answer136_3">powinien zatrzymać się przed linią zatrzymania. </string>
+
+	<string name="question137">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer137_1">powinien zatrzymać się przed linią zatrzymania, </string>
+	<string name="answer137_2">może skręcić w prawo, po uprzednim zatrzymaniu się przed sygnalizatorem, </string>
+	<string name="answer137_3">może zawrócić. </string>
+
+	<string name="question138">W tej sytuacji kierujący tym pojazdem:</string>
+	<string name="answer138_1">może jechać na wprost przez skrzyżowanie, </string>
+	<string name="answer138_2">nie może opuścić skrzyżowania, </string>
+	<string name="answer138_3">może skręcić w lewo. </string>
+
+	<string name="question139">W tej sytuacji kierujący tym pojazdem:</string>
+	<string name="answer139_1">może skręcić w lewo, </string>
+	<string name="answer139_2">może jechać na wprost przez skrzyżowanie, </string>
+	<string name="answer139_3">nie może opuścić skrzyżowania. </string>
+
+	<string name="question140">W tej sytuacji kierujący tym pojazdem może opuścić skrzyżowanie po:</string>
+	<string name="answer140_1">krótkotrwałym zatrzymaniu się przed sygnalizatorem, </string>
+	<string name="answer140_2">upewnieniu się, że nie utrudni ruchu innym jego uczestnikom, </string>
+	<string name="answer140_3">zmianie sygnału na zielony. </string>
+
+	<string name="question141">W tej sytuacji, gdy pojazd może być zatrzymany przed sygnalizatorem bez gwałtownego hamowania:</string>
+	<string name="answer141_1">można wjechać na skrzyżowanie, </string>
+	<string name="answer141_2">można skręcić w prawo, </string>
+	<string name="answer141_3">zabrania się wjazdu za sygnalizator. </string>
+
+	<string name="question142">W tej sytuacji, gdy pojazd może być zatrzymany przed sygnalizatorem bez gwałtownego hamowania:</string>
+	<string name="answer142_1">zabrania się wjazdu za sygnalizator, </string>
+	<string name="answer142_2">można skręcić w lewo, </string>
+	<string name="answer142_3">można zawrócić. </string>
+
+	<string name="question143">W tej sytuacji można wjechać za sygnalizator:</string>
+	<string name="answer143_1">przy skręcaniu w prawo, niezależnie od możliwości zatrzymania pojazdu przed nim, </string>
+	<string name="answer143_2">przy zawracaniu, niezależnie od możliwości zatrzymania pojazdu przed nim, </string>
+	<string name="answer143_3">gdy zatrzymanie pojazdu przed nim wymagałoby gwałtownego hamowania. </string>
+
+	<string name="question144">Gdy pojazd nie może być zatrzymany przed sygnalizatorem bez gwałtownego hamowania, sygnał ten zezwala na:</string>
+	<string name="answer144_1">skręcenie w prawo, </string>
+	<string name="answer144_2">skręcenie w lewo, </string>
+	<string name="answer144_3">jazdę na wprost przez skrzyżowanie. </string>
+
+	<string name="question145">Po tym sygnale zapali się sygnał:</string>
+	<string name="answer145_1">zielony, </string>
+	<string name="answer145_2">czerwony, </string>
+	<string name="answer145_3">czerwony i żółty. </string>
+
+	<string name="question146">Sygnał ten oznacza:</string>
+	<string name="answer146_1">zakaz wjazdu za sygnalizator, chyba że pojazd nie może być zatrzymany przed nim bez gwałtownego hamowania, </string>
+	<string name="answer146_2">zezwolenie na wjazd za sygnalizator, </string>
+	<string name="answer146_3">że za chwilę zapali się sygnał czerwony. </string>
+
+	<string name="question147">W tej sytuacji, zatrzymanie pojazdu powinno nastąpić bezpośrednio przed:</string>
+	<string name="answer147_1">sygnalizatorem, </string>
+	<string name="answer147_2">przejściem dla pieszych, </string>
+	<string name="answer147_3">jezdnią drogi poprzecznej. </string>
+
+	<string name="question148">W tej sytuacji, zatrzymanie pojazdu powinno nastąpić bezpośrednio przed:</string>
+	<string name="answer148_1">przejściem dla pieszych, </string>
+	<string name="answer148_2">linią zatrzymania, </string>
+	<string name="answer148_3">sygnalizatorem. </string>
+
+	<string name="question149">W tej sytuacji kierujący stojącym pojazdem:</string>
+	<string name="answer149_1">może dojechać do sygnalizatora, </string>
+	<string name="answer149_2">może dojechać do jezdni drogi poprzecznej, </string>
+	<string name="answer149_3">powinien przygotować się do jazdy. </string>
+
+	<string name="question150">W tej sytuacji kierujący stojącym pojazdem:</string>
+	<string name="answer150_1">powinien przygotować się do jazdy, </string>
+	<string name="answer150_2">może wjechać za sygnalizator, </string>
+	<string name="answer150_3">może ruszyć, nie przekraczając linii zatrzymania. </string>
+
+	<string name="question151">Po tym sygnale zapali się sygnał:</string>
+	<string name="answer151_1">czerwony, </string>
+	<string name="answer151_2">żółty, </string>
+	<string name="answer151_3">zielony. </string>
+
+	<string name="question152">W tej sytuacji kierujący stojącym pojazdem:</string>
+	<string name="answer152_1">może skręcić w prawo, </string>
+	<string name="answer152_2">powinien przygotować się do jazdy, </string>
+	<string name="answer152_3">może przekroczyć linię zatrzymania, dopiero po zmianie sygnału na zielony. </string>
+
+	<string name="question153">Ten migający sygnał:</string>
+	<string name="answer153_1">ostrzega o niebezpieczeństwie, </string>
+	<string name="answer153_2">nakazuje zachowanie szczególnej ostrożności, </string>
+	<string name="answer153_3">zabrania wjazdu za sygnalizator. </string>
+
+	<string name="question154">Ten migający sygnał:</string>
+	<string name="answer154_1">zabrania wjazdu na przejście dla pieszych, </string>
+	<string name="answer154_2">zobowiązuje do krótkotrwałego zatrzymania pojazdu przed przejściem dla pieszych, </string>
+	<string name="answer154_3">nakazuje zachowanie szczególnej ostrożności. </string>
+
+	<string name="question155">Ten migający sygnał:</string>
+	<string name="answer155_1">oznacza, że za chwilę zapali się sygnał czerwony, </string>
+	<string name="answer155_2">ostrzega o niebezpieczeństwie, </string>
+	<string name="answer155_3">zabrania wjazdu za sygnalizator, chyba że pojazd nie może być zatrzymany przed nim bez gwałtownego hamowania. </string>
+
+	<string name="question156">Ten stały sygnał żółty:</string>
+	<string name="answer156_1">ostrzega o utrudnieniu ruchu, </string>
+	<string name="answer156_2">zabrania wjazdu za sygnalizator, </string>
+	<string name="answer156_3">nakazuje zachowanie szczególnej ostrożności. </string>
+
+	<string name="question157">Ten stały sygnał żółty:</string>
+	<string name="answer157_1">ostrzega o niebezpieczeństwie wynikającym z prowadzonych robót drogowych, </string>
+	<string name="answer157_2">ostrzega o utrudnieniu ruchu, </string>
+	<string name="answer157_3">nakazuje zachowanie szczególnej ostrożności. </string>
+
+	<string name="question158">Ten migający sygnał:</string>
+	<string name="answer158_1">zabrania wjazdu za sygnalizator, </string>
+	<string name="answer158_2">oznacza, uszkodzoną sygnalizację świetlną, </string>
+	<string name="answer158_3">zezwala na skręcenie w prawo. </string>
+
+	<string name="question159">Ten migający sygnał:</string>
+	<string name="answer159_1">zezwala na wjazd za sygnalizator po uprzednim zatrzymaniu się przed nim, </string>
+	<string name="answer159_2">zezwala na wjazd za sygnalizator pod warunkiem nie utrudniania ruchu innym jego uczestnikom, </string>
+	<string name="answer159_3">zabrania wjazdu za sygnalizator. </string>
+
+	<string name="question160">Te dwa na przemian migające sygnały czerwone</string>
+	<string name="answer160_1">zezwalają na wjazd za sygnalizator, jeżeli do przejazdu nie zbliża się pociąg, </string>
+	<string name="answer160_2">zabraniają wjazdu za sygnalizator, </string>
+	<string name="answer160_3">oznaczają uszkodzoną sygnalizację świetlną. </string>
+
+	<string name="question161">W tej sytuacji kierujący pojazdem nie może:</string>
+	<string name="answer161_1">skręcić w lewo, </string>
+	<string name="answer161_2">zawrócić, </string>
+	<string name="answer161_3">jechać na wprost przez skrzyżowanie. </string>
+
+	<string name="question162">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer162_1">może skręcić w prawo bez zatrzymania się przed sygnalizatorem, </string>
+	<string name="answer162_2">może skręcić w prawo po zatrzymaniu się przed sygnalizatorem i upewnieniu, że nie utrudni ruchu, </string>
+	<string name="answer162_3">powinien zatrzymać się i oczekiwać na sygnał zielony, jeżeli zamierza skręcić w prawo. </string>
+
+	<string name="question163">W tej sytuacji zatrzymanie pojazdu przy skręcaniu w prawo powinno nastąpić przed:</string>
+	<string name="answer163_1">sygnalizatorem, </string>
+	<string name="answer163_2">jezdnią drogi poprzecznej, </string>
+	<string name="answer163_3">przejściem dla pieszych na jezdni drogi poprzecznej. </string>
+
+	<string name="question164">W tej sytuacji, przy skręcaniu w lewo, należy:</string>
+	<string name="answer164_1">zatrzymać się przed sygnalizatorem, </string>
+	<string name="answer164_2">przyjąć, że nie występuje kolizja z innymi uczestnikami ruchu, </string>
+	<string name="answer164_3">upewnić się, że przejazd nie spowoduje utrudnienia ruchu. </string>
+
+	<string name="question165">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer165_1">może jechać na wprost przez skrzyżowanie, </string>
+	<string name="answer165_2">może skręcić w lewo po zatrzymaniu się przed sygnalizatorem i upewnieniu, że nie utrudni ruchu, </string>
+	<string name="answer165_3">powinien zatrzymać się i oczekiwać na sygnał zielony, jeżeli zamierza skręcić w lewo. </string>
+
+	<string name="question166">W tej sytuacji, po zatrzymaniu się przed sygnalizatorem i upewnieniu się, że przejazd nie spowoduje utrudnienia ruchu można:</string>
+	<string name="answer166_1">skręcić w lewo, </string>
+	<string name="answer166_2">jechać na wprost przez skrzyżowanie, </string>
+	<string name="answer166_3">zawrócić. </string>
+
+	<string name="question167">Sygnał ten dotyczy kierującego pojazdem:</string>
+	<string name="answer167_1">skręcającego w lewo, </string>
+	<string name="answer167_2">zawracającego, </string>
+	<string name="answer167_3">jadącego na wprost przez skrzyżowanie. </string>
+
+	<string name="question168">Sygnał ten oznacza:</string>
+	<string name="answer168_1">zezwolenie na skręcenie w lewo, po uprzednim zatrzymaniu się przed sygnalizatorem, </string>
+	<string name="answer168_2">zezwolenie na zawrócenie, </string>
+	<string name="answer168_3">że podczas skręcania w lewo nie występuje kolizja z innymi uczestnikami ruchu. </string>
+
+	<string name="question169">Sygnał ten zezwala na:</string>
+	<string name="answer169_1">zawrócenie, po uprzednim zatrzymaniu się przed sygnalizatorem, </string>
+	<string name="answer169_2">przejazd przez skrzyżowanie w dowolnym kierunku, </string>
+	<string name="answer169_3">skręcenie w lewo. </string>
+
+	<string name="question170">Sygnał ten dotyczy kierującego pojazdem:</string>
+	<string name="answer170_1">skręcającego w lewo, </string>
+	<string name="answer170_2">skręcającego w prawo, </string>
+	<string name="answer170_3">jadącego na wprost przez skrzyżowanie. </string>
+
+	<string name="question171">Sygnał ten oznacza zezwolenie na:</string>
+	<string name="answer171_1">zawrócenie, </string>
+	<string name="answer171_2">skręcenie w lewo, </string>
+	<string name="answer171_3">jazdę na wprost przez skrzyżowanie. </string>
+
+	<string name="question172">Sygnał ten oznacza:</string>
+	<string name="answer172_1">zezwolenie na skręcenie w prawo, po uprzednim zatrzymaniu się przed sygnalizatorem, </string>
+	<string name="answer172_2">zezwolenie na skręcenie w prawo bez dodatkowych warunków, </string>
+	<string name="answer172_3">że podczas skręcania w prawo nie występuje kolizja z innymi uczestnikami ruchu. </string>
+
+	<string name="question173">W tej sytuacji kierującemu pojazdem:</string>
+	<string name="answer173_1">zabrania się skręcenia w prawo, </string>
+	<string name="answer173_2">zezwala się na skręcenie w prawo po uprzednim zatrzymaniu się przed sygnalizatorem, </string>
+	<string name="answer173_3">zezwala się na skręcenie w prawo, jeżeli przejazd przez skrzyżowanie nie utrudni ruchu. </string>
+
+	<string name="question174">Sygnał ten dotyczy kierującego pojazdem:</string>
+	<string name="answer174_1">jadącego w dowolnym kierunku przez skrzyżowanie, </string>
+	<string name="answer174_2">jadącego na wprost przez skrzyżowanie, </string>
+	<string name="answer174_3">skręcającego w prawo. </string>
+
+	<string name="question175">Sygnał ten oznacza:</string>
+	<string name="answer175_1">zezwolenie na skręcenie w prawo, </string>
+	<string name="answer175_2">że podczas skręcania w prawo nie występuje kolizja z innymi uczestnikami ruchu, </string>
+	<string name="answer175_3">zezwolenie na jazdę na wprost przez skrzyżowanie. </string>
+
+	<string name="question176">Sygnał ten:</string>
+	<string name="answer176_1">zabrania skręcania w prawo, </string>
+	<string name="answer176_2">zezwala na skręcanie w prawo, po uprzednim zatrzymaniu się przed sygnalizatorem, </string>
+	<string name="answer176_3">zabrania jazdy na wprost przez skrzyżowanie. </string>
+
+	<string name="question177">Sygnał ten oznacza nakaz:</string>
+	<string name="answer177_1">opuszczenia pasa ruchu, nad którym umieszczony jest nadający go sygnalizator, </string>
+	<string name="answer177_2">skręcenia w prawo na skrzyżowaniu, </string>
+	<string name="answer177_3">wjazdu na prawą część jezdni. </string>
+
+	<string name="question178">Sygnał ten oznacza nakaz:</string>
+	<string name="answer178_1">opuszczenia pasa ruchu, nad którym umieszczony jest nadający go sygnalizator, </string>
+	<string name="answer178_2">skręcenia w lewo na najbliższym skrzyżowaniu, </string>
+	<string name="answer178_3">wjazdu na lewą część jezdni. </string>
+
+	<string name="question179">Sygnały te są przeznaczona dla:</string>
+	<string name="answer179_1">pieszych, </string>
+	<string name="answer179_2">rowerzystów, </string>
+	<string name="answer179_3">kierujących autobusami wykonującymi odpłatny przewóz osób na regularnych liniach. </string>
+
+	<string name="question180">Sygnały te są przeznaczone dla:</string>
+	<string name="answer180_1">rowerzystów, </string>
+	<string name="answer180_2">kierujących tramwajami, </string>
+	<string name="answer180_3">kierujących autobusami wykonującymi odpłatny przewóz osób na regularnych liniach. </string>
+
+	<string name="question181">W tej sytuacji dalsza jazda jest możliwa pasem ruchu:</string>
+	<string name="answer181_1">1, </string>
+	<string name="answer181_2">2, </string>
+	<string name="answer181_3">3. </string>
+
+	<string name="question182">W tej sytuacji dalsza jazda jest możliwa pasem ruchu:</string>
+	<string name="answer182_1">1, </string>
+	<string name="answer182_2">2, </string>
+	<string name="answer182_3">3. </string>
+
+	<string name="question183">Taka postawa kierującego ruchem oznacza, że wjazd na skrzyżowanie jest:</string>
+	<string name="answer183_1">zabroniony, z wyjątkiem skręcenia w prawo, </string>
+	<string name="answer183_2">dozwolony, </string>
+	<string name="answer183_3">dozwolony, z wyjątkiem skręcenia w prawo. </string>
+
+	<string name="question184">Taka postawa kierującego ruchem oznacza:</string>
+	<string name="answer184_1">zezwolenie na skręcenie w prawo, </string>
+	<string name="answer184_2">zezwolenie na zawrócenie, </string>
+	<string name="answer184_3">zakaz wjazdu na skrzyżowanie. </string>
+
+	<string name="question185">Taka postawa kierującego ruchem oznacza:</string>
+	<string name="answer185_1">mającą nastąpić zmianę dotychczas nadawanego sygnału, </string>
+	<string name="answer185_2">zezwolenie na skręcenie w prawo, </string>
+	<string name="answer185_3">zakaz wjazdu na skrzyżowanie. </string>
+
+	<string name="question186">Taka postawa kierującego ruchem oznacza:</string>
+	<string name="answer186_1">zezwolenie na skręcenie w lewo, </string>
+	<string name="answer186_2">zezwolenie na zawrócenie, </string>
+	<string name="answer186_3">zakaz wjazdu na skrzyżowanie. </string>
+
+	<string name="question187">Taka postawa kierującego ruchem oznacza, że:</string>
+	<string name="answer187_1">nastąpi zmiana dotychczas nadawanego sygnału, </string>
+	<string name="answer187_2">za chwilę będzie dawany sygnał zakazujący na wjazd na skrzyżowanie, </string>
+	<string name="answer187_3">za chwilę będzie dawany sygnał zezwalający wjazdu na skrzyżowanie. </string>
+
+	<string name="question188">W tej sytuacji sygnał ten:</string>
+	<string name="answer188_1">zezwala na wjazd za sygnalizator bez obserwowania ruchu na drodze poprzecznej, </string>
+	<string name="answer188_2">zezwala na wjazd za sygnalizator po opuszczeniu jezdni przez pieszego, </string>
+	<string name="answer188_3">dopuszcza wjazd za sygnalizator, pomimo utrudnienia pieszemu opuszczenia jezdni. </string>
+
+	<string name="question189">Sygnały te zabraniają:</string>
+	<string name="answer189_1">skręcania w prawo, </string>
+	<string name="answer189_2">jazdy na wprost przez skrzyżowanie, </string>
+	<string name="answer189_3">skręcania w lewo. </string>
+
+	<string name="question190">W tej sytuacji wjazd na skrzyżowanie jest:</string>
+	<string name="answer190_1">dozwolony dla jadących na wprost, </string>
+	<string name="answer190_2">dozwolony dla skręcających w prawo, </string>
+	<string name="answer190_3">zabroniony dla skręcających w prawo. </string>
+
+	<string name="question191">Taka postawa kierującego ruchem oznacza:</string>
+	<string name="answer191_1">zakaz wjazdu na skrzyżowanie, </string>
+	<string name="answer191_2">zezwolenie na skręcenie w lewo, </string>
+	<string name="answer191_3">mającą nastąpić zmianę dotychczas nadawanego sygnału. </string>
+
+	<string name="question192">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer192_1">przejeżdża ostatni </string>
+	<string name="answer192_2">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer192_3">ma pierwszeństwo przed pojazdem 3 </string>
+
+	<string name="question193">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer193_1">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer193_2">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer193_3">przejeżdża ostatni </string>
+
+	<string name="question194">Na tym skrzyżowaniu kierujący pojazdem 1 ma pierwszeństwo przed pojazdem:</string>
+	<string name="answer194_1">2 </string>
+	<string name="answer194_2">3 </string>
+	<string name="answer194_3">uprzywilejowanym 4 </string>
+
+	<string name="question195">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer195_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer195_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer195_3">przejeżdża ostatni </string>
+
+	<string name="question196">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer196_1">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer196_2">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer196_3">przejeżdża ostatni </string>
+
+	<string name="question197">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer197_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer197_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer197_3">przejeżdża ostatni </string>
+
+	<string name="question198">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer198_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer198_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer198_3">przejeżdża ostatni </string>
+
+	<string name="question199">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer199_1">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer199_2">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer199_3">przejeżdża ostatni </string>
+
+	<string name="question200">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer200_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer200_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer200_3">przejeżdża ostatni </string>
+
+	<string name="question201">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer201_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer201_2">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer201_3">przejeżdża pierwszy </string>
+
+	<string name="question202">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer202_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer202_2">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer202_3">przejeżdża pierwszy </string>
+
+	<string name="question203">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer203_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer203_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer203_3">przejeżdża ostatni </string>
+
+	<string name="question204">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer204_1">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer204_2">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer204_3">przejeżdża pierwszy </string>
+
+	<string name="question205">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer205_1">przejeżdża ostatni </string>
+	<string name="answer205_2">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer205_3">ma pierwszeństwo przed pojazdem 3 </string>
+
+	<string name="question206">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer206_1">przejeżdża pierwszy </string>
+	<string name="answer206_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer206_3">ustępuje pierwszeństwa pojazdowi 2 </string>
+
+	<string name="question207">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer207_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer207_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer207_3">przejeżdża ostatni </string>
+
+	<string name="question208">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer208_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer208_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer208_3">przejeżdża ostatni </string>
+
+	<string name="question209">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer209_1">przejeżdża pierwszy </string>
+	<string name="answer209_2">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer209_3">ma pierwszeństwo przed pojazdem 3 </string>
+
+	<string name="question210">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer210_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer210_2">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer210_3">przejeżdża pierwszy </string>
+
+	<string name="question211">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer211_1">przejeżdża pierwszy </string>
+	<string name="answer211_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer211_3">ustępuje pierwszeństwa pojazdowi 2 </string>
+
+	<string name="question212">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer212_1">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer212_2">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer212_3">przejeżdża pierwszy </string>
+
+	<string name="question213">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer213_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer213_2">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer213_3">przejeżdża pierwszy </string>
+
+	<string name="question214">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer214_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer214_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer214_3">przejeżdża ostatni </string>
+
+	<string name="question215">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer215_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer215_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer215_3">przejeżdża ostatni </string>
+
+	<string name="question216">Na tym skrzyżowaniu kierujący pojazdem 1 ustępuje pierwszeństwa pojazdowi:</string>
+	<string name="answer216_1">2 </string>
+	<string name="answer216_2">3 </string>
+	<string name="answer216_3">4 </string>
+
+	<string name="question217">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer217_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer217_2">przejeżdża ostatni </string>
+	<string name="answer217_3">ma pierwszeństwo przed pojazdem 3 </string>
+
+	<string name="question218">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer218_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer218_2">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer218_3">ma pierwszeństwo przed pojazdem 4 </string>
+
+	<string name="question219">W tej sytuacji kierujący pojazdem 1 znajdującym się na drodze gruntowej:</string>
+	<string name="answer219_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer219_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer219_3">przejeżdża ostatni </string>
+
+	<string name="question220">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer220_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer220_2">ustępuje pierwszeństwa pojazdowi uprzywilejowanemu 3 </string>
+	<string name="answer220_3">ma pierwszeństwo przed pojazdem 4 </string>
+
+	<string name="question221">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer221_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer221_2">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer221_3">przejeżdża pierwszy </string>
+
+	<string name="question222">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer222_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer222_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer222_3">przejeżdża ostatni. </string>
+
+	<string name="question223">W tej sytuacji kierujący pojazdem 1 ustępuje pierwszeństwa pojazdowi:</string>
+	<string name="answer223_1">2 </string>
+	<string name="answer223_2">3 </string>
+	<string name="answer223_3">4 </string>
+
+	<string name="question224">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer224_1">przejeżdża pierwszy </string>
+	<string name="answer224_2">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer224_3">ustępuje pierwszeństwa pojazdowi 3 </string>
+
+	<string name="question225">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer225_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer225_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer225_3">przejeżdża ostatni </string>
+
+	<string name="question226">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer226_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer226_2">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer226_3">ma pierwszeństwo przed pojazdem 4 </string>
+
+	<string name="question227">Na tym skrzyżowaniu kierujący pojazdem 1 ustępuje pierwszeństwa pojazdowi:</string>
+	<string name="answer227_1">2 </string>
+	<string name="answer227_2">3 </string>
+	<string name="answer227_3">4 </string>
+
+	<string name="question228">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer228_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer228_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer228_3">przejeżdża ostatni </string>
+
+	<string name="question229">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer229_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer229_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer229_3">przejeżdża pierwszy </string>
+
+	<string name="question230">Na tym skrzyżowaniu kierujący pojazdem 1 ustępuje pierwszeństwa pojazdowi:</string>
+	<string name="answer230_1">2 </string>
+	<string name="answer230_2">3 </string>
+	<string name="answer230_3">4 </string>
+
+	<string name="question231">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer231_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer231_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer231_3">przejeżdża pierwszy </string>
+
+	<string name="question232">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer232_1">przejeżdża pierwszy </string>
+	<string name="answer232_2">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer232_3">ma pierwszeństwo przed pojazdem 3 </string>
+
+	<string name="question233">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer233_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer233_2">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer233_3">przejeżdża pierwszy </string>
+
+	<string name="question234">Na tym skrzyżowaniu kierujący pojazdem 1 ustępuje pierwszeństwa pojazdowi:</string>
+	<string name="answer234_1">2 </string>
+	<string name="answer234_2">3 </string>
+	<string name="answer234_3">4 </string>
+
+	<string name="question235">Na tym skrzyżowaniu kierujący pojazdem 1 ustępuje pierwszeństwa pojazdowi:</string>
+	<string name="answer235_1">2 </string>
+	<string name="answer235_2">3 </string>
+	<string name="answer235_3">4 </string>
+
+	<string name="question236">Na tym skrzyżowaniu kierujący pojazdem 1 ustępuje pierwszeństwa pojazdowi :</string>
+	<string name="answer236_1">2 </string>
+	<string name="answer236_2">3 </string>
+	<string name="answer236_3">4 </string>
+
+	<string name="question237">Na tym skrzyżowaniu kierujący pojazdem 1 ustępuje pierwszeństwa pojazdowi:</string>
+	<string name="answer237_1">uprzywilejowanemu 2 </string>
+	<string name="answer237_2">3 </string>
+	<string name="answer237_3">4 </string>
+
+	<string name="question238">Na tym skrzyżowaniu kierujący pojazdem 1 ma pierwszeństwo przed pojazdem:</string>
+	<string name="answer238_1">2 </string>
+	<string name="answer238_2">3 </string>
+	<string name="answer238_3">4 </string>
+
+	<string name="question239">Na tym skrzyżowaniu kierujący pojazdem 1 ma pierwszeństwo przed pojazdem:</string>
+	<string name="answer239_1">2 </string>
+	<string name="answer239_2">3 </string>
+	<string name="answer239_3">4 </string>
+
+	<string name="question240">Na tym skrzyżowaniu kierujący pojazdem 1 ma pierwszeństwo przed pojazdem:</string>
+	<string name="answer240_1">2 </string>
+	<string name="answer240_2">3 </string>
+	<string name="answer240_3">4 </string>
+
+	<string name="question241">Na tym skrzyżowaniu kierujący pojazdem 1 ustępuje pierwszeństwa pojazdowi:</string>
+	<string name="answer241_1">2 </string>
+	<string name="answer241_2">3 </string>
+	<string name="answer241_3">4 </string>
+
+	<string name="question242">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer242_1">przejeżdża ostatni </string>
+	<string name="answer242_2">ustępuje pierwszeństwa pojazdowi uprzywilejowanemu 2 </string>
+	<string name="answer242_3">ma pierwszeństwo przed pojazdem 3 </string>
+
+	<string name="question243">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer243_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer243_2">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer243_3">przejeżdża pierwszy </string>
+
+	<string name="question244">Na tym skrzyżowaniu kierujący pojazdem 1 ustępuje pierwszeństwa pojazdowi:</string>
+	<string name="answer244_1">2 </string>
+	<string name="answer244_2">3 </string>
+	<string name="answer244_3">4 </string>
+
+	<string name="question245">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer245_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer245_2">ustępuje pierwszeństwa pojazdowi 3 </string>
+	<string name="answer245_3">przejeżdża pierwszy </string>
+
+	<string name="question246">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer246_1">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer246_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer246_3">przejeżdża ostatni </string>
+
+	<string name="question247">W tej sytuacji skrzyżowanie może opuścić pojazd:</string>
+	<string name="answer247_1">1 </string>
+	<string name="answer247_2">2 </string>
+	<string name="answer247_3">3 </string>
+
+	<string name="question248">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer248_1">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer248_2">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer248_3">przejeżdża ostatni </string>
+
+	<string name="question249">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer249_1">przejeżdża pierwszy </string>
+	<string name="answer249_2">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer249_3">ma pierwszeństwo przed pojazdem 3 </string>
+
+	<string name="question250">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer250_1">przejeżdża pierwszy </string>
+	<string name="answer250_2">ustępuje pierwszeństwa pojazdowi 2 </string>
+	<string name="answer250_3">ustępuje pierwszeństwa pojazdowi 3 </string>
+
+	<string name="question251">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer251_1">1 może wjechać na skrzyżowanie </string>
+	<string name="answer251_2">2 nie może wjechać na skrzyżowanie </string>
+	<string name="answer251_3">1 może skręcić w prawo </string>
+
+	<string name="question252">Który pojazd jest w tej sytuacji nieprawidłowo zaparkowany na jezdni?</string>
+	<string name="answer252_1">1 </string>
+	<string name="answer252_2">2 </string>
+	<string name="answer252_3">3 </string>
+
+	<string name="question253">Który pojazd jest w tej sytuacji nieprawidłowo zaparkowany na drodze?</string>
+	<string name="answer253_1">1 </string>
+	<string name="answer253_2">2 </string>
+	<string name="answer253_3">3 </string>
+
+	<string name="question254">Który pojazd jest w tej sytuacji nieprawidłowo zaparkowany na chodniku?</string>
+	<string name="answer254_1">1 </string>
+	<string name="answer254_2">2 </string>
+	<string name="answer254_3">3 </string>
+
+	<string name="question255">Włączając się do ruchu, kierujący pojazdem powinien:</string>
+	<string name="answer255_1">zachować szczególną ostrożność </string>
+	<string name="answer255_2">ustąpić pierwszeństwa innemu pojazdowi </string>
+	<string name="answer255_3">ustąpić pierwszeństwa pieszym </string>
+
+	<string name="question256">W tej sytuacji kierujący samochodem osobowym:</string>
+	<string name="answer256_1">powinien włączyć kierunkowskaz i zjechać na pas 3, jeżeli zamierza skręcić w prawo </string>
+	<string name="answer256_2">może z pasa 1, 2 lub 3 pojechać na wprost </string>
+	<string name="answer256_3">może z pasa 2 skręcić w lewo lub zawrócić </string>
+
+	<string name="question257">W tej sytuacji kierujący pojazdem może skręcić w:</string>
+	<string name="answer257_1">lewo z pasa 1 </string>
+	<string name="answer257_2">lewo z pasa 2 </string>
+	<string name="answer257_3">prawo z pasa 3 </string>
+
+	<string name="question258">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer258_1">może skręcić w prawo z pasa 3 </string>
+	<string name="answer258_2">może skręcić w lewo z pasów 1 lub 2 </string>
+	<string name="answer258_3">może zawrócić z pasa 2 </string>
+
+	<string name="question259">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer259_1">powinien zająć pas 1 </string>
+	<string name="answer259_2">może zająć pas 1, 2 lub 3 </string>
+	<string name="answer259_3">powinien włączyć kierunkowskaz </string>
+
+	<string name="question260">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer260_1">powinien zająć pas 1, jeżeli zamierza skręcić w lewo </string>
+	<string name="answer260_2">może z pasa 2 lub 3 skręcić w prawo </string>
+	<string name="answer260_3">może z pasa 1, 2 lub 3 pojechać na wprost </string>
+
+	<string name="question261">W tej sytuacji, po skręceniu w lewo, kierujący pojazdem:</string>
+	<string name="answer261_1">powinien zająć pas 3 </string>
+	<string name="answer261_2">powinien zająć pas 1 </string>
+	<string name="answer261_3">może zająć pas 1,2 lub 3 </string>
+
+	<string name="question262">W tej sytuacji, po skręceniu w lewo, kierujący pojazdem:</string>
+	<string name="answer262_1">może zająć pas 1,2 lub 3 </string>
+	<string name="answer262_2">powinien zająć pas 1 </string>
+	<string name="answer262_3">powinien zająć pas 3 </string>
+
+	<string name="question263">W tej sytuacji, po skręceniu w prawo, kierujący pojazdem:</string>
+	<string name="answer263_1">powinien zająć pas 1 </string>
+	<string name="answer263_2">może zająć pas 1,2 lub 3 </string>
+	<string name="answer263_3">powinien zająć pas 3 </string>
+
+	<string name="question264">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer264_1">może nie włączać kierunkowskazu przed ominięciem przeszkody </string>
+	<string name="answer264_2">może ominąć przeszkodę jadąc po poboczu </string>
+	<string name="answer264_3">ustępuje pierwszeństwa pojazdowi 2 </string>
+
+	<string name="question265">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer265_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer265_2">ma pierwszeństwo przed pojazdem 3 </string>
+	<string name="answer265_3">powinien włączyć kierunkowskaz zanim przystąpi do zmiany pasa ruchu </string>
+
+	<string name="question266">W tej sytuacji kierujący pojazdem 1 powinien:</string>
+	<string name="answer266_1">umożliwić kierującemu pojazdem 2 włączenie się do ruchu </string>
+	<string name="answer266_2">zmniejszyć prędkość </string>
+	<string name="answer266_3">w razie potrzeby zatrzymać się </string>
+
+	<string name="question267">Który pojazd jest w tej sytuacji nieprawidłowo zaparkowany?</string>
+	<string name="answer267_1">- 1, </string>
+	<string name="answer267_2">- 2, </string>
+	<string name="answer267_3">- 3, </string>
+
+	<string name="question268">Który pojazd jest w tej sytuacji zaparkowany prawidłowo?</string>
+	<string name="answer268_1">- 3, </string>
+	<string name="answer268_2">- 2, </string>
+	<string name="answer268_3">- 1, </string>
+
+	<string name="question269">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer269_1">ma pierwszeństwo przed pojazdem 2 </string>
+	<string name="answer269_2">powinien włączyć kierunkowskaz </string>
+	<string name="answer269_3">powinien zachować szczególną ostrożność </string>
+
+	<string name="question270">Znak ten (linia podwójna ciągła):</string>
+	<string name="answer270_1">zabrania zawracania na odcinku oznaczonym tą linią, </string>
+	<string name="answer270_2">zezwala na przejeżdżanie przez tę linię przy wyprzedzaniu pojazdów, </string>
+	<string name="answer270_3">zabrania najeżdżania na tę linię. </string>
+
+	<string name="question271">Włączenie się do ruchu następuje przy wyjeździe:</string>
+	<string name="answer271_1">z pobocza na jezdnię, </string>
+	<string name="answer271_2">z drogi gruntowej na drogę twardą, </string>
+	<string name="answer271_3">ze strefy zamieszkania. </string>
+
+	<string name="question272">Włączając się do ruchu kierujący pojazdem powinien:</string>
+	<string name="answer272_1">zachować szczególną ostrożność, </string>
+	<string name="answer272_2">bacznie obserwować drogę, na którą zamierza wjechać, </string>
+	<string name="answer272_3">ustąpić pierwszeństwa przejazdu innym pojazdom lub uczestnikom ruchu. </string>
+
+	<string name="question273">W tej sytuacji kierujący pojazdem 1 powinien:</string>
+	<string name="answer273_1">zmniejszyć prędkość i zjechać maksymalnie na prawo, jeżeli istnieje możliwość przejazdu z zachowaniem bezpiecznego odstępu </string>
+	<string name="answer273_2">zatrzymać pojazd przed zwężonym odcinkiem drogi, jeśli nie ma możliwości przejazdu obu pojazdów </string>
+	<string name="answer273_3">wjechać na zwężony odcinek drogi niezależnie od możliwości zachowania bezpiecznego odstępu </string>
+
+	<string name="question274">W tej sytuacji kierujący samochodem osobowym:</string>
+	<string name="answer274_1">powinien uważnie obserwować drogę i jej otoczenie </string>
+	<string name="answer274_2">może ominąć autobus jadąc wolno pomiędzy dziećmi </string>
+	<string name="answer274_3">powinien zatrzymać się </string>
+
+	<string name="question275">Cofanie pojazdu jest zabronione:</string>
+	<string name="answer275_1">na moście lub na wiadukcie </string>
+	<string name="answer275_2">w tunelu </string>
+	<string name="answer275_3">na drodze ekspresowej </string>
+
+	<string name="question276">Skręcając w lewo na tym skrzyżowaniu, kierujący pojazdem 1:</string>
+	<string name="answer276_1">może wjechać na tory tramwajowe </string>
+	<string name="answer276_2">powinien oczekiwać na możliwość przejazdu przed torami tramwajowymi </string>
+	<string name="answer276_3">powinien zatrzymać pojazd tak, aby zachować bezpieczny odstęp od nadjeżdżającego tramwaju </string>
+
+	<string name="question277">Zamierzając jechać na wprost i widząc stojące na skrzyżowaniu pojazdy, kierujący pojazdem 1:</string>
+	<string name="answer277_1">może ustawić się tuż za nimi </string>
+	<string name="answer277_2">może wjechać na tory tramwajowe </string>
+	<string name="answer277_3">nie może wjechać na skrzyżowanie </string>
+
+	<string name="question278">Zamierzając jechać na wprost i widząc stojące za tym skrzyżowaniem pojazdy, kierujący pojazdem 1:</string>
+	<string name="answer278_1">powinien zatrzymać się przed przejściem dla pieszych </string>
+	<string name="answer278_2">może zatrzymać się na przejściu dla pieszych </string>
+	<string name="answer278_3">może zatrzymać się bezpośrednio za poprzedzającym pojazdem </string>
+
+	<string name="question279">Przed rozpoczęciem wyprzedzania kierujący pojazdem powinien upewnić się, czy:</string>
+	<string name="answer279_1">ma odpowiednią widoczność </string>
+	<string name="answer279_2">ma dostateczne miejsce do wyprzedzania </string>
+	<string name="answer279_3">nie utrudni ruchu innym pojazdom </string>
+
+	<string name="question280">Przed rozpoczęciem wyprzedzania kierujący pojazdem powinien upewnić się, czy kierujący jadący:</string>
+	<string name="answer280_1">za nim nie rozpoczął wyprzedzania </string>
+	<string name="answer280_2">przed nim na tym samym pasie ruchu nie zasygnalizował zamiaru wyprzedzania innego pojazdu </string>
+	<string name="answer280_3">przed nim na tym samym pasie ruchu nie zasygnalizował zmiany pasa ruchu lub kierunku jazdy </string>
+
+	<string name="question281">Podczas wyprzedzania kierujący pojazdem powinien zachować odstęp:</string>
+	<string name="answer281_1">bezpieczny - od wyprzedzanego samochodu ciężarowego </string>
+	<string name="answer281_2">co najmniej 1 m - od wyprzedzanej kolumny pieszych </string>
+	<string name="answer281_3">co najmniej 1 m - od wyprzedzanego pojazdu jednośladowego </string>
+
+	<string name="question282">Kierujący pojazdem wyprzedzanym:</string>
+	<string name="answer282_1">powinien zmniejszyć prędkość w czasie wyprzedzania </string>
+	<string name="answer282_2">nie powinien zwiększać prędkości w czasie wyprzedzania </string>
+	<string name="answer282_3">nie powinien zwiększać prędkości bezpośrednio po wyprzedzeniu </string>
+
+	<string name="question283">Na drogach dwukierunkowych o dwóch pasach ruchu wyprzedzanie pojazdu silnikowego jest zabronione:</string>
+	<string name="answer283_1">przy dojeżdżaniu do wierzchołków wzniesień </string>
+	<string name="answer283_2">na zakrętach oznaczonych znakami ostrzegawczymi </string>
+	<string name="answer283_3">na mostach i wiaduktach </string>
+
+	<string name="question284">W tej sytuacji na obszarze zabudowanym kierujący pojazdem 1 może wyprzedzić:</string>
+	<string name="answer284_1">pojazd 3 z lewej strony </string>
+	<string name="answer284_2">pojazd uprzywilejowany 2 </string>
+	<string name="answer284_3">pojazd 3 z prawej strony </string>
+
+	<string name="question285">W tej sytuacji przy dojeżdżaniu do wierzchołka wzniesienia kierujący pojazdem 1:</string>
+	<string name="answer285_1">może wyprzedzić pojazd 2 z prawej strony </string>
+	<string name="answer285_2">może wyprzedzić pojazd 2 z lewej strony </string>
+	<string name="answer285_3">powinien włączyć kierunkowskaz, jeżeli zamierza zmienić pas ruchu </string>
+
+	<string name="question286">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer286_1">może wyprzedzić pojazd 2 </string>
+	<string name="answer286_2">może wyprzedzić pojazd 3 </string>
+	<string name="answer286_3">nie może wyprzedzić pojazdów 2 i 3 </string>
+
+	<string name="question287">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer287_1">1 może wyprzedzić pojazd 2 </string>
+	<string name="answer287_2">2 może nie włączać kierunkowskazu </string>
+	<string name="answer287_3">1 i 2 powinni zachować szczególną ostrożność </string>
+
+	<string name="question288">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer288_1">może wyprzedzić pojazd 2 z lewej strony </string>
+	<string name="answer288_2">może wyprzedzić pojazd 2 z prawej strony </string>
+	<string name="answer288_3">powinien włączyć kierunkowskaz, jeżeli zamierza zmienić pas ruchu </string>
+
+	<string name="question289">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer289_1">1 powinien zachować szczególną ostrożność </string>
+	<string name="answer289_2">1 może wyprzedzić pojazd 2 </string>
+	<string name="answer289_3">2 powinien uważnie obserwować sytuację na skrzyżowaniu </string>
+
+	<string name="question290">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer290_1">2 może wyprzedzić pojazd 3 </string>
+	<string name="answer290_2">1 nie może wyprzedzić pojazdu 2 z prawej strony </string>
+	<string name="answer290_3">1 nie może wyprzedzić pojazdu 2 z lewej strony </string>
+
+	<string name="question291">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer291_1">może wyprzedzić pojazd 2 z prawej strony </string>
+	<string name="answer291_2">może wyprzedzić pojazd 2 z lewej strony </string>
+	<string name="answer291_3">powinien włączyć kierunkowskaz, jeżeli zamierza zmienić pas ruchu </string>
+
+	<string name="question292">W tej sytuacji kierujący samochodem osobowym może wyprzedzić:</string>
+	<string name="answer292_1">motocykl </string>
+	<string name="answer292_2">pojazd zaprzęgowy </string>
+	<string name="answer292_3">kolumnę pieszych </string>
+
+	<string name="question293">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer293_1">powinien zachować szczególną ostrożność, </string>
+	<string name="answer293_2">powinien używać sygnału dźwiękowego, </string>
+	<string name="answer293_3">ma pierwszeństwo przed pojazdem 2. </string>
+
+	<string name="question294">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer294_1">2 powinien włączyć kierunkowskaz, jeżeli zamierza wyprzedzić pojazd 3, </string>
+	<string name="answer294_2">3 może zwiększyć prędkość w czasie wyprzedzania przez pojazd 2, </string>
+	<string name="answer294_3">1 może wyprzedzić pojazd 2, jeżeli zaistnieją ku temu warunki. </string>
+
+	<string name="question295">Omijanie to:</string>
+	<string name="answer295_1">przejeżdżanie (przechodzenie) obok pojazdu lub uczestnika ruchu poruszającego się w przeciwnym kierunku, </string>
+	<string name="answer295_2">przejeżdżanie (przechodzenie) obok nieporuszającego się pojazdu, uczestnika ruchu lub przeszkody, </string>
+	<string name="answer295_3">przejeżdżanie (przechodzenie) obok pojazdu lub uczestnika ruchu poruszającego się w tym samym kierunku. </string>
+
+	<string name="question296">Wymijanie to:</string>
+	<string name="answer296_1">przejeżdżanie (przechodzenie) obok pojazdu lub uczestnika ruchu poruszającego się w przeciwnym kierunku, </string>
+	<string name="answer296_2">przejeżdżanie (przechodzenie) obok nieporuszającego się pojazdu, uczestnika ruchu lub przeszkody, </string>
+	<string name="answer296_3">przejeżdżanie (przechodzenie) obok pojazdu lub uczestnika ruchu poruszającego się w tym samym kierunku. </string>
+
+	<string name="question297">Wyprzedzanie to:</string>
+	<string name="answer297_1">przejeżdżanie (przechodzenie) obok pojazdu lub uczestnika ruchu poruszającego się w przeciwnym kierunku, </string>
+	<string name="answer297_2">przejeżdżanie (przechodzenie) obok nieporuszającego się pojazdu, uczestnika ruchu lub przeszkody </string>
+	<string name="answer297_3">przejeżdżanie (przechodzenie) obok pojazdu lub uczestnika ruchu poruszającego się w tym samym kierunku. </string>
+
+	<string name="question298">W tej sytuacji kierujący pojazdem powinien:</string>
+	<string name="answer298_1">przyspieszyć, starając się przejechać przed pieszym </string>
+	<string name="answer298_2">zatrzymać pojazd przed przejściem dla pieszych </string>
+	<string name="answer298_3">obserwować całe otoczenie przejścia dla pieszych </string>
+
+	<string name="question299">W tej sytuacji kierujący pojazdem, przejeżdżając przez chodnik:</string>
+	<string name="answer299_1">ustępuje pierwszeństwa pieszemu 1 </string>
+	<string name="answer299_2">ma pierwszeństwo przed pieszym 2 </string>
+	<string name="answer299_3">powinien jechać powoli </string>
+
+	<string name="question300">W tej sytuacji kierujący:</string>
+	<string name="answer300_1">pojazdem 1 ustępuje pierwszeństwa pieszemu </string>
+	<string name="answer300_2">pojazdem 2 ustępuje pierwszeństwa pieszemu </string>
+	<string name="answer300_3">pojazdami 1 i 2 powinni uważnie obserwować ruch pieszych </string>
+
+	<string name="question301">W tej sytuacji kierujący:</string>
+	<string name="answer301_1">pojazdem 1 może wyprzedzić pojazd 2 </string>
+	<string name="answer301_2">pojazdami 1 i 2 powinni zmniejszyć prędkość </string>
+	<string name="answer301_3">pojazdami 1 i 2 powinni zachować szczególną ostrożność </string>
+
+	<string name="question302">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer302_1">powinien zatrzymać pojazd przed przejściem dla pieszych </string>
+	<string name="answer302_2">może przejechać przez przejście dla pieszych z zachowaniem szczególnej ostrożności </string>
+	<string name="answer302_3">może przejechać przez przejście dla pieszych, jeżeli pojazd 2 zaczyna ruszać </string>
+
+	<string name="question303">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer303_1">może przejechać przed pieszym, </string>
+	<string name="answer303_2">powinien zatrzymać pojazd w celu umożliwienia przejścia pieszemu, </string>
+	<string name="answer303_3">powinien uważnie obserwować ruch pieszego </string>
+
+	<string name="question304">W tej sytuacji kierujący pojazdem powinien zatrzymać pojazd:</string>
+	<string name="answer304_1">tuż przed przejściem dla pieszych </string>
+	<string name="answer304_2">na wysokości znaku oznaczającego przystanek </string>
+	<string name="answer304_3">w takim miejscu, aby zapewnić pieszym dojście do tramwaju </string>
+
+	<string name="question305">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer305_1">może przejechać obok przystanku bez zatrzymania </string>
+	<string name="answer305_2">powinien zatrzymać pojazd przed przejściem dla pieszych </string>
+	<string name="answer305_3">powinien zachować szczególną ostrożność podczas przejeżdżania obok przystanku </string>
+
+	<string name="question306">W tej sytuacji kierujący samochodem osobowym skręcając w prawo powinien:</string>
+	<string name="answer306_1">zachować szczególną ostrożność </string>
+	<string name="answer306_2">użyć sygnału dźwiękowego </string>
+	<string name="answer306_3">ustąpić pierwszeństwa rowerzyście </string>
+
+	<string name="question307">W tej sytuacji kierujący:</string>
+	<string name="answer307_1">pojazdem 1 nie może wyprzedzić pojazdu 2 </string>
+	<string name="answer307_2">pojazdem 2 ma pierwszeństwo przed rowerzystą </string>
+	<string name="answer307_3">pojazdami 1 i 2 powinni uważnie obserwować otoczenie drogi </string>
+
+	<string name="question308">Zagrożenie bezpieczeństwa ruchu drogowego na przejeździe kolejowym może stworzyć kierujący pojazdem, który:</string>
+	<string name="answer308_1">wjeżdża na tory bez upewnienia się, czy nie zbliża się pociąg </string>
+	<string name="answer308_2">wyprzedza pojazdy bezpośrednio przed przejazdem </string>
+	<string name="answer308_3">wyprzedza pojazdy na przejeździe </string>
+
+	<string name="question309">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer309_1">nie ma obowiązku upewnienia się, czy nadjeżdża pociąg </string>
+	<string name="answer309_2">powinien zachować szczególną ostrożność </string>
+	<string name="answer309_3">powinien obserwować tylko prawą stronę drogi </string>
+
+	<string name="question310">W tej sytuacji kierujący pojazdem:</string>
+	<string name="answer310_1">powinien zatrzymać pojazd przed przejazdem </string>
+	<string name="answer310_2">może przejechać przez przejazd bez zatrzymania, jeżeli upewnił się, że nie zbliża się pociąg </string>
+	<string name="answer310_3">może nie upewniać się, czy nadjeżdża pociąg, gdyż przejazd strzeżony jest przez dróżnika </string>
+
+	<string name="question311">Widząc te znaki umieszczone na drodze o dopuszczalnej prędkości przekraczającej 60 km/h, kierujący pojazdem:</string>
+	<string name="answer311_1">jest ostrzeżony o przejeździe kolejowym z zaporami </string>
+	<string name="answer311_2">jest ostrzeżony o przejeździe kolejowym bez zapór </string>
+	<string name="answer311_3">jest w odległości 150-300 m od przejazdu kolejowego </string>
+
+	<string name="question312">Widząc te znaki umieszczone na drodze o dopuszczalnej prędkości nieprzekraczającej 60 km/h, kierujący pojazdem:</string>
+	<string name="answer312_1">jest ostrzegany o przejeździe kolejowym bez zapór </string>
+	<string name="answer312_2">jest ostrzegany o przejeździe kolejowym z zaporami </string>
+	<string name="answer312_3">jest w odległości do 100 m od przejazdu kolejowego </string>
+
+	<string name="question313">Widząc ten znak kierujący pojazdem:</string>
+	<string name="answer313_1">powinien zatrzymać pojazd przed znakiem </string>
+	<string name="answer313_2">może nie zatrzymywać pojazdu, jeżeli przy znaku nie ma dróżnika </string>
+	<string name="answer313_3">może zatrzymać pojazd za znakiem, bezpośrednio przed torem kolejowym </string>
+
+	<string name="question314">Widząc dwa na przemian migające czerwone sygnały przed przejazdem kolejowym, kierujący pojazdem:</string>
+	<string name="answer314_1">powinien zatrzymać pojazd </string>
+	<string name="answer314_2">może przejechać przez przejazd, jeżeli upewnił się, że nie zbliża się pociąg </string>
+	<string name="answer314_3">powinien zachować szczególną ostrożność </string>
+
+	<string name="question315">Kierującemu pojazdem nie wolno wjechać na przejazd kolejowy, jeżeli:</string>
+	<string name="answer315_1">opuszczanie zapór zostało rozpoczęte </string>
+	<string name="answer315_2">podnoszenie zapór nie zostało zakończone </string>
+	<string name="answer315_3">po drugiej stronie przejazdu nie ma miejsca do kontynuowania jazdy </string>
+
+	<string name="question316">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer316_1">nie może wyprzedzić pojazdu 2 </string>
+	<string name="answer316_2">nie może ominąć pojazdu 3 </string>
+	<string name="answer316_3">może przejechać przez przejazd </string>
+
+	<string name="question317">W przypadku zatrzymania pojazdu przez policjanta do kontroli, kierujący:</string>
+	<string name="answer317_1">powinien wysiąść z pojazdu i podejść do zatrzymującego go policjanta, </string>
+	<string name="answer317_2">nie powinien wysiadać z pojazdu i oczekiwać na podejście policjanta, </string>
+	<string name="answer317_3">powinien stanąć w odległości 1 metra od pojazdu. </string>
+
+	<string name="question318">Podczas wyprzedzania kolumny pieszych kierujący pojazdem powinien:</string>
+	<string name="answer318_1">zachować szczególną ostrożność, </string>
+	<string name="answer318_2">uważnie obserwować otoczenie drogi, </string>
+	<string name="answer318_3">zachować od kolumny odstęp przynajmniej 1 metra. </string>
+
+	<string name="question319">W razie uczestniczenia w wypadku drogowym, kierujący pojazdem powinien podać na żądanie osób w nim uczestniczących:</string>
+	<string name="answer319_1">swoje dane personalne </string>
+	<string name="answer319_2">dane personalne właściciela lub posiadacza pojazdu </string>
+	<string name="answer319_3">dane zakładu ubezpieczeń, z którym zawarta jest umowa ubezpieczenia OC </string>
+
+	<string name="question320">W razie uczestniczenia w wypadku drogowym, w którym nie ma ofiar, kierujący pojazdem powinien:</string>
+	<string name="answer320_1">nie ruszać pojazdu do czasu przyjazdu Policji </string>
+	<string name="answer320_2">pozostać na miejscu wypadku do czasu przyjazdu Policji </string>
+	<string name="answer320_3">zatrzymać pojazd, nie powodując przy tym zagrożenia bezpieczeństwa ruchu </string>
+
+	<string name="question321">W razie uczestniczenia w wypadku drogowym, w którym są ofiary, kierujący pojazdem powinien:</string>
+	<string name="answer321_1">podjąć działania zapewniające bezpieczeństwo ruchu w miejscu wypadku </string>
+	<string name="answer321_2">udzielić niezbędnej pomocy ofiarom wypadku </string>
+	<string name="answer321_3">niezwłocznie usunąć pojazd z miejsca wypadku </string>
+
+	<string name="question322">W razie uczestniczenia w wypadku drogowym, w którym są ofiary, kierujący pojazdem powinien podać dane zakładu ubezpieczeń, z którym zawarta jest umowa OC:</string>
+	<string name="answer322_1">na żądanie pieszego uczestniczącego w wypadku </string>
+	<string name="answer322_2">na żądanie pasażera innego pojazdu uczestniczącego w wypadku </string>
+	<string name="answer322_3">wszystkim osobom, które były w pobliżu wypadku </string>
+
+	<string name="question323">W tej sytuacji kierujący pojazdem 1 widząc wjeżdżający na skrzyżowanie z dużą prędkością pojazd 2:</string>
+	<string name="answer323_1">powinien rozpocząć hamowanie </string>
+	<string name="answer323_2">powinien zwiększyć prędkość i przejechać przed pojazdem 2 </string>
+	<string name="answer323_3">kontynuuje jazdę nie podejmując żadnych czynności, gdyż ma zezwolenie na wjazd na skrzyżowanie </string>
+
+	<string name="question324">W tej sytuacji kierujący pojazdem widząc toczącą się po jezdni piłkę powinien:</string>
+	<string name="answer324_1">uważnie obserwować bawiące się dzieci </string>
+	<string name="answer324_2">być przygotowanym do zatrzymania pojazdu </string>
+	<string name="answer324_3">liczyć się z tym, że dzieci mogą wbiec na jezdnię </string>
+
+	<string name="question325">W tej sytuacji kierujący pojazdem widząc zataczającego się na drodze pieszego powinien:</string>
+	<string name="answer325_1">być przygotowany do zatrzymania pojazdu </string>
+	<string name="answer325_2">założyć, że pieszy może nie stosować się do przepisów ruchu drogowego </string>
+	<string name="answer325_3">założyć, że pieszy nie wejdzie na jezdnię </string>
+
+	<string name="question326">W tej sytuacji kierujący pojazdem 1 widząc dzieci wysiadające z autobusu oznakowanego kwadratowymi tablicami barwy żółtej powinien:</string>
+	<string name="answer326_1">uważnie obserwować otoczenie drogi </string>
+	<string name="answer326_2">zwrócić szczególną uwagę tylko na dzieci wysiadające z autobusu </string>
+	<string name="answer326_3">być przygotowanym do zatrzymania pojazdu </string>
+
+	<string name="question327">W tej sytuacji kierujący samochodem osobowym:</string>
+	<string name="answer327_1">powinien jechać w odległości 100 m za pojazdem uprzywilejowanym </string>
+	<string name="answer327_2">nie może wyprzedzić pojazdu uprzywilejowanego - na obszarze zabudowanym </string>
+	<string name="answer327_3">nie może wyprzedzić pojazdu uprzywilejowanego - poza obszarem zabudowanym </string>
+
+	<string name="question328">W okresie dostatecznej widoczności, kierujący pojazdem holującym:</string>
+	<string name="answer328_1">powinien mieć włączone światła awaryjne </string>
+	<string name="answer328_2">powinien mieć włączone światła mijania </string>
+	<string name="answer328_3">może nie mieć włączonych świateł zewnętrznych pojazdu </string>
+
+	<string name="question329">Na autostradzie dopuszcza się holowanie:</string>
+	<string name="answer329_1">do najbliższego wyjazdu lub miejsca obsługi podróżnych </string>
+	<string name="answer329_2">tylko pojazdem przeznaczonym do tego celu </string>
+	<string name="answer329_3">dowolnym pojazdem </string>
+
+	<string name="question330">Holowany samochód osobowy powinien:</string>
+	<string name="answer330_1">być z tyłu po lewej stronie oznaczony ostrzegawczym trójkątem odblaskowym, jeżeli nie wysyła żółtych sygnałów błyskowych </string>
+	<string name="answer330_2">mieć włączone światła mijania </string>
+	<string name="answer330_3">mieć włączone światła pozycyjne w okresie niedostatecznej widoczności </string>
+
+	<string name="question331">Nie wolno holować:</string>
+	<string name="answer331_1">dwóch samochodów osobowych </string>
+	<string name="answer331_2">pojazdu o niesprawnych hamulcach, chyba że sposób holowania wyklucza potrzebę ich użycia </string>
+	<string name="answer331_3">pojazdu o niesprawnym układzie kierowniczym, chyba że sposób holowania wyklucza potrzebę jego użycia </string>
+
+	<string name="question332">Postój uszkodzonego pojazdu silnikowego należy sygnalizować:</string>
+	<string name="answer332_1">na autostradach lub drogach ekspresowych - tylko w razie postoju na jezdni </string>
+	<string name="answer332_2">na autostradach - w każdym przypadku </string>
+	<string name="answer332_3">na drogach ekspresowych - w każdym przypadku </string>
+
+	<string name="question333">Postój na drodze twardej (nie będącej autostradą lub drogą ekspresową) pojazdu silnikowego, który uległ wypadkowi należy sygnalizować:</string>
+	<string name="answer333_1">na obszarze zabudowanym - w razie pozostawienia pojazdu na poboczu </string>
+	<string name="answer333_2">poza obszarem zabudowanym - w razie pozostawienia pojazdu na poboczu w miejscu, w którym nie jest on widoczny z dostatecznej odległości </string>
+	<string name="answer333_3">na obszarze zabudowanym - w razie pozostawienia pojazdu na jezdni w miejscu, w którym zatrzymanie jest zabronione </string>
+
+	<string name="question334">Postój na drodze oznaczonej tym znakiem pojazdu silnikowego, który uległ wypadkowi można sygnalizować przez włączenie świateł:</string>
+	<string name="answer334_1">awaryjnych i umieszczenie ostrzegawczego trójkąta odblaskowego w odległości 100 m za pojazdem </string>
+	<string name="answer334_2">awaryjnych, bez umieszczania na drodze ostrzegawczego trójkąta odblaskowego </string>
+	<string name="answer334_3">awaryjnych i umieszczenie ostrzegawczego trójkąta odblaskowego tuż za pojazdem </string>
+
+	<string name="question335">W tej sytuacji postój uszkodzonego samochodu osobowego można sygnalizować przez:</string>
+	<string name="answer335_1">włączenie świateł awaryjnych i umieszczenie w odległości 30-50 m za pojazdem ostrzegawczego trójkąta odblaskowego </string>
+	<string name="answer335_2">włączenie świateł awaryjnych, bez umieszczania za pojazdem ostrzegawczego trójkąta odblaskowego </string>
+	<string name="answer335_3">umieszczenie w odległości 30-50 m za pojazdem ostrzegawczego trójkąta odblaskowego, bez włączania świateł awaryjnych lub pozycyjnych </string>
+
+	<string name="question336">W tej sytuacji prędkość pojazdu holującego nie powinna przekraczać:</string>
+	<string name="answer336_1">po skręceniu w lewo - 30 km/h </string>
+	<string name="answer336_2">po skręceniu w prawo - 60 km/h </string>
+	<string name="answer336_3">po skręceniu w lewo - 60 km/h </string>
+
+	<string name="question337">W razie uczestniczenia w wypadku drogowym, w którym są ofiary, kierujący pojazdem powinien:</string>
+	<string name="answer337_1">natychmiast przenieść ofiary wypadku poza drogę, </string>
+	<string name="answer337_2">wezwać zespół ratownictwa medycznego, </string>
+	<string name="answer337_3">wezwać Policję. </string>
+
+	<string name="question338">W tej sytuacji kierujący pojazdem 1 widząc nadjeżdżający na skrzyżowanie z dużą prędkością pojazd 2:</string>
+	<string name="answer338_1">nie może liczyć, że kierujący pojazdem 2 przestrzega przepisów ruchu drogowego, </string>
+	<string name="answer338_2">powinien podjąć czynności mające na celu zapobieżenie ewentualnej kolizji, </string>
+	<string name="answer338_3">kontynuuje jazdę nie podejmując żadnych czynności, gdyż ma pierwszeństwo przejazdu. </string>
+
+	<string name="question339">Samochód osobowy to:</string>
+	<string name="answer339_1">pojazd samochodowy przeznaczony konstrukcyjnie do przewozu nie więcej niż 9 osób łącznie z kierowcą, </string>
+	<string name="answer339_2">pojazd samochodowy przeznaczony konstrukcyjnie do przewozu więcej niż 9 osób łącznie z kierowcą, </string>
+	<string name="answer339_3">pojazd samochodowy jednośladowy. </string>
+
+	<string name="question340">Kolejka turystyczna to zespół pojazdów składający się z:</string>
+	<string name="answer340_1">autobusu oraz przyczepy (przyczep) dostosowanej do przewozu osób, </string>
+	<string name="answer340_2">ciągnika rolniczego, którego konstrukcja ogranicza prędkość do 25 km/h oraz przyczepy (przyczep) dostosowanej do przewozu osób, </string>
+	<string name="answer340_3">pojazdu wolnobieżnego oraz przyczepy (przyczep) dostosowanej do przewozu osób. </string>
+
+	<string name="question341">Polecenia i sygnały dawane przez osoby kierujące ruchem:</string>
+	<string name="answer341_1">mogą być sprzeczne ze znakami drogowymi, </string>
+	<string name="answer341_2">mają pierwszeństwo przed sygnałami świetlnymi, </string>
+	<string name="answer341_3">mają pierwszeństwo przed znakami zakazu. </string>
+
+	<string name="question342">Korzystanie z telefonu komórkowego podczas kierowania pojazdem jest:</string>
+	<string name="answer342_1">zabronione, jeżeli wymaga trzymania słuchawki lub mikrofonu w ręku, </string>
+	<string name="answer342_2">dozwolone bez ograniczeń, </string>
+	<string name="answer342_3">dozwolone, jeżeli nie wymaga trzymania słuchawki lub mikrofonu w ręku. </string>
+
+	<string name="question343">Międzynarodowe prawo jazdy można otrzymać:</string>
+	<string name="answer343_1">w dowolnym urzędzie gminy, </string>
+	<string name="answer343_2">w dowolnym starostwie, </string>
+	<string name="answer343_3">tylko w starostwie, które wydało krajowe prawo jazdy. </string>
+
+	<string name="question344">Międzynarodowe prawo jazdy:</string>
+	<string name="answer344_1">jest ważne tylko z krajowym prawem jazdy, </string>
+	<string name="answer344_2">samoistnie potwierdza posiadane uprawnienia, </string>
+	<string name="answer344_3">jest ważne na terytorium państwa, w którym je wydano. </string>
+
+	<string name="question345">Polskie krajowe prawo jazdy:</string>
+	<string name="answer345_1">może być wystawione z bezterminową datą ważności, </string>
+	<string name="answer345_2">jest wystawiane zawsze na okres tylko 10 lat, </string>
+	<string name="answer345_3">jest wydawane przez organ właściwy ze względu na miejsce zamieszkania. </string>
+
+	<string name="question346">Prawo jazdy nie może być wydane osobie:</string>
+	<string name="answer346_1">która nie osiągnęła wymaganego dla danej kategorii wieku, </string>
+	<string name="answer346_2">u której w wyniku badania lekarskiego stwierdzono aktywną formę uzależnienia od alkoholu lub środka działającego podobnie do alkoholu, </string>
+	<string name="answer346_3">która była skazana wyrokiem sądu za kradzież mienia publicznego. </string>
+
+	<string name="question347">Jednym z warunków otrzymania prawa jazdy jest przebywanie na terytorium Rzeczypospolitej Polskiej przez okres co najmniej:</string>
+	<string name="answer347_1">100 dni, </string>
+	<string name="answer347_2">185 dni, </string>
+	<string name="answer347_3">365 dni. </string>
+
+	<string name="question348">W tej sytuacji, w celu ostrzeżenia, kierujący pojazdem 1 może użyć sygnału:</string>
+	<string name="answer348_1">dźwiękowego </string>
+	<string name="answer348_2">świetlnego </string>
+	<string name="answer348_3">dźwiękowego lub świetlnego, kilka razy </string>
+
+	<string name="question349">W tej sytuacji, podczas wyprzedzania we mgle, kierujący pojazdem silnikowym 1 powinien:</string>
+	<string name="answer349_1">mieć włączone światła drogowe </string>
+	<string name="answer349_2">dawać krótkotrwałe sygnały dźwiękowe </string>
+	<string name="answer349_3">mieć włączone światła mijania lub przeciwmgłowe przednie, albo oba jednocześnie </string>
+
+	<string name="question350">W tej sytuacji, podczas omijania we mgle, kierujący pojazdem silnikowym 1:</string>
+	<string name="answer350_1">powinien dawać krótkotrwałe sygnały dźwiękowe </string>
+	<string name="answer350_2">może mieć włączone tylne światła przeciwmgłowe, gdy mgła ogranicza widoczność na odległość mniejszą niż 50 m </string>
+	<string name="answer350_3">powinien mieć włączone światła drogowe </string>
+
+	<string name="question351">W tej sytuacji, podczas dużych opadów deszczu, kierujący pojazdem 1 powinien:</string>
+	<string name="answer351_1">mieć włączone światła mijania lub przeciwmgłowe przednie, albo oba jednocześnie </string>
+	<string name="answer351_2">jechać w miarę powoli, aby nie ochlapać pieszych </string>
+	<string name="answer351_3">zachować szczególną ostrożność </string>
+
+	<string name="question352">W tej sytuacji kierujący pojazdem w czasie jazdy:</string>
+	<string name="answer352_1">może używać świateł drogowych </string>
+	<string name="answer352_2">powinien używać świateł drogowych </string>
+	<string name="answer352_3">może używać świateł mijania </string>
+
+	<string name="question353">W tej sytuacji kierujący pojazdem w czasie jazdy:</string>
+	<string name="answer353_1">może używać świateł drogowych </string>
+	<string name="answer353_2">powinien używać świateł mijania </string>
+	<string name="answer353_3">powinien używać świateł drogowych </string>
+
+	<string name="question354">Kierujący pojazdem może używać świateł drogowych:</string>
+	<string name="answer354_1">w czasie od świtu do zmierzchu </string>
+	<string name="answer354_2">w czasie od zmierzchu do świtu na nieoświetlonych drogach </string>
+	<string name="answer354_3">podczas dużej mgły </string>
+
+	<string name="question355">Na oznaczonej drodze krętej, w okresie od zmierzchu do świtu w warunkach normalnej przejrzystości powietrza, kierujący pojazdem może używać:</string>
+	<string name="answer355_1">tylnych świateł przeciwmgłowych </string>
+	<string name="answer355_2">przednich świateł przeciwmgłowych </string>
+	<string name="answer355_3">świateł mijania </string>
+
+	<string name="question356">Kierujący pojazdem może używać świateł do jazdy dziennej:</string>
+	<string name="answer356_1">w czasie od świtu do zmierzchu w warunkach normalnej przejrzystości powietrza </string>
+	<string name="answer356_2">razem ze światłami mijania </string>
+	<string name="answer356_3">w nocy </string>
+
+	<string name="question357">Kierujący pojazdem powinien zmienić światła drogowe na mijania, gdy zbliża się do pojazdu:</string>
+	<string name="answer357_1">nadjeżdżającego z przeciwka </string>
+	<string name="answer357_2">poprzedzającego, którego kierujący może być oślepiony </string>
+	<string name="answer357_3">szynowego, jeśli istnieje możliwość oślepienia kierującego nim </string>
+
+	<string name="question358">Kierujący pojazdem powinien zmienić światła drogowe na mijania, gdy:</string>
+	<string name="answer358_1">kierujący pojazdem nadjeżdżającym z przeciwka zmieni światła drogowe na mijania </string>
+	<string name="answer358_2">istnieje możliwość oślepienia kierującego pojazdem komunikacji wodnej </string>
+	<string name="answer358_3">istnieje możliwość oślepienia pieszych poruszających się w kolumnie </string>
+
+	<string name="question359">W tej sytuacji kierujący pojazdem wyprzedzającym może zmienić światła mijania na drogowe:</string>
+	<string name="answer359_1">zaraz po rozpoczęciu wyprzedzania </string>
+	<string name="answer359_2">gdy znajdzie się na wysokości pojazdu wyprzedzanego </string>
+	<string name="answer359_3">dopiero po zakończeniu wyprzedzania i zjechaniu w prawo </string>
+
+	<string name="question360">W tej sytuacji, gdy zatrzymanie trwa ponad jedną minutę, światła zewnętrzne może wyłączyć kierujący pojazdem:</string>
+	<string name="answer360_1">1 </string>
+	<string name="answer360_2">2 </string>
+	<string name="answer360_3">3 </string>
+
+	<string name="question361">Podczas postoju na jezdni w warunkach niedostatecznej widoczności, kierujący pojazdem silnikowym:</string>
+	<string name="answer361_1">może nie włączać świateł zewnętrznych pojazdu </string>
+	<string name="answer361_2">może używać świateł postojowych jedynie od strony środka jezdni </string>
+	<string name="answer361_3">powinien używać świateł pozycyjnych przednich i tylnych lub świateł postojowych </string>
+
+	<string name="question362">Podczas postoju na poboczu w warunkach niedostatecznej widoczności, kierujący zespołem pojazdów może używać świateł:</string>
+	<string name="answer362_1">postojowych jedynie od środka jezdni, jeżeli długość zespołu nie przekracza 6 m </string>
+	<string name="answer362_2">awaryjnych </string>
+	<string name="answer362_3">pozycyjnych przednich i tylnych </string>
+
+	<string name="question363">W warunkach niedostatecznej widoczności światła zewnętrzne pojazdu mogą być wyłączone podczas postoju:</string>
+	<string name="answer363_1">poza jezdnią i poboczem </string>
+	<string name="answer363_2">w miejscu oświetlonym w stopniu zapewniającym widoczność pojazdu </string>
+	<string name="answer363_3">w miejscu nieoświetlonym na poboczu </string>
+
+	<string name="question364">Pojazd może być pozostawiony w nocy bez oświetlenia:</string>
+	<string name="answer364_1">w miejscu znajdującym się poza drogą </string>
+	<string name="answer364_2">na poboczu nieoświetlonej drogi </string>
+	<string name="answer364_3">na chodniku </string>
+
+	<string name="question365">W tej sytuacji kierujący pojazdem 1:</string>
+	<string name="answer365_1">powinien ograniczyć zaufanie do kierującego pojazdem 2 </string>
+	<string name="answer365_2">może użyć sygnału świetlnego </string>
+	<string name="answer365_3">może użyć sygnału dźwiękowego </string>
+
+	<string name="question366">Kierujący samochodem osobowym jest obowiązany, podczas jazdy w czasie od świtu do zmierzchu, w warunkach normalnej przejrzystości powietrza, używać świateł mijania lub świateł do jazdy dziennej,:</string>
+	<string name="answer366_1">przez cały rok, </string>
+	<string name="answer366_2">wyłącznie poza obszarem zabudowanym, </string>
+	<string name="answer366_3">w tunelu </string>
+
+	<string name="question367">Obowiązek używania świateł mijania lub świateł do jazdy dziennej, podczas jazdy w czasie od świtu do zmierzchu, w warunkach normalnej przejrzystości powietrza dotyczy kierującego:</string>
+	<string name="answer367_1">ciągnikiem rolniczym, </string>
+	<string name="answer367_2">samochodem osobowym, </string>
+	<string name="answer367_3">samochodem ciężarowym o dopuszczalnej masie całkowitej do 3,5 t </string>
+
+	<string name="question368">Pozycja boczna ustalona jest dla pacjenta bezpieczna, ponieważ:</string>
+	<string name="answer368_1">jest stabilna </string>
+	<string name="answer368_2">zabezpiecza przed zachłyśnięciem </string>
+	<string name="answer368_3">zapewnia drożność dróg oddechowych </string>
+
+	<string name="question369">U dzieci prowadzenie masażu serca i sztucznego oddychania rozpoczynamy od:</string>
+	<string name="answer369_1">30 uciśnięć klatki piersiowej </string>
+	<string name="answer369_2">2 oddechów ratowniczych </string>
+	<string name="answer369_3">5 oddechów ratowniczych </string>
+
+	<string name="question370">W jaki sposób zabezpieczysz miejsce wypadku samochodowego?</string>
+	<string name="answer370_1">ustawię trójkąty ostrzegawcze </string>
+	<string name="answer370_2">bezpiecznie zaparkuje własny samochód </string>
+	<string name="answer370_3">wyłączę stacyjkę samochodu, który miał wypadek </string>
+
+	<string name="question371">W jaki sposób sprawdzisz przytomność u poszkodowanego (dorosłego)?</string>
+	<string name="answer371_1">chwycę poszkodowanego za barki i lekko potrząsając zapytam np. Co się stało? </string>
+	<string name="answer371_2">poklepię go po twarzy </string>
+	<string name="answer371_3">poleję wodą </string>
+
+	<string name="question372">Na skutek nagłego zatrzymania krążenia dochodzi do nieodwracalnych zmian w centralnym układzie nerwowym po:</string>
+	<string name="answer372_1">10 min </string>
+	<string name="answer372_2">3 min </string>
+	<string name="answer372_3">4,5 min </string>
+
+	<string name="question373">W przypadku uczestniczenia w wypadku drogowym, w którym są poszkodowani, kierujący pojazdem powinien:</string>
+	<string name="answer373_1">udzielić pierwszej pomocy przedmedycznej </string>
+	<string name="answer373_2">podjąć działania zapewniające bezpieczeństwo ruchu w miejscu wypadku </string>
+	<string name="answer373_3">niezwłocznie usunąć pojazd z miejsca wypadku </string>
+
+	<string name="question374">Prawidłową metodą postępowania w przypadku krwawienia z rany podudzia jest:</string>
+	<string name="answer374_1">ucisk miejsca krwawienia </string>
+	<string name="answer374_2">uniesienie krwawiącej kończyny </string>
+	<string name="answer374_3">unieruchomienie krwawiącej kończyny </string>
+
+	<string name="question375">Bezpośrednio na ranę należy położyć:</string>
+	<string name="answer375_1">watę </string>
+	<string name="answer375_2">ligninę </string>
+	<string name="answer375_3">jałową gazę </string>
+
+	<string name="question376">Co należy zrobić w przypadku wystąpienia u ofiary wypadku krwotoku z przedramienia?</string>
+	<string name="answer376_1">założyć jałowy opatrunek na ranę </string>
+	<string name="answer376_2">ucisnąć miejsce krwawienia palcem lub dłonią podnosząc kończynę do góry </string>
+	<string name="answer376_3">przekrwione opatrunki zdejmujemy i zastępujemy nowymi, czystymi </string>
+
+	<string name="question377">Opatrunek uciskowy stosujemy przy:</string>
+	<string name="answer377_1">wycieku krwistej wydzieliny z ucha </string>
+	<string name="answer377_2">krwotoku </string>
+	<string name="answer377_3">zmiażdżenia kończyny </string>
+
+	<string name="question378">Pierwsza pomoc przy oparzeniu skóry polega na:</string>
+	<string name="answer378_1">schłodzeniu miejsca oparzenia zimną wodą </string>
+	<string name="answer378_2">przemyciu rany spirytusem </string>
+	<string name="answer378_3">posmarowaniu rany tłustym kremem </string>
+
+	<string name="question379">W jaki sposób sprawdzisz, czy poszkodowany oddycha?</string>
+	<string name="answer379_1">pochylając głowę nad twarzą poszkodowanego, usłyszę ruch wdychanego i wydychanego powietrza </string>
+	<string name="answer379_2">wyczuję na swoim policzku ruch powietrza wydychanego </string>
+	<string name="answer379_3">zaobserwuję ruchy klatki piersiowej </string>
+
+	<string name="question380">U dziecka w wieku przedszkolnym masaż serca prowadzi się:</string>
+	<string name="answer380_1">na środku klatki piersiowej - jednym palcem </string>
+	<string name="answer380_2">na środku klatki piersiowej - dwoma palcami </string>
+	<string name="answer380_3">na środku klatki piersiowej - jedną ręką </string>
+
+	<string name="question381">Stosunek uciśnięć mostka do ilości sztucznych oddechów u poszkodowanych wynosi:</string>
+	<string name="answer381_1">30:2 </string>
+	<string name="answer381_2">2:30 </string>
+	<string name="answer381_3">1:5 </string>
+
+	<string name="question382">Masaż serca u niemowlęcia prowadzi się:</string>
+	<string name="answer382_1">jedną ręką </string>
+	<string name="answer382_2">dwoma palcami </string>
+	<string name="answer382_3">dwoma rękoma </string>
+
+	<string name="question383">Na miejscu wypadku samochodowego znajdujesz odcięty lub urwany palec jednej z ofiar wypadku. W jaki sposób zabezpieczysz tę część ciała?</string>
+	<string name="answer383_1">palec umieszczę w sterylnej gazie, suchym worku foliowym, a ten w wodzie z lodem </string>
+	<string name="answer383_2">zamrożę </string>
+	<string name="answer383_3">pozostawię bez zabezpieczenia na miejscu wypadku </string>
+
+	<string name="question384">W jaki sposób rozpoznasz złamanie żeber u przytomnej ofiary wypadku?</string>
+	<string name="answer384_1">ofiara skarży się na ból, który nasila się przy głębszym wdechu lub przy poruszaniu się </string>
+	<string name="answer384_2">może towarzyszyć zsinienie skóry tuż nad złamanym żebrem </string>
+	<string name="answer384_3">ofiara wyraźnie kuleje na prawą nogę </string>
+
+	<string name="question385">Obowiązek udzielania pierwszej pomocy ofiarom wypadku ma:</string>
+	<string name="answer385_1">każdy, gdyż nawet w przypadku obecności zagrożeń można wykonać część działań ratunkowych </string>
+	<string name="answer385_2">wyłącznie sprawca wypadku, gdyż za ewentualne popełnione błędy zawsze grozi odpowiedzialność karna </string>
+	<string name="answer385_3">wyłącznie lekarz pogotowia, gdyż udzielać pomocy mogą jedynie osoby z wykształceniem medycznym </string>
+
+	<string name="question386">Jeżeli ofiara wypadku, po odzyskaniu przytomności, chce iść do domu, to należy:</string>
+	<string name="answer386_1">namawiać ją do pozostania, bacznie obserwować i wezwać pomoc medyczną </string>
+	<string name="answer386_2">podać jej coś do picia i środki przeciwbólowe </string>
+	<string name="answer386_3">pozwolić jej odejść do domu, zalecając wizytę u lekarza </string>
+
+	<string name="question387">Przy podejrzeniu złamania kończyny należy unieruchomić:</string>
+	<string name="answer387_1">wyłącznie najbliższy złamaniu staw </string>
+	<string name="answer387_2">jedynie samo miejsce złamania </string>
+	<string name="answer387_3">miejsce złamania i najbliższe stawy </string>
+
+	<string name="question388">W przypadku podejrzenia urazu kręgosłupa szyjnego należy:</string>
+	<string name="answer388_1">odgiąć głowę ku tyłowi, by usprawnić oddychanie </string>
+	<string name="answer388_2">przenieść ofiarę wypadku w bezpieczne miejsce i wygodnie ułożyć </string>
+	<string name="answer388_3">rozpocząć czynności reanimacyjne, jeżeli ofiara wypadku nie ma wyczuwalnego tętna i nie oddycha </string>
+
+	<string name="question389">Pierwsza pomoc w przypadku zapalenia się odzieży na ofierze wypadku to:</string>
+	<string name="answer389_1">gaszenie płonącej odzieży </string>
+	<string name="answer389_2">w przypadku wystąpienia oparzenia, polewanie miejsca oparzenia zimną wodą </string>
+	<string name="answer389_3">w przypadku wystąpienia oparzenia, unikanie ochłodzenia oparzonej skóry </string>
+
+	<string name="question390">Jak długo będziesz prowadził masaż serca i sztuczne oddychanie?</string>
+	<string name="answer390_1">do momentu przyjazdu pojazdu zespołu ratownictwa medycznego, jeżeli ofiara wypadku nie zaczęła oddychać i nie wróciło u niej krążenie </string>
+	<string name="answer390_2">przez 5 minut, </string>
+	<string name="answer390_3">gdy stwierdzę, że ofiara wypadku zaczęła oddychać i powróciło u niej krążenie </string>
+
+	<string name="question391">Za tym znakiem:</string>
+	<string name="answer391_1">dopuszczalna prędkość samochodu osobowego wynosi 20 km/h </string>
+	<string name="answer391_2">zabrania się postoju w innym miejscu niż wyznaczone w tym celu </string>
+	<string name="answer391_3">pieszy może korzystać z całej szerokości drogi </string>
+
+	<string name="question392">W tej sytuacji dopuszczalna prędkość samochodu ciężarowego o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t wynosi:</string>
+	<string name="answer392_1">60 km/h </string>
+	<string name="answer392_2">70 km/h </string>
+	<string name="answer392_3">90 km/h </string>
+
+	<string name="question393">W tej sytuacji dopuszczalna prędkość samochodu ciężarowego o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t wynosi:</string>
+	<string name="answer393_1">60 km/h </string>
+	<string name="answer393_2">90 km/h </string>
+	<string name="answer393_3">100 km/h </string>
+
+	<string name="question394">W tej sytuacji dopuszczalna prędkość samochodu osobowego z przyczepą wynosi:</string>
+	<string name="answer394_1">60 km/h </string>
+	<string name="answer394_2">70 km/h </string>
+	<string name="answer394_3">90 km/h </string>
+
+	<string name="question395">W tej sytuacji dopuszczalna prędkość samochodu osobowego z przyczepą wynosi:</string>
+	<string name="answer395_1">80 km/h </string>
+	<string name="answer395_2">70 km/h </string>
+	<string name="answer395_3">90 km/h </string>
+
+	<string name="question396">W tej sytuacji dopuszczalna prędkość samochodu osobowego z przyczepą wynosi:</string>
+	<string name="answer396_1">70 km/h </string>
+	<string name="answer396_2">80 km/h </string>
+	<string name="answer396_3">90 km/h </string>
+
+	<string name="question397">W tej sytuacji dopuszczalna prędkość samochodu osobowego z przyczepą wynosi:</string>
+	<string name="answer397_1">90 km/h </string>
+	<string name="answer397_2">80 km/h </string>
+	<string name="answer397_3">100 km/h </string>
+
+	<string name="question398">W tej sytuacji dopuszczalna prędkość samochodu osobowego z przyczepą wynosi:</string>
+	<string name="answer398_1">130 km/h </string>
+	<string name="answer398_2">90 km/h </string>
+	<string name="answer398_3">80 km/h </string>
+
+	<string name="question399">Kierujący samochodem osobowym powinien dostosować prędkość jazdy do:</string>
+	<string name="answer399_1">stanu i widoczności drogi </string>
+	<string name="answer399_2">warunków atmosferycznych </string>
+	<string name="answer399_3">natężenia ruchu pieszych i pojazdów </string>
+
+	<string name="question400">Kierujący samochodem osobowym powinien zachować w czasie jazdy odstęp od poprzedzającego pojazdu:</string>
+	<string name="answer400_1">dostosowany do prędkości jazdy </string>
+	<string name="answer400_2">zawsze od 5 do 10 m </string>
+	<string name="answer400_3">niezbędny do uniknięcia zderzenia w razie hamowania tego pojazdu </string>
+
+	<string name="question401">Kierujący pojazdem, hamując:</string>
+	<string name="answer401_1">nie powinien powodować zagrożenia bezpieczeństwa ruchu </string>
+	<string name="answer401_2">może nie zwracać uwagi na zachowanie właściwego odstępu od poprzedzającego pojazdu </string>
+	<string name="answer401_3">nie powinien powodować utrudnienia ruchu </string>
+
+	<string name="question402">Który znak zabrania przekraczania prędkości 50 km/h?</string>
+	<string name="answer402_1">A </string>
+	<string name="answer402_2">B </string>
+	<string name="answer402_3">C </string>
+
+	<string name="question403">Przy tym zestawie znaków zakaz wyrażony znakiem zakazu obowiązuje:</string>
+	<string name="answer403_1">na obszarze całej miejscowości, z wyjątkiem odcinka drogi, na którym został on zmieniony lub odwołany innym znakiem </string>
+	<string name="answer403_2">od miejsca jego ustawienia </string>
+	<string name="answer403_3">do najbliższego skrzyżowania </string>
+
+	<string name="question404">Znak ten:</string>
+	<string name="answer404_1">zabrania przekraczania prędkości 50 km/h </string>
+	<string name="answer404_2">obowiązuje wyłącznie do najbliższego skrzyżowania </string>
+	<string name="answer404_3">oznacza wjazd do strefy, w której obowiązuje ograniczenie prędkości </string>
+
+	<string name="question405">W tej sytuacji dopuszczalna prędkość samochodu osobowego wynosi:</string>
+	<string name="answer405_1">po skręceniu w lewo - 90 km/h </string>
+	<string name="answer405_2">po skręceniu w prawo - 60 km/h, w godzinach 23.00-05.00 </string>
+	<string name="answer405_3">po skręceniu w prawo - 50 km/h, w godzinach 5.00-23.00 </string>
+
+	<string name="question406">W tej sytuacji dopuszczalna prędkość samochodu ciężarowego o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t wynosi:</string>
+	<string name="answer406_1">50 km/h, w godzinach 5.00-23.00 </string>
+	<string name="answer406_2">60 km/h, przez całą dobę </string>
+	<string name="answer406_3">90 km/h </string>
+
+	<string name="question407">W tej sytuacji dopuszczalna prędkość samochodu osobowego wynosi:</string>
+	<string name="answer407_1">100 km/h, </string>
+	<string name="answer407_2">110 km/h, </string>
+	<string name="answer407_3">120 km/h. </string>
+
+	<string name="question408">W tej sytuacji dopuszczalna prędkość samochodu osobowego wynosi:</string>
+	<string name="answer408_1">110 km/h, </string>
+	<string name="answer408_2">100 km/h, </string>
+	<string name="answer408_3">130 km/h. </string>
+
+	<string name="question409">W tej sytuacji dopuszczalna prędkość samochodu osobowego:</string>
+	<string name="answer409_1">wynosi 130 km/h, </string>
+	<string name="answer409_2">wynosi 140 km/h, </string>
+	<string name="answer409_3">nie jest określona przepisami. </string>
+
+	<string name="question410">W tej sytuacji dopuszczalna prędkość samochodu osobowego wynosi:</string>
+	<string name="answer410_1">130 km/h, </string>
+	<string name="answer410_2">120 km/h, </string>
+	<string name="answer410_3">110 km/h, </string>
+
+	<string name="question411">Widząc ten znak kierujący pojazdem:</string>
+	<string name="answer411_1">może spodziewać się oszronienia jezdni </string>
+	<string name="answer411_2">powinien spodziewać się lokalnie występujących opadów śniegu </string>
+	<string name="answer411_3">powinien być przygotowany do zmiany przyczepności kół do jezdni </string>
+
+	<string name="question412">Widząc ten znak kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer412_1">poprzecznej nierówności jezdni, </string>
+	<string name="answer412_2">wypukłości na jezdni, zastosowanej w celu spowolnienia ruchu pojazdów, </string>
+	<string name="answer412_3">znacznym wzniesieniu drogi. </string>
+
+	<string name="question413">Widząc ten znak kierujący pojazdem:</string>
+	<string name="answer413_1">powinien spodziewać się lotniska </string>
+	<string name="answer413_2">może spodziewać się silnych bocznych podmuchów wiatru </string>
+	<string name="answer413_3">powinien spodziewać się podmuchów wiatru tylko z lewej strony </string>
+
+	<string name="question414">Widząc ten znak kierujący pojazdem jest ostrzegany o:</string>
+	<string name="answer414_1">odcinku drogi pokrytej żwirem lub grysem </string>
+	<string name="answer414_2">miękkim poboczu </string>
+	<string name="answer414_3">możliwości uszkodzenia odłamkami żwiru lub grysu innych pojazdów, jeżeli jedzie zbyt szybko </string>
+
+	<string name="question415">Który znak zabrania samochodom osobowym wjazdu na drogę, przed którą jest umieszczony?</string>
+	<string name="answer415_1">A </string>
+	<string name="answer415_2">B </string>
+	<string name="answer415_3">C </string>
+
+	<string name="question416">Znak ten zabrania wjazdu:</string>
+	<string name="answer416_1">samochodom osobowym </string>
+	<string name="answer416_2">motocyklom jednośladowym </string>
+	<string name="answer416_3">ciągnikom rolniczym </string>
+
+	<string name="question417">Znak ten dotyczy kierujących:</string>
+	<string name="answer417_1">samochodami osobowymi </string>
+	<string name="answer417_2">ciągnikami rolniczymi </string>
+	<string name="answer417_3">pojazdami wolnobieżnymi </string>
+
+	<string name="question418">Który znak zobowiązuje kierującego do zatrzymania pojazdu?</string>
+	<string name="answer418_1">A </string>
+	<string name="answer418_2">B </string>
+	<string name="answer418_3">C </string>
+
+	<string name="question419">Za tymi znakami drogowymi:</string>
+	<string name="answer419_1">zabrania się zatrzymania pojazdu w innych miejscach niż wyznaczone w tym celu </string>
+	<string name="answer419_2">dopuszczalna prędkość samochodu osobowego wynosi 100 km/h </string>
+	<string name="answer419_3">rozpoczyna się autostrada </string>
+
+	<string name="question420">Za tym znakiem, kierujący pojazdem powinien jechać z prędkością:</string>
+	<string name="answer420_1">nieprzekraczającą 30 km/h </string>
+	<string name="answer420_2">nie mniejszą niż 30 km/h, chyba że warunki ruchu lub jego bezpieczeństwo wymagają zmniejszenia prędkości </string>
+	<string name="answer420_3">powinien jechać z prędkością większą niż 30 km/h bez względu na warunki ruchu </string>
+
+	<string name="question421">Który znak nie dotyczy kierującego samochodem osobowym?</string>
+	<string name="answer421_1">A </string>
+	<string name="answer421_2">B </string>
+	<string name="answer421_3">C </string>
+
+	<string name="question422">W tej sytuacji korzystanie z prawego pasa ruchu jest:</string>
+	<string name="answer422_1">dozwolone wszelkim kierującym pojazdami </string>
+	<string name="answer422_2">dozwolone kierującym pojazdami wykonującymi odpłatny przewóz osób na regularnych liniach </string>
+	<string name="answer422_3">zabronione tylko kierującym autobusami </string>
+
+	<string name="question423">Widząc ten znak kierujący pojazdem:</string>
+	<string name="answer423_1">jest informowany o zbliżaniu się do wzniesienia </string>
+	<string name="answer423_2">może jechać prawym pasem ruchu z prędkością większą niż 40 km/h </string>
+	<string name="answer423_3">powinien jechać prawym pasem ruchu na całej jego długości, jeżeli nie osiąga prędkości 40 km/h </string>
+
+	<string name="question424">W miejscu oznaczonym tym znakiem dopuszcza się parkowanie w całości na chodniku:</string>
+	<string name="answer424_1">samochodów osobowych </string>
+	<string name="answer424_2">samochodów ciężarowo-osobowych o dopuszczalnej masie całkowitej nieprzekraczającej 2,5 t </string>
+	<string name="answer424_3">zespołów pojazdów </string>
+
+	<string name="question425">W miejscu oznaczonym tym znakiem możliwe jest parkowanie na chodniku samochodów osobowych:</string>
+	<string name="answer425_1">równolegle do krawędzi jezdni </string>
+	<string name="answer425_2">bezpośrednio przy krawędzi jezdni </string>
+	<string name="answer425_3">w dowolnym miejscu, tak aby pozostawić co najmniej 1,5 m jego szerokości dla pieszych </string>
+
+	<string name="question426">W miejscu oznaczonym tym znakiem można zaparkować pojazd:</string>
+	<string name="answer426_1">czterema kołami na chodniku prostopadle do krawężnika </string>
+	<string name="answer426_2">czterema kołami na jezdni prostopadle do krawężnika </string>
+	<string name="answer426_3">tylko bezpośrednio przy krawędzi jezdni </string>
+
+	<string name="question427">W miejscu oznaczonym tym znakiem można zaparkować pojazd czterema kołami na:</string>
+	<string name="answer427_1">jezdni, równolegle do krawężnika </string>
+	<string name="answer427_2">chodniku, prostopadle do krawężnika </string>
+	<string name="answer427_3">jezdni, prostopadle do krawężnika </string>
+
+	<string name="question428">W miejscu oznaczonym tym znakiem mogą parkować pojazdy:</string>
+	<string name="answer428_1">kierowane przez osoby niepełnosprawne o obniżonej sprawności ruchowej, </string>
+	<string name="answer428_2">przewożące osoby niepełnosprawne o obniżonej sprawności ruchowej, </string>
+	<string name="answer428_3">przewożące ładunki, w celu ich rozładowania. </string>
+
+	<string name="question429">Postój pojazdu za tym znakiem jest:</string>
+	<string name="answer429_1">dozwolony, pod warunkiem uiszczenia opłaty </string>
+	<string name="answer429_2">dozwolony bez konieczności uiszczenia opłaty, jeżeli nie trwa dłużej niż 3 minuty </string>
+	<string name="answer429_3">zabroniony na czas dłuższy niż 1 godzina, bez względu na wysokość uiszczonej opłaty </string>
+
+	<string name="question430">Widząc ten znak kierujący pojazdem o rzeczywistej masie całkowitej powyżej 2 t nie może jechać dalej niż:</string>
+	<string name="answer430_1">600 metrów za najbliższym skrzyżowaniem </string>
+	<string name="answer430_2">do miejsca ustawienia tego znaku </string>
+	<string name="answer430_3">600 metrów tą drogą </string>
+
+	<string name="question431">W tej sytuacji kierujący pojazdem może:</string>
+	<string name="answer431_1">skręcić na parking, </string>
+	<string name="answer431_2">zawrócić na skrzyżowaniu, </string>
+	<string name="answer431_3">zawrócić przed skrzyżowaniem. </string>
+
+	<string name="question432">W tej sytuacji kierujący pojazdem może:</string>
+	<string name="answer432_1">zawrócić za skrzyżowaniem, </string>
+	<string name="answer432_2">skręcić w lewo przed skrzyżowaniem, </string>
+	<string name="answer432_3">skręcić w lewo na skrzyżowaniu. </string>
+
+	<string name="question433">Kierujący samochodem osobowym powinien mieć przy sobie:</string>
+	<string name="answer433_1">dokument stwierdzający dopuszczenie pojazdu do ruchu </string>
+	<string name="answer433_2">prawo jazdy </string>
+	<string name="answer433_3">dokument stwierdzający zawarcie umowy ubezpieczenia OC posiadacza pojazdu lub opłacenie składki ubezpieczenia OC </string>
+
+	<string name="question434">Obowiązek korzystania z pasów bezpieczeństwa podczas jazdy samochodem osobowym wyposażonym w takie pasy dotyczy (z wyjątkiem osób zwolnionych przepisami z ich użycia):</string>
+	<string name="answer434_1">tylko kierującego pojazdem </string>
+	<string name="answer434_2">wszystkich przewożonych osób </string>
+	<string name="answer434_3">tylko osób na przednich siedzeniach </string>
+
+	<string name="question435">Kierującemu samochodem osobowym nie wolno:</string>
+	<string name="answer435_1">przewozić na przednim siedzeniu dziecka w wieku do 12 lat (bez specjalnego fotelika) </string>
+	<string name="answer435_2">rozpocząć jazdy, jeżeli nie wszystkie przewożone osoby zapięły pasy bezpieczeństwa - chyba, że są zwolnione z ich użycia </string>
+	<string name="answer435_3">przewozić na przednim siedzeniu dziecka siedzącego w foteliku ochronnym tyłem do kierunku jazdy, jeżeli pojazd jest wyposażony w poduszkę powietrzną dla pasażera </string>
+
+	<string name="question436">Kierującemu samochodem osobowym nie wolno:</string>
+	<string name="answer436_1">otwierać drzwi pojazdu bez upewnienia się, że nie spowoduje to zagrożenia bezpieczeństwa ruchu </string>
+	<string name="answer436_2">wysiadać z pojazdu, bez upewnienia się, że nie spowoduje to zagrożenia bezpieczeństwa ruchu </string>
+	<string name="answer436_3">kierować pojazdem w stanie po spożyciu alkoholu lub środka podobnie działającego do alkoholu </string>
+
+	<string name="question437">Kierującemu samochodem osobowym nie wolno:</string>
+	<string name="answer437_1">holować pojazdu kierowanego przez osobę w stanie po spożyciu alkoholu </string>
+	<string name="answer437_2">wjeżdżać na pas dzielący jezdnię </string>
+	<string name="answer437_3">zaśmiecać lub zanieczyszczać drogę </string>
+
+	<string name="question438">Opuszczając pojazd, kierujący:</string>
+	<string name="answer438_1">powinien upewnić się, czy nie utrudni ruchu innym pojazdom, </string>
+	<string name="answer438_2">w każdym przypadku, może pozostawić drzwi otwarte, </string>
+	<string name="answer438_3">może zalecić pasażerom wyjście tylko od strony chodnika. </string>
+
+	<string name="question439">Pojazd może zostać usunięty z drogi, gdy:</string>
+	<string name="answer439_1">jest pozostawiony bez tablic rejestracyjnych </string>
+	<string name="answer439_2">jego stan wskazuje, że nie jest używany </string>
+	<string name="answer439_3">jego stan techniczny zagraża bezpieczeństwu ruchu drogowego i nie ma możliwości zabezpieczenia go w inny sposób </string>
+
+	<string name="question440">Pozostawiając samochód osobowy na drodze należy:</string>
+	<string name="answer440_1">zabezpieczyć go przed możliwością uruchomienia przez osobę niepowołaną </string>
+	<string name="answer440_2">zachować środki ostrożności niezbędne do uniknięcia wypadku </string>
+	<string name="answer440_3">zostawić wewnątrz pojazdu jego dowód rejestracyjny </string>
+
+	<string name="question441">Pojazd może być unieruchomiony przez zastosowanie urządzenia do blokowania kół, jeżeli pozostawiono go w miejscu, gdzie jest to zabronione i:</string>
+	<string name="answer441_1">utrudnia ruch </string>
+	<string name="answer441_2">zagraża bezpieczeństwu ruchu </string>
+	<string name="answer441_3">nie utrudnia ruchu oraz nie zagraża jego bezpieczeństwu </string>
+
+	<string name="question442">Widząc zbliżający się pojazd uprzywilejowany, kierujący pojazdem powinien:</string>
+	<string name="answer442_1">ułatwić mu przejazd, </string>
+	<string name="answer442_2">zatrzymać się - w każdej sytuacji, </string>
+	<string name="answer442_3">zjechać na chodnik lub pobocze - w każdej sytuacji. </string>
+
+	<string name="question443">Kierować samochodem osobowym należy w sposób uwzględniający:</string>
+	<string name="answer443_1">rzeczywiste lub możliwe do przewidzenia zagrożenia </string>
+	<string name="answer443_2">niedoświadczenie innych uczestników ruchu np. dzieci lub osób niepełnosprawnych </string>
+	<string name="answer443_3">zasady kulturalnego zachowania się na drodze </string>
+
+	<string name="question444">Nie można kierować samochodem osobowym który:</string>
+	<string name="answer444_1">ma zakryte światła </string>
+	<string name="answer444_2">nie posiada tablic rejestracyjnych </string>
+	<string name="answer444_3">ma zakryte lub częściowo niewidoczne tablice rejestracyjne </string>
+
+	<string name="question445">Kierujący pojazdem wysyłającym żółte sygnały błyskowe może nie stosować się do przepisów o:</string>
+	<string name="answer445_1">pierwszeństwie przejazdu </string>
+	<string name="answer445_2">obowiązku jazdy przy prawej krawędzi jezdni </string>
+	<string name="answer445_3">zatrzymaniu i postoju </string>
+
+	<string name="question446">Kierujący samochodem osobowym nie powinien:</string>
+	<string name="answer446_1">pozostawiać pojazdu na parkingu z kluczykami w stacyjce </string>
+	<string name="answer446_2">oddalać się od pojazdu, gdy silnik jest w ruchu </string>
+	<string name="answer446_3">używać łańcuchów przeciwślizgowych na oponach, jeżeli droga nie jest pokryta śniegiem </string>
+
+	<string name="question447">Kierującemu nie wolno używać pojazdu:</string>
+	<string name="answer447_1">do ciągnięcia za nim osób np. na sankach lub nartach </string>
+	<string name="answer447_2">powodującego nadmierną emisję spalin do środowiska </string>
+	<string name="answer447_3">powodującego nadmierny hałas </string>
+
+	<string name="question448">Kierujący samochodem osobowym może przewozić osoby w liczbie:</string>
+	<string name="answer448_1">nieprzekraczającej liczby miejsc określonych w dowodzie rejestracyjnym </string>
+	<string name="answer448_2">większej o jeden od liczby miejsc określonych w dowodzie rejestracyjnym </string>
+	<string name="answer448_3">niezależnej od liczby miejsc określonych w dowodzie rejestracyjnym </string>
+
+	<string name="question449">Rzeczywista masa całkowita przyczepy ciągniętej przez samochód osobowy:</string>
+	<string name="answer449_1">powinna być mniejsza co najmniej o 40% od rzeczywistej masy całkowitej tego samochodu </string>
+	<string name="answer449_2">może przekraczać rzeczywistą masę całkowitą tego samochodu, jednak nie więcej niż o 40% </string>
+	<string name="answer449_3">nie może przekraczać rzeczywistej masy całkowitej tego samochodu </string>
+
+	<string name="question450">Przewożony ładunek powinien być umieszczony w taki sposób, aby:</string>
+	<string name="answer450_1">nie naruszał stateczności pojazdu </string>
+	<string name="answer450_2">nie utrudniał kierowania pojazdem </string>
+	<string name="answer450_3">nie ograniczał widoczności drogi </string>
+
+	<string name="question451">Pojazd może być usunięty z drogi na koszt właściciela, jeżeli nie ma możliwości zabezpieczenia go w inny sposób, gdy kierujący nim:</string>
+	<string name="answer451_1">znajduje się w stanie nietrzeźwości </string>
+	<string name="answer451_2">nie posiada przy sobie dokumentów uprawniających do kierowania nim </string>
+	<string name="answer451_3">nie posiada przy sobie dokumentów uprawniających do użytkowania go </string>
+
+	<string name="question452">W tej sytuacji samochód osobowy zostanie usunięty z drogi na koszt właściciela, ponieważ:</string>
+	<string name="answer452_1">utrudnia ruch, </string>
+	<string name="answer452_2">zagraża bezpieczeństwu ruchu, </string>
+	<string name="answer452_3">jest pozostawiony w miejscu, gdzie jest to zabronione. </string>
+
+	<string name="question453">Prawo jazdy kategorii B:</string>
+	<string name="answer453_1">uprawnia do ciągnięcia przyczepy lekkiej, nawet w przypadku, gdy dopuszczalna masa całkowita zestawu przekracza 3,5 t, </string>
+	<string name="answer453_2">nie uprawnia do ciągnięcia przyczepy, </string>
+	<string name="answer453_3">uprawnia do ciągnięcia dowolnej przyczepy, o ile dopuszczalna masa całkowita zestawu nie przekracza 4 t. </string>
+
+	<string name="question454">Kierującemu samochodem osobowym nie wolno:</string>
+	<string name="answer454_1">umieszczać w pojeździe urządzenia wysyłającego sygnał dźwiękowy o zmiennym tonie </string>
+	<string name="answer454_2">korzystać podczas jazdy z telefonu wymagającego trzymania słuchawki lub mikrofonu w ręku </string>
+	<string name="answer454_3">wyposażać pojazdu w urządzenie informujące o działaniu sprzętu kontrolnopomiarowego używanego przez organy kontroli ruchu drogowego </string>
+
+	<string name="question455">Ciągnięcie przyczepy pojazdem samochodowym o dopuszczalnej masie całkowitej nieprzekraczającej 3,5 t jest:</string>
+	<string name="answer455_1">dozwolone, pod warunkiem uzyskania odpowiedniej adnotacji w dowodzie rejestracyjnym pojazdu ciągnącego </string>
+	<string name="answer455_2">zabronione, jeżeli przyczepa (inna niż motocyklowa) nie jest zarejestrowana </string>
+	<string name="answer455_3">dozwolone bez sprawnych świateł zewnętrznych przyczepy </string>
+
+	<string name="question456">W razie przeniesienia na inną osobę własności pojazdu zarejestrowanego, dotychczasowy właściciel powinien przekazać nowemu właścicielowi:</string>
+	<string name="answer456_1">dowód zakupu pojazdu </string>
+	<string name="answer456_2">kartę pojazdu, jeżeli była wydana </string>
+	<string name="answer456_3">dowód rejestracyjny pojazdu </string>
+
+	<string name="question457">Właściciel pojazdu zarejestrowanego powinien zawiadomić urząd rejestrujący pojazdy o:</string>
+	<string name="answer457_1">zmianie numerów nadwozia </string>
+	<string name="answer457_2">zmianie miejsca zamieszkania </string>
+	<string name="answer457_3">sprzedaży pojazdu </string>
+
+	<string name="question458">Właściciel zarejestrowanego pojazdu powinien w ciągu 30 dni zawiadomić urząd rejestrujący pojazdy o:</string>
+	<string name="answer458_1">jego nabyciu </string>
+	<string name="answer458_2">zmianie stanu faktycznego wymagającej zmiany danych zamieszczonych w dowodzie rejestracyjnym </string>
+	<string name="answer458_3">jego zbyciu </string>
+
+	<string name="question459">Wskazanie na żądanie Policji, komu powierzono pojazd do kierowania w oznaczonym czasie (chyba że pojazd został użyty z wyłączeniem woli i wiedzy przez nieznaną osobę, czemu nie można było zapobiec) jest:</string>
+	<string name="answer459_1">obowiązkiem właściciela pojazdu </string>
+	<string name="answer459_2">nieobowiązkowe </string>
+	<string name="answer459_3">obowiązkiem posiadacza pojazdu </string>
+
+	<string name="question460">Okresowe badania stanu technicznego samochodu osobowego należy przeprowadzać:</string>
+	<string name="answer460_1">w stacji kontroli pojazdów </string>
+	<string name="answer460_2">przed upływem terminu określonego w dowodzie rejestracyjnym </string>
+	<string name="answer460_3">corocznie od dnia pierwszej rejestracji </string>
+
+	<string name="question461">Samochód osobowy podlega dodatkowemu badaniu technicznemu:</string>
+	<string name="answer461_1">na wniosek Policji w razie uzasadnionego przypuszczenia, że zagraża bezpieczeństwu ruchu lub narusza wymagania ochrony środowiska </string>
+	<string name="answer461_2">w przypadku montażu instalacji do zasilania gazem </string>
+	<string name="answer461_3">przy każdej zmianie właściciela </string>
+
+	<string name="question462">Badanie techniczne pojazdu można przeprowadzić:</string>
+	<string name="answer462_1">w dowolnej stacji kontroli pojazdów </string>
+	<string name="answer462_2">w stacji napraw autoryzowanej przez producenta pojazdu </string>
+	<string name="answer462_3">w dowolnym warsztacie samochodowym </string>
+
+	<string name="question463">Stan po użyciu alkoholu zachodzi, gdy zawartość alkoholu:</string>
+	<string name="answer463_1">we krwi wynosi od 0,2 promila do 0,5 promila </string>
+	<string name="answer463_2">we krwi przekracza 0,5 promila </string>
+	<string name="answer463_3">w 1 dm3 wydychanego powietrza wynosi od 0,1 mg do 0,25 mg </string>
+
+	<string name="question464">Stan nietrzeźwości zachodzi, gdy zawartość alkoholu:</string>
+	<string name="answer464_1">we krwi przekracza 0,5 promila </string>
+	<string name="answer464_2">w 1 dm3 wydychanego powietrza wynosi od 0,1 mg do 0,25 mg </string>
+	<string name="answer464_3">w 1 dm3 wydychanego powietrza przekracza 0,25 mg </string>
+
+	<string name="question465">Międzynarodowe prawo jazdy:</string>
+	<string name="answer465_1">jest wydawane na podstawie krajowego prawa jazdy na okres nie dłuższy niż 3 lata </string>
+	<string name="answer465_2">nie jest konieczne, jeżeli kraj uznaje wydane za granicą krajowe prawo jazdy </string>
+	<string name="answer465_3">jest ważne w krajach w nim wymienionych </string>
+
+	<string name="question466">Z odbycia dodatkowego przeszkolenia, w celu zmniejszenia liczby punktów uzyskanych za naruszenie przepisów ruchu drogowego, może skorzystać:</string>
+	<string name="answer466_1">każdy kierowca </string>
+	<string name="answer466_2">kierowca w okresie 1 roku od dnia wydania po raz pierwszy prawa jazdy </string>
+	<string name="answer466_3">kierowca w okresie przekraczającym 1 rok od dnia wydania po raz pierwszy prawa jazdy </string>
+
+	<string name="question467">Badanie w celu ustalenia zawartości w organizmie alkoholu może być przeprowadzone:</string>
+	<string name="answer467_1">przy użyciu urządzeń elektronicznych dokonujących pomiaru stężenia alkoholu w wydychanym powietrzu </string>
+	<string name="answer467_2">poprzez badanie krwi lub moczu </string>
+	<string name="answer467_3">również w razie braku zgody kierującego, o czym powinien być uprzedzony </string>
+
+	<string name="question468">W razie uczestniczenia w wypadku drogowym z ofiarami, badaniu na zawartość alkoholu w organizmie:</string>
+	<string name="answer468_1">poddawany jest kierujący pojazdem uczestniczącym w wypadku </string>
+	<string name="answer468_2">poddawani są zawsze wszyscy pasażerowie pojazdu uczestniczącego w wypadku </string>
+	<string name="answer468_3">poddawana może być osoba, w stosunku do której zachodzi uzasadnione podejrzenie, że mogła kierować pojazdem uczestniczącym w wypadku </string>
+
+	<string name="question469">Policjant zatrzyma dowód rejestracyjny w razie stwierdzenia lub uzasadnionego przypuszczenia, że pojazd:</string>
+	<string name="answer469_1">zagraża bezpieczeństwu </string>
+	<string name="answer469_2">narusza wymagania ochrony środowiska </string>
+	<string name="answer469_3">zagraża porządkowi ruchu </string>
+
+	<string name="question470">Policjant zatrzyma prawo jazdy za pokwitowaniem, jeżeli:</string>
+	<string name="answer470_1">stwierdzi niezgodność miejsca zamieszkania kierującego z wpisem w jego prawie jazdy </string>
+	<string name="answer470_2">kierujący znajduje się w stanie po użyciu alkoholu, albo środka działającego podobnie do alkoholu </string>
+	<string name="answer470_3">kierujący pojazdem przekroczył liczbę 24 punktów za naruszenie przepisów ruchu drogowego </string>
+
+	<string name="question471">Policjant zatrzyma prawo jazdy za pokwitowaniem, jeżeli:</string>
+	<string name="answer471_1">upłynął termin jego ważności </string>
+	<string name="answer471_2">stwierdzi, że jest ono nieczytelne </string>
+	<string name="answer471_3">kierujący pojazdem, w okresie 1 roku od dnia wydania po raz pierwszy prawa jazdy, przekroczył liczbę 20 punktów za naruszenie przepisów ruchu drogowego </string>
+
+	<string name="question472">Osoba posiadająca uprawnienie do kierowania pojazdami powinna niezwłocznie powiadomić organ wydający prawa jazdy o:</string>
+	<string name="answer472_1">zniszczeniu prawa jazdy w stopniu powodującym jego nieczytelność, </string>
+	<string name="answer472_2">utracie prawa jazdy, </string>
+	<string name="answer472_3">zmianie stanu faktycznego wymagającego zmiany danych zawartych w prawie jazdy. </string>
+
+	<string name="question473">Przed rozpoczęciem jazdy kierujący samochodem osobowym powinien sprawdzić:</string>
+	<string name="answer473_1">ustawienie fotela </string>
+	<string name="answer473_2">ustawienie lusterek </string>
+	<string name="answer473_3">zapięcie przez pasażerów pasów bezpieczeństwa </string>
+
+	<string name="question474">Nieprawidłowe ustawienie lusterek w pojeździe:</string>
+	<string name="answer474_1">może być przyczyną wypadku drogowego </string>
+	<string name="answer474_2">nie ma wpływu na bezpieczeństwo jazdy </string>
+	<string name="answer474_3">znacznie utrudnia jazdę </string>
+
+	<string name="question475">Niedokładne oczyszczenie ze śniegu szyb samochodu osobowego:</string>
+	<string name="answer475_1">nie ma wpływu na bezpieczeństwo jazdy </string>
+	<string name="answer475_2">może być przyczyną wypadku drogowego </string>
+	<string name="answer475_3">znacznie utrudnia jazdę </string>
+
+	<string name="question476">Jazda z częściowo zaparowanymi szybami pojazdu:</string>
+	<string name="answer476_1">jest niedopuszczalna, jeżeli jest to szyba przednia </string>
+	<string name="answer476_2">może być przyczyną wypadku drogowego </string>
+	<string name="answer476_3">nie ma wpływu na bezpieczeństwo jazdy </string>
+
+	<string name="question477">Pas bezpieczeństwa jest zapięty prawidłowo, gdy:</string>
+	<string name="answer477_1">nie jest skręcony </string>
+	<string name="answer477_2">ma właściwy naciąg </string>
+	<string name="answer477_3">jego część obojczykowa znajduje się możliwie blisko szyi, ale bezpośrednio się z nią nie styka </string>
+
+	<string name="question478">Przed uruchomieniem silnika w niskiej temperaturze otoczenia należy:</string>
+	<string name="answer478_1">ustawić dźwignię zmiany biegów w położeniu neutralnym "luz" </string>
+	<string name="answer478_2">wcisnąć pedał sprzęgła </string>
+	<string name="answer478_3">wyłączyć zbędne odbiorniki prądu </string>
+
+	<string name="question479">Kierujący samochodem osobowym, jadąc drogą pokrytą śniegiem lub lodem, może spodziewać się, że:</string>
+	<string name="answer479_1">pojazd nie będzie reagował na ruchy kierownicą </string>
+	<string name="answer479_2">gwałtowne hamowanie spowoduje poślizg </string>
+	<string name="answer479_3">gwałtowne zwiększenie obrotów silnika spowoduje poślizg </string>
+
+	<string name="question480">Przy ruszaniu na oblodzonej drodze zaleca się:</string>
+	<string name="answer480_1">znacznie zwiększyć obroty silnika </string>
+	<string name="answer480_2">łagodnie zwolnić pedał sprzęgła </string>
+	<string name="answer480_3">włączyć drugi bieg </string>
+
+	<string name="question481">Przy ruszaniu pod górę, zbyt późne zwolnienie pedału sprzęgła w stosunku do zwolnienia hamulca może spowodować:</string>
+	<string name="answer481_1">stoczenie się pojazdu </string>
+	<string name="answer481_2">unieruchomienie silnika </string>
+	<string name="answer481_3">gwałtowne ruszenie pojazdu do przodu </string>
+
+	<string name="question482">W tej sytuacji zaleca się, aby kierujący pojazdem, zamierzając skręcić w prawo:</string>
+	<string name="answer482_1">zmienił jak najszybciej pas 2 na 1, bez istotnej zmiany prędkości, </string>
+	<string name="answer482_2">zmienił pas 2 na 1 tuż przed rozwidleniem drogi, </string>
+	<string name="answer482_3">zmniejszył prędkość do odpowiedniej dla skrętu po zmianie pasa 2 na 1. </string>
+
+	<string name="question483">W tej sytuacji, kierujący samochodem osobowym powinien:</string>
+	<string name="answer483_1">zatrzymać się tuż za znakiem, oczekując na możliwość wjazdu na pas 2, </string>
+	<string name="answer483_2">wykorzystać odcinek pasa 1 do zmiany pasa na 2, </string>
+	<string name="answer483_3">dojechać do końca pasa 1 i oczekiwać na możliwość wjazdu na pas 2. </string>
+
+	<string name="question484">W tej sytuacji kierujący pojazdem jadący na wprost:</string>
+	<string name="answer484_1">narusza przepisy ruchu drogowego, </string>
+	<string name="answer484_2">zjeżdżając na środkowy pas ruchu, będzie jechał zgodnie z przepisami ruchu drogowego, </string>
+	<string name="answer484_3">powinien zjechać na prawy pas ruchu. </string>
+
+	<string name="question485">Na prostym odcinku drogi wielopasmowej zaleca się jechać:</string>
+	<string name="answer485_1">jak najdłużej jednym i tym samym pasem ruchu, </string>
+	<string name="answer485_2">ciągle zmieniając pasy ruchu (slalomem), jeżeli istnieje tylko taka możliwość, </string>
+	<string name="answer485_3">zmieniając pasy ruchu tylko w razie konieczności ominięcia lub wyprzedzenia innych uczestników ruchu. </string>
+
+	<string name="question486">Jeżeli zachodzi konieczność nagłego zatrzymania samochodu osobowego, to należy:</string>
+	<string name="answer486_1">natychmiast wcisnąć pedał hamulca roboczego, </string>
+	<string name="answer486_2">najpierw wcisnąć pedał sprzęgła, a następnie rozpocząć hamowanie pulsacyjne, </string>
+	<string name="answer486_3">wyłączyć silnik. </string>
+
+	<string name="question487">Większą skuteczność hamowania można uzyskać przez:</string>
+	<string name="answer487_1">hamowanie na granicy pierwszych objawów poślizgu kół </string>
+	<string name="answer487_2">na spadku - hamowanie silnikiem </string>
+	<string name="answer487_3">na śliskiej nawierzchni - hamowanie pulsacyjne </string>
+
+	<string name="question488">Wyjazd samochodem osobowym z grząskiego śniegu można ułatwić sobie przez:</string>
+	<string name="answer488_1">kilkakrotne, przemienne cofanie i jazdę do przodu </string>
+	<string name="answer488_2">ruszanie na dużych obrotach silnika </string>
+	<string name="answer488_3">obniżenie ciśnienia powietrza w oponach </string>
+
+	<string name="question489">Ekonomiczna jazda samochodem osobowym to:</string>
+	<string name="answer489_1">unikanie gwałtownych przyspieszeń i hamowań </string>
+	<string name="answer489_2">utrzymywanie za wszelką cenę stałej prędkości przy jeździe pod górę </string>
+	<string name="answer489_3">jazda na możliwie najwyższym biegu bez przeciążania silnika </string>
+
+	<string name="question490">Kierujący samochodem osobowym, w czasie znoszenia tyłu pojazdu w prawo, powinien przednie koła:</string>
+	<string name="answer490_1">pozostawić w dotychczasowym położeniu </string>
+	<string name="answer490_2">skręcić w lewo, a następnie w prawo </string>
+	<string name="answer490_3">skręcić w prawo, a następnie w lewo </string>
+
+	<string name="question491">W czasie jazdy na niebezpiecznym zakręcie w lewo ze zbyt dużą prędkością, kierujący samochodem osobowym może spodziewać się:</string>
+	<string name="answer491_1">znoszenia pojazdu do osi jezdni </string>
+	<string name="answer491_2">znoszenia tyłu pojazdu w prawo </string>
+	<string name="answer491_3">wpadnięcia w poślizg przy gwałtownym hamowaniu </string>
+
+	<string name="question492">Które ułożenie rąk na kierownicy jest prawidłowe podczas jazdy na wprost:</string>
+	<string name="answer492_1">A </string>
+	<string name="answer492_2">B </string>
+	<string name="answer492_3">C </string>
+
+	<string name="question493">Droga hamowania samochodu osobowego na mokrej jezdni, jest:</string>
+	<string name="answer493_1">równa drodze hamowania na jezdni suchej, </string>
+	<string name="answer493_2">dłuższa od drogi hamowania na jezdni suchej, </string>
+	<string name="answer493_3">krótsza od drogi hamowania na jezdni oblodzonej </string>
+
+	<string name="question494">Droga hamowania samochodu osobowego na oblodzonej jezdni, jest:</string>
+	<string name="answer494_1">dłuższa od drogi hamowania na jezdni suchej, </string>
+	<string name="answer494_2">równa drodze hamowania na jezdni mokrej, </string>
+	<string name="answer494_3">dłuższa od drogi hamowania na jezdni mokrej. </string>
+
+	<string name="question495">Całkowita droga zatrzymania samochodu osobowego na suchej jezdni o nawierzchni bitumicznej, jadącego z prędkością 50 km/h, mieści się w przedziale:</string>
+	<string name="answer495_1">- 5-15 m, </string>
+	<string name="answer495_2">- 20-30 m, </string>
+	<string name="answer495_3">- 40-50 m. </string>
+
+	<string name="question496">Całkowita droga zatrzymania samochodu osobowego na suchej jezdni o nawierzchni bitumicznej, jadącego z prędkością 110 km/h, mieści się w przedziale:</string>
+	<string name="answer496_1">- 90-135 m, </string>
+	<string name="answer496_2">- 70-80 m, </string>
+	<string name="answer496_3">- 50-60 m. </string>
+
+	<string name="question497">Całkowita droga zatrzymania samochodu osobowego na mokrej jezdni o nawierzchni bitumicznej, jadącego z prędkością 50 km/h, mieści się w przedziale:</string>
+	<string name="answer497_1">- 5-15 m, </string>
+	<string name="answer497_2">- 20-30 m, </string>
+	<string name="answer497_3">- 35-52 m. </string>
+
+	<string name="question498">Całkowita droga zatrzymania samochodu osobowego na mokrej jezdni o nawierzchni bitumicznej, jadącego z prędkością 110 km/h, mieści się w przedziale:</string>
+	<string name="answer498_1">- 80-100 m, </string>
+	<string name="answer498_2">- 105-125 m, </string>
+	<string name="answer498_3">- 130-200 m. </string>
+
+	<string name="question499">W czasie jednej sekundy, odpowiadającej średniemu czasowi reakcji kierowcy, samochód osobowy jadący z prędkością 90 km/h przejeżdża:</string>
+	<string name="answer499_1">- 10 m, </string>
+	<string name="answer499_2">- 15 m, </string>
+	<string name="answer499_3">- 25 m, </string>
+
+	<string name="question500">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer500_1">ustępuje pierwszeństwa pojazdowi 2, </string>
+	<string name="answer500_2">ustępuje pierwszeństwa pojazdowi 3, </string>
+	<string name="answer500_3">przejeżdża ostatni. </string>
+
+	<string name="question501">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer501_1">przejeżdża pierwszy, </string>
+	<string name="answer501_2">ma pierwszeństwo przed pojazdem 3, </string>
+	<string name="answer501_3">ustępuje pierwszeństwa pojazdowi 2. </string>
+
+	<string name="question502">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer502_1">przejeżdża przed pojazdem 3, </string>
+	<string name="answer502_2">przejeżdża przed pojazdem 2, </string>
+	<string name="answer502_3">przejeżdża ostatni. </string>
+
+	<string name="question503">Na tym skrzyżowaniu kierujący pojazdem 1:</string>
+	<string name="answer503_1">przejeżdża przed pojazdem uprzywilejowanym, </string>
+	<string name="answer503_2">przejeżdża przed pojazdem 3, </string>
+	<string name="answer503_3">przejeżdża pierwszy. </string>
+
+	<string name="question504">Poza obszarem zabudowanym w tunelu o długości przekraczającej 500 metrów, kierujący samochodem osobowym jest obowiązany utrzymywać odstęp od poprzedzającego pojazdu nie mniejszy niż:</string>
+	<string name="answer504_1">30 m </string>
+	<string name="answer504_2">50 m, </string>
+	<string name="answer504_3">80 m. </string>
+
+	<string name="question505">W okresie docierania samochodu osobowego nie należy:</string>
+	<string name="answer505_1">jeździć z prędkością zbliżoną do maksymalnej </string>
+	<string name="answer505_2">włączać czwartego biegu </string>
+	<string name="answer505_3">osiągać wysokich obrotów silnika </string>
+
+	<string name="question506">W samochodzie osobowym z silnikiem benzynowym, wyposażonym w katalizator, jako paliwo można stosować:</string>
+	<string name="answer506_1">dowolny rodzaj benzyny </string>
+	<string name="answer506_2">wyłącznie benzynę bezołowiową </string>
+	<string name="answer506_3">olej napędowy </string>
+
+	<string name="question507">Dokonywanie regularnych przeglądów technicznych pojazdu:</string>
+	<string name="answer507_1">jest konieczne, gdyż pozwala utrzymać pojazd we właściwej sprawności </string>
+	<string name="answer507_2">nie jest konieczne </string>
+	<string name="answer507_3">jest korzystne tylko w okresie objętym gwarancją </string>
+
+	<string name="question508">Terminowe dokonywanie przeglądów technicznych pojazdu pozwala na utrzymanie:</string>
+	<string name="answer508_1">właściwego zużycia paliwa </string>
+	<string name="answer508_2">sprawności układu hamulcowego </string>
+	<string name="answer508_3">minimalnego zanieczyszczenia środowiska </string>
+
+	<string name="question509">Samochód osobowy nie może być wyposażony w opony (z wyjątkiem krótkotrwałego użycia na określonych przepisami warunkach):</string>
+	<string name="answer509_1">których wskaźniki pokazują graniczne zużycie bieżnika </string>
+	<string name="answer509_2">o głębokości rzeźby bieżnika mniejszej niż 1,6 mm, jeśli nie są zaopatrzone we wskaźniki pokazujące graniczne zużycie bieżnika </string>
+	<string name="answer509_3">różnej konstrukcji na kołach jednej osi </string>
+
+	<string name="question510">Przed rozpoczęciem dłuższej jazdy należy sprawdzić:</string>
+	<string name="answer510_1">działanie świateł zewnętrznych </string>
+	<string name="answer510_2">działanie układu hamulcowego i kierowniczego </string>
+	<string name="answer510_3">ciśnienie powietrza w ogumieniu </string>
+
+	<string name="question511">Która z tych lampek kontrolnych po zaświeceniu w czasie jazdy może informować o wadliwym działaniu układu hamulcowego?</string>
+	<string name="answer511_1">A </string>
+	<string name="answer511_2">B </string>
+	<string name="answer511_3">C </string>
+
+	<string name="question512">Która z tych lampek kontrolnych świecąc informuje o jeździe na światłach mijania?</string>
+	<string name="answer512_1">A </string>
+	<string name="answer512_2">B </string>
+	<string name="answer512_3">C </string>
+
+	<string name="question513">Po zaświeceniu się w czasie jazdy tej lampki kontrolnej kierujący samochodem osobowym powinien:</string>
+	<string name="answer513_1">zmniejszyć prędkość jazdy </string>
+	<string name="answer513_2">niezwłocznie przerwać jazdę </string>
+	<string name="answer513_3">opuścić szyby w oknach pojazdu </string>
+
+	<string name="question514">Która z tych lampek kontrolnych po zaświeceniu w czasie jazdy informuje o konieczności niezwłocznego zatrzymania pojazdu?</string>
+	<string name="answer514_1">A </string>
+	<string name="answer514_2">B </string>
+	<string name="answer514_3">C </string>
+
+	<string name="question515">Przewietrzenie i ogrzewanie wnętrza samochodu osobowego w czasie jazdy w zimie sprzyja:</string>
+	<string name="answer515_1">zmniejszeniu zaparowania szyb </string>
+	<string name="answer515_2">lepszemu samopoczuciu </string>
+	<string name="answer515_3">osłabieniu reakcji kierującego </string>
+
+	<string name="question516">Lampki kontrolne informujące w czasie jazdy kierowcę o ważnym problemie technicznym są barwy:</string>
+	<string name="answer516_1">żółtej samochodowej </string>
+	<string name="answer516_2">zielonej </string>
+	<string name="answer516_3">czerwonej </string>
+
+	<string name="question517">Przed rozpoczęciem dłuższej jazdy zaleca się sprawdzić poziom:</string>
+	<string name="answer517_1">oleju w silniku </string>
+	<string name="answer517_2">płynu w układzie hamulcowym </string>
+	<string name="answer517_3">płynu w układzie chłodzenia i zbiorniku spryskiwacza szyb </string>
+
+	<string name="question518">Kontrola hydraulicznego hamulca roboczego polega na:</string>
+	<string name="answer518_1">obserwacji tylko lampki kontrolnej </string>
+	<string name="answer518_2">sprawdzeniu luzu na pedale hamulca </string>
+	<string name="answer518_3">sprawdzeniu poziomu płynu hamulcowego w zbiorniku </string>
+
+	<string name="question519">Ubytek oleju w silniku uzupełnia się:</string>
+	<string name="answer519_1">dowolnym olejem silnikowym </string>
+	<string name="answer519_2">nie przekraczając wielkości oznaczonej jako maksymalna </string>
+	<string name="answer519_3">tylko podczas okresowych przeglądów technicznych </string>
+
+	<string name="question520">Pojazd zostanie zakwalifikowany jako nadmiernie uciążliwy dla środowiska, jeżeli:</string>
+	<string name="answer520_1">zawartość spalin jest nieprawidłowa </string>
+	<string name="answer520_2">powoduje zbyt duży hałas </string>
+	<string name="answer520_3">z pojazdu wyciekają różne płyny </string>
+
+	<string name="question521">Przystępując do wymiany przedniego koła w samochodzie osobowym należy:</string>
+	<string name="answer521_1">ustawić podnośnik na twardym podłożu </string>
+	<string name="answer521_2">zaciągnąć hamulec awaryjny i włączyć bieg </string>
+	<string name="answer521_3">najpierw podnieść pojazd, a następnie odkręcić śruby mocujące koło </string>
+
+	<string name="question522">W trakcie eksploatacji samochodu osobowego należy przestrzegać zaleceń podanych przez producenta w instrukcji obsługi pojazdu:</string>
+	<string name="answer522_1">tylko przy dokonywaniu okresowych przeglądów technicznych </string>
+	<string name="answer522_2">w zakresie wymienianych materiałów eksploatacyjnych </string>
+	<string name="answer522_3">w zakresie wymienianych mechanizmów pojazdu </string>
+
+	<string name="question523">Szybsze zużywanie się opon kół przednich w samochodzie osobowym może być spowodowane:</string>
+	<string name="answer523_1">eksploatowaniem pojazdu z nieprawidłowym ciśnieniem powietrza w ogumieniu tych kół</string>
+	<string name="answer523_2">złym ustawieniem tych kół </string>
+	<string name="answer523_3">złym wyważeniem tych kół </string>
+
+	<string name="question524">Po zaświeceniu się w czasie jazdy tej lampki kontrolnej należy:</string>
+	<string name="answer524_1">wymienić akumulator </string>
+	<string name="answer524_2">zatrzymać pojazd </string>
+	<string name="answer524_3">sprawdzić naciąg paska klinowego </string>
+
+</resources>

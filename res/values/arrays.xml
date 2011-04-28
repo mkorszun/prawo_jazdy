@@ -1,0 +1,3147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<array name="correct_answers1">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers2">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers3">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers4">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers5">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers6">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers7">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers8">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers9">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers10">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers11">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers12">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers13">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers14">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers15">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers16">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers17">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers18">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers19">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers20">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers21">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers22">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers23">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers24">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers25">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers26">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers27">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers28">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers29">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers30">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers31">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers32">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers33">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers34">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers35">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers36">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers37">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers38">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers39">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers40">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers41">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers42">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers43">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers44">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers45">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers46">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers47">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers48">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers49">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers50">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers51">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers52">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers53">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers54">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers55">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers56">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers57">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers58">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers59">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers60">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers61">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers62">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers63">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers64">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers65">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers66">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers67">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers68">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers69">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers70">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers71">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers72">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers73">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers74">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers75">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers76">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers77">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers78">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers79">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers80">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers81">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers82">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers83">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers84">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers85">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers86">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers87">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers88">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers89">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers90">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers91">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers92">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers93">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers94">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers95">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers96">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers97">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers98">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers99">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers100">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers101">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers102">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers103">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers104">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers105">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers106">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers107">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers108">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers109">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers110">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers111">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers112">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers113">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers114">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers115">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers116">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers117">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers118">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers119">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers120">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers121">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers122">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers123">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers124">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers125">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers126">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers127">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers128">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers129">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers130">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers131">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers132">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers133">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers134">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers135">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers136">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers137">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers138">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers139">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers140">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers141">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers142">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers143">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers144">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers145">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers146">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers147">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers148">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers149">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers150">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers151">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers152">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers153">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers154">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers155">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers156">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers157">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers158">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers159">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers160">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers161">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers162">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers163">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers164">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers165">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers166">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers167">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers168">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers169">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers170">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers171">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers172">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers173">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers174">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers175">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers176">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers177">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers178">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers179">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers180">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers181">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers182">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers183">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers184">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers185">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers186">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers187">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers188">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers189">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers190">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers191">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers192">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers193">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers194">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers195">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers196">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers197">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers198">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers199">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers200">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers201">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers202">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers203">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers204">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers205">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers206">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers207">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers208">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers209">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers210">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers211">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers212">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers213">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers214">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers215">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers216">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers217">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers218">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers219">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers220">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers221">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers222">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers223">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers224">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers225">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers226">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers227">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers228">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers229">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers230">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers231">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers232">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers233">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers234">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers235">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers236">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers237">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers238">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers239">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers240">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers241">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers242">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers243">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers244">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers245">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers246">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers247">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers248">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers249">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers250">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers251">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers252">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers253">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers254">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers255">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers256">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers257">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers258">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers259">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers260">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers261">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers262">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers263">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers264">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers265">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers266">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers267">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers268">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers269">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers270">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers271">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers272">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers273">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers274">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers275">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers276">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers277">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers278">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers279">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers280">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers281">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers282">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers283">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers284">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers285">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers286">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers287">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers288">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers289">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers290">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers291">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers292">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers293">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers294">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers295">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers296">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers297">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers298">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers299">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers300">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers301">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers302">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers303">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers304">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers305">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers306">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers307">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers308">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers309">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers310">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers311">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers312">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers313">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers314">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers315">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers316">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers317">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers318">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers319">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers320">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers321">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers322">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers323">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers324">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers325">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers326">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers327">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers328">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers329">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers330">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers331">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers332">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers333">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers334">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers335">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers336">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers337">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers338">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers339">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers340">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers341">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers342">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers343">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers344">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers345">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers346">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers347">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers348">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers349">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers350">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers351">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers352">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers353">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers354">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers355">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers356">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers357">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers358">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers359">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers360">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers361">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers362">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers363">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers364">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers365">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers366">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers367">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers368">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers369">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers370">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers371">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers372">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers373">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers374">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers375">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers376">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers377">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers378">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers379">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers380">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers381">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers382">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers383">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers384">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers385">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers386">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers387">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers388">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers389">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers390">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers391">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers392">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers393">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers394">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers395">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers396">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers397">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers398">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers399">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers400">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers401">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers402">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers403">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers404">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers405">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers406">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers407">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers408">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers409">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers410">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers411">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers412">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers413">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers414">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers415">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers416">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers417">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers418">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers419">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers420">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers421">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers422">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers423">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers424">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers425">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers426">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers427">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers428">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers429">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers430">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers431">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers432">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers433">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers434">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers435">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers436">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers437">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers438">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers439">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers440">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers441">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers442">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers443">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers444">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers445">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers446">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers447">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers448">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers449">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers450">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers451">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers452">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers453">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers454">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers455">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers456">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers457">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers458">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers459">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers460">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers461">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers462">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers463">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers464">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers465">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers466">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers467">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers468">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers469">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers470">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers471">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers472">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers473">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers474">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers475">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers476">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers477">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers478">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers479">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers480">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers481">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers482">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers483">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers484">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers485">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers486">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers487">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers488">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers489">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers490">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers491">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers492">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers493">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers494">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers495">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers496">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers497">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers498">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers499">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers500">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers501">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers502">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers503">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers504">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers505">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers506">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers507">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers508">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers509">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers510">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers511">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers512">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers513">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers514">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers515">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers516">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers517">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers518">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers519">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers520">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers521">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_false</item>
+	</array>
+
+	<array name="correct_answers522">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers523">
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+	<array name="correct_answers524">
+		<item>@bool/answer_false</item>
+		<item>@bool/answer_true</item>
+		<item>@bool/answer_true</item>
+	</array>
+
+</resources>

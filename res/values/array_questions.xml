@@ -1,0 +1,3147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="answers1">
+		<item>@string/answer1_1</item>
+		<item>@string/answer1_2</item>
+		<item>@string/answer1_3</item>
+	</array>
+
+	<array name="answers2">
+		<item>@string/answer2_1</item>
+		<item>@string/answer2_2</item>
+		<item>@string/answer2_3</item>
+	</array>
+
+	<array name="answers3">
+		<item>@string/answer3_1</item>
+		<item>@string/answer3_2</item>
+		<item>@string/answer3_3</item>
+	</array>
+
+	<array name="answers4">
+		<item>@string/answer4_1</item>
+		<item>@string/answer4_2</item>
+		<item>@string/answer4_3</item>
+	</array>
+
+	<array name="answers5">
+		<item>@string/answer5_1</item>
+		<item>@string/answer5_2</item>
+		<item>@string/answer5_3</item>
+	</array>
+
+	<array name="answers6">
+		<item>@string/answer6_1</item>
+		<item>@string/answer6_2</item>
+		<item>@string/answer6_3</item>
+	</array>
+
+	<array name="answers7">
+		<item>@string/answer7_1</item>
+		<item>@string/answer7_2</item>
+		<item>@string/answer7_3</item>
+	</array>
+
+	<array name="answers8">
+		<item>@string/answer8_1</item>
+		<item>@string/answer8_2</item>
+		<item>@string/answer8_3</item>
+	</array>
+
+	<array name="answers9">
+		<item>@string/answer9_1</item>
+		<item>@string/answer9_2</item>
+		<item>@string/answer9_3</item>
+	</array>
+
+	<array name="answers10">
+		<item>@string/answer10_1</item>
+		<item>@string/answer10_2</item>
+		<item>@string/answer10_3</item>
+	</array>
+
+	<array name="answers11">
+		<item>@string/answer11_1</item>
+		<item>@string/answer11_2</item>
+		<item>@string/answer11_3</item>
+	</array>
+
+	<array name="answers12">
+		<item>@string/answer12_1</item>
+		<item>@string/answer12_2</item>
+		<item>@string/answer12_3</item>
+	</array>
+
+	<array name="answers13">
+		<item>@string/answer13_1</item>
+		<item>@string/answer13_2</item>
+		<item>@string/answer13_3</item>
+	</array>
+
+	<array name="answers14">
+		<item>@string/answer14_1</item>
+		<item>@string/answer14_2</item>
+		<item>@string/answer14_3</item>
+	</array>
+
+	<array name="answers15">
+		<item>@string/answer15_1</item>
+		<item>@string/answer15_2</item>
+		<item>@string/answer15_3</item>
+	</array>
+
+	<array name="answers16">
+		<item>@string/answer16_1</item>
+		<item>@string/answer16_2</item>
+		<item>@string/answer16_3</item>
+	</array>
+
+	<array name="answers17">
+		<item>@string/answer17_1</item>
+		<item>@string/answer17_2</item>
+		<item>@string/answer17_3</item>
+	</array>
+
+	<array name="answers18">
+		<item>@string/answer18_1</item>
+		<item>@string/answer18_2</item>
+		<item>@string/answer18_3</item>
+	</array>
+
+	<array name="answers19">
+		<item>@string/answer19_1</item>
+		<item>@string/answer19_2</item>
+		<item>@string/answer19_3</item>
+	</array>
+
+	<array name="answers20">
+		<item>@string/answer20_1</item>
+		<item>@string/answer20_2</item>
+		<item>@string/answer20_3</item>
+	</array>
+
+	<array name="answers21">
+		<item>@string/answer21_1</item>
+		<item>@string/answer21_2</item>
+		<item>@string/answer21_3</item>
+	</array>
+
+	<array name="answers22">
+		<item>@string/answer22_1</item>
+		<item>@string/answer22_2</item>
+		<item>@string/answer22_3</item>
+	</array>
+
+	<array name="answers23">
+		<item>@string/answer23_1</item>
+		<item>@string/answer23_2</item>
+		<item>@string/answer23_3</item>
+	</array>
+
+	<array name="answers24">
+		<item>@string/answer24_1</item>
+		<item>@string/answer24_2</item>
+		<item>@string/answer24_3</item>
+	</array>
+
+	<array name="answers25">
+		<item>@string/answer25_1</item>
+		<item>@string/answer25_2</item>
+		<item>@string/answer25_3</item>
+	</array>
+
+	<array name="answers26">
+		<item>@string/answer26_1</item>
+		<item>@string/answer26_2</item>
+		<item>@string/answer26_3</item>
+	</array>
+
+	<array name="answers27">
+		<item>@string/answer27_1</item>
+		<item>@string/answer27_2</item>
+		<item>@string/answer27_3</item>
+	</array>
+
+	<array name="answers28">
+		<item>@string/answer28_1</item>
+		<item>@string/answer28_2</item>
+		<item>@string/answer28_3</item>
+	</array>
+
+	<array name="answers29">
+		<item>@string/answer29_1</item>
+		<item>@string/answer29_2</item>
+		<item>@string/answer29_3</item>
+	</array>
+
+	<array name="answers30">
+		<item>@string/answer30_1</item>
+		<item>@string/answer30_2</item>
+		<item>@string/answer30_3</item>
+	</array>
+
+	<array name="answers31">
+		<item>@string/answer31_1</item>
+		<item>@string/answer31_2</item>
+		<item>@string/answer31_3</item>
+	</array>
+
+	<array name="answers32">
+		<item>@string/answer32_1</item>
+		<item>@string/answer32_2</item>
+		<item>@string/answer32_3</item>
+	</array>
+
+	<array name="answers33">
+		<item>@string/answer33_1</item>
+		<item>@string/answer33_2</item>
+		<item>@string/answer33_3</item>
+	</array>
+
+	<array name="answers34">
+		<item>@string/answer34_1</item>
+		<item>@string/answer34_2</item>
+		<item>@string/answer34_3</item>
+	</array>
+
+	<array name="answers35">
+		<item>@string/answer35_1</item>
+		<item>@string/answer35_2</item>
+		<item>@string/answer35_3</item>
+	</array>
+
+	<array name="answers36">
+		<item>@string/answer36_1</item>
+		<item>@string/answer36_2</item>
+		<item>@string/answer36_3</item>
+	</array>
+
+	<array name="answers37">
+		<item>@string/answer37_1</item>
+		<item>@string/answer37_2</item>
+		<item>@string/answer37_3</item>
+	</array>
+
+	<array name="answers38">
+		<item>@string/answer38_1</item>
+		<item>@string/answer38_2</item>
+		<item>@string/answer38_3</item>
+	</array>
+
+	<array name="answers39">
+		<item>@string/answer39_1</item>
+		<item>@string/answer39_2</item>
+		<item>@string/answer39_3</item>
+	</array>
+
+	<array name="answers40">
+		<item>@string/answer40_1</item>
+		<item>@string/answer40_2</item>
+		<item>@string/answer40_3</item>
+	</array>
+
+	<array name="answers41">
+		<item>@string/answer41_1</item>
+		<item>@string/answer41_2</item>
+		<item>@string/answer41_3</item>
+	</array>
+
+	<array name="answers42">
+		<item>@string/answer42_1</item>
+		<item>@string/answer42_2</item>
+		<item>@string/answer42_3</item>
+	</array>
+
+	<array name="answers43">
+		<item>@string/answer43_1</item>
+		<item>@string/answer43_2</item>
+		<item>@string/answer43_3</item>
+	</array>
+
+	<array name="answers44">
+		<item>@string/answer44_1</item>
+		<item>@string/answer44_2</item>
+		<item>@string/answer44_3</item>
+	</array>
+
+	<array name="answers45">
+		<item>@string/answer45_1</item>
+		<item>@string/answer45_2</item>
+		<item>@string/answer45_3</item>
+	</array>
+
+	<array name="answers46">
+		<item>@string/answer46_1</item>
+		<item>@string/answer46_2</item>
+		<item>@string/answer46_3</item>
+	</array>
+
+	<array name="answers47">
+		<item>@string/answer47_1</item>
+		<item>@string/answer47_2</item>
+		<item>@string/answer47_3</item>
+	</array>
+
+	<array name="answers48">
+		<item>@string/answer48_1</item>
+		<item>@string/answer48_2</item>
+		<item>@string/answer48_3</item>
+	</array>
+
+	<array name="answers49">
+		<item>@string/answer49_1</item>
+		<item>@string/answer49_2</item>
+		<item>@string/answer49_3</item>
+	</array>
+
+	<array name="answers50">
+		<item>@string/answer50_1</item>
+		<item>@string/answer50_2</item>
+		<item>@string/answer50_3</item>
+	</array>
+
+	<array name="answers51">
+		<item>@string/answer51_1</item>
+		<item>@string/answer51_2</item>
+		<item>@string/answer51_3</item>
+	</array>
+
+	<array name="answers52">
+		<item>@string/answer52_1</item>
+		<item>@string/answer52_2</item>
+		<item>@string/answer52_3</item>
+	</array>
+
+	<array name="answers53">
+		<item>@string/answer53_1</item>
+		<item>@string/answer53_2</item>
+		<item>@string/answer53_3</item>
+	</array>
+
+	<array name="answers54">
+		<item>@string/answer54_1</item>
+		<item>@string/answer54_2</item>
+		<item>@string/answer54_3</item>
+	</array>
+
+	<array name="answers55">
+		<item>@string/answer55_1</item>
+		<item>@string/answer55_2</item>
+		<item>@string/answer55_3</item>
+	</array>
+
+	<array name="answers56">
+		<item>@string/answer56_1</item>
+		<item>@string/answer56_2</item>
+		<item>@string/answer56_3</item>
+	</array>
+
+	<array name="answers57">
+		<item>@string/answer57_1</item>
+		<item>@string/answer57_2</item>
+		<item>@string/answer57_3</item>
+	</array>
+
+	<array name="answers58">
+		<item>@string/answer58_1</item>
+		<item>@string/answer58_2</item>
+		<item>@string/answer58_3</item>
+	</array>
+
+	<array name="answers59">
+		<item>@string/answer59_1</item>
+		<item>@string/answer59_2</item>
+		<item>@string/answer59_3</item>
+	</array>
+
+	<array name="answers60">
+		<item>@string/answer60_1</item>
+		<item>@string/answer60_2</item>
+		<item>@string/answer60_3</item>
+	</array>
+
+	<array name="answers61">
+		<item>@string/answer61_1</item>
+		<item>@string/answer61_2</item>
+		<item>@string/answer61_3</item>
+	</array>
+
+	<array name="answers62">
+		<item>@string/answer62_1</item>
+		<item>@string/answer62_2</item>
+		<item>@string/answer62_3</item>
+	</array>
+
+	<array name="answers63">
+		<item>@string/answer63_1</item>
+		<item>@string/answer63_2</item>
+		<item>@string/answer63_3</item>
+	</array>
+
+	<array name="answers64">
+		<item>@string/answer64_1</item>
+		<item>@string/answer64_2</item>
+		<item>@string/answer64_3</item>
+	</array>
+
+	<array name="answers65">
+		<item>@string/answer65_1</item>
+		<item>@string/answer65_2</item>
+		<item>@string/answer65_3</item>
+	</array>
+
+	<array name="answers66">
+		<item>@string/answer66_1</item>
+		<item>@string/answer66_2</item>
+		<item>@string/answer66_3</item>
+	</array>
+
+	<array name="answers67">
+		<item>@string/answer67_1</item>
+		<item>@string/answer67_2</item>
+		<item>@string/answer67_3</item>
+	</array>
+
+	<array name="answers68">
+		<item>@string/answer68_1</item>
+		<item>@string/answer68_2</item>
+		<item>@string/answer68_3</item>
+	</array>
+
+	<array name="answers69">
+		<item>@string/answer69_1</item>
+		<item>@string/answer69_2</item>
+		<item>@string/answer69_3</item>
+	</array>
+
+	<array name="answers70">
+		<item>@string/answer70_1</item>
+		<item>@string/answer70_2</item>
+		<item>@string/answer70_3</item>
+	</array>
+
+	<array name="answers71">
+		<item>@string/answer71_1</item>
+		<item>@string/answer71_2</item>
+		<item>@string/answer71_3</item>
+	</array>
+
+	<array name="answers72">
+		<item>@string/answer72_1</item>
+		<item>@string/answer72_2</item>
+		<item>@string/answer72_3</item>
+	</array>
+
+	<array name="answers73">
+		<item>@string/answer73_1</item>
+		<item>@string/answer73_2</item>
+		<item>@string/answer73_3</item>
+	</array>
+
+	<array name="answers74">
+		<item>@string/answer74_1</item>
+		<item>@string/answer74_2</item>
+		<item>@string/answer74_3</item>
+	</array>
+
+	<array name="answers75">
+		<item>@string/answer75_1</item>
+		<item>@string/answer75_2</item>
+		<item>@string/answer75_3</item>
+	</array>
+
+	<array name="answers76">
+		<item>@string/answer76_1</item>
+		<item>@string/answer76_2</item>
+		<item>@string/answer76_3</item>
+	</array>
+
+	<array name="answers77">
+		<item>@string/answer77_1</item>
+		<item>@string/answer77_2</item>
+		<item>@string/answer77_3</item>
+	</array>
+
+	<array name="answers78">
+		<item>@string/answer78_1</item>
+		<item>@string/answer78_2</item>
+		<item>@string/answer78_3</item>
+	</array>
+
+	<array name="answers79">
+		<item>@string/answer79_1</item>
+		<item>@string/answer79_2</item>
+		<item>@string/answer79_3</item>
+	</array>
+
+	<array name="answers80">
+		<item>@string/answer80_1</item>
+		<item>@string/answer80_2</item>
+		<item>@string/answer80_3</item>
+	</array>
+
+	<array name="answers81">
+		<item>@string/answer81_1</item>
+		<item>@string/answer81_2</item>
+		<item>@string/answer81_3</item>
+	</array>
+
+	<array name="answers82">
+		<item>@string/answer82_1</item>
+		<item>@string/answer82_2</item>
+		<item>@string/answer82_3</item>
+	</array>
+
+	<array name="answers83">
+		<item>@string/answer83_1</item>
+		<item>@string/answer83_2</item>
+		<item>@string/answer83_3</item>
+	</array>
+
+	<array name="answers84">
+		<item>@string/answer84_1</item>
+		<item>@string/answer84_2</item>
+		<item>@string/answer84_3</item>
+	</array>
+
+	<array name="answers85">
+		<item>@string/answer85_1</item>
+		<item>@string/answer85_2</item>
+		<item>@string/answer85_3</item>
+	</array>
+
+	<array name="answers86">
+		<item>@string/answer86_1</item>
+		<item>@string/answer86_2</item>
+		<item>@string/answer86_3</item>
+	</array>
+
+	<array name="answers87">
+		<item>@string/answer87_1</item>
+		<item>@string/answer87_2</item>
+		<item>@string/answer87_3</item>
+	</array>
+
+	<array name="answers88">
+		<item>@string/answer88_1</item>
+		<item>@string/answer88_2</item>
+		<item>@string/answer88_3</item>
+	</array>
+
+	<array name="answers89">
+		<item>@string/answer89_1</item>
+		<item>@string/answer89_2</item>
+		<item>@string/answer89_3</item>
+	</array>
+
+	<array name="answers90">
+		<item>@string/answer90_1</item>
+		<item>@string/answer90_2</item>
+		<item>@string/answer90_3</item>
+	</array>
+
+	<array name="answers91">
+		<item>@string/answer91_1</item>
+		<item>@string/answer91_2</item>
+		<item>@string/answer91_3</item>
+	</array>
+
+	<array name="answers92">
+		<item>@string/answer92_1</item>
+		<item>@string/answer92_2</item>
+		<item>@string/answer92_3</item>
+	</array>
+
+	<array name="answers93">
+		<item>@string/answer93_1</item>
+		<item>@string/answer93_2</item>
+		<item>@string/answer93_3</item>
+	</array>
+
+	<array name="answers94">
+		<item>@string/answer94_1</item>
+		<item>@string/answer94_2</item>
+		<item>@string/answer94_3</item>
+	</array>
+
+	<array name="answers95">
+		<item>@string/answer95_1</item>
+		<item>@string/answer95_2</item>
+		<item>@string/answer95_3</item>
+	</array>
+
+	<array name="answers96">
+		<item>@string/answer96_1</item>
+		<item>@string/answer96_2</item>
+		<item>@string/answer96_3</item>
+	</array>
+
+	<array name="answers97">
+		<item>@string/answer97_1</item>
+		<item>@string/answer97_2</item>
+		<item>@string/answer97_3</item>
+	</array>
+
+	<array name="answers98">
+		<item>@string/answer98_1</item>
+		<item>@string/answer98_2</item>
+		<item>@string/answer98_3</item>
+	</array>
+
+	<array name="answers99">
+		<item>@string/answer99_1</item>
+		<item>@string/answer99_2</item>
+		<item>@string/answer99_3</item>
+	</array>
+
+	<array name="answers100">
+		<item>@string/answer100_1</item>
+		<item>@string/answer100_2</item>
+		<item>@string/answer100_3</item>
+	</array>
+
+	<array name="answers101">
+		<item>@string/answer101_1</item>
+		<item>@string/answer101_2</item>
+		<item>@string/answer101_3</item>
+	</array>
+
+	<array name="answers102">
+		<item>@string/answer102_1</item>
+		<item>@string/answer102_2</item>
+		<item>@string/answer102_3</item>
+	</array>
+
+	<array name="answers103">
+		<item>@string/answer103_1</item>
+		<item>@string/answer103_2</item>
+		<item>@string/answer103_3</item>
+	</array>
+
+	<array name="answers104">
+		<item>@string/answer104_1</item>
+		<item>@string/answer104_2</item>
+		<item>@string/answer104_3</item>
+	</array>
+
+	<array name="answers105">
+		<item>@string/answer105_1</item>
+		<item>@string/answer105_2</item>
+		<item>@string/answer105_3</item>
+	</array>
+
+	<array name="answers106">
+		<item>@string/answer106_1</item>
+		<item>@string/answer106_2</item>
+		<item>@string/answer106_3</item>
+	</array>
+
+	<array name="answers107">
+		<item>@string/answer107_1</item>
+		<item>@string/answer107_2</item>
+		<item>@string/answer107_3</item>
+	</array>
+
+	<array name="answers108">
+		<item>@string/answer108_1</item>
+		<item>@string/answer108_2</item>
+		<item>@string/answer108_3</item>
+	</array>
+
+	<array name="answers109">
+		<item>@string/answer109_1</item>
+		<item>@string/answer109_2</item>
+		<item>@string/answer109_3</item>
+	</array>
+
+	<array name="answers110">
+		<item>@string/answer110_1</item>
+		<item>@string/answer110_2</item>
+		<item>@string/answer110_3</item>
+	</array>
+
+	<array name="answers111">
+		<item>@string/answer111_1</item>
+		<item>@string/answer111_2</item>
+		<item>@string/answer111_3</item>
+	</array>
+
+	<array name="answers112">
+		<item>@string/answer112_1</item>
+		<item>@string/answer112_2</item>
+		<item>@string/answer112_3</item>
+	</array>
+
+	<array name="answers113">
+		<item>@string/answer113_1</item>
+		<item>@string/answer113_2</item>
+		<item>@string/answer113_3</item>
+	</array>
+
+	<array name="answers114">
+		<item>@string/answer114_1</item>
+		<item>@string/answer114_2</item>
+		<item>@string/answer114_3</item>
+	</array>
+
+	<array name="answers115">
+		<item>@string/answer115_1</item>
+		<item>@string/answer115_2</item>
+		<item>@string/answer115_3</item>
+	</array>
+
+	<array name="answers116">
+		<item>@string/answer116_1</item>
+		<item>@string/answer116_2</item>
+		<item>@string/answer116_3</item>
+	</array>
+
+	<array name="answers117">
+		<item>@string/answer117_1</item>
+		<item>@string/answer117_2</item>
+		<item>@string/answer117_3</item>
+	</array>
+
+	<array name="answers118">
+		<item>@string/answer118_1</item>
+		<item>@string/answer118_2</item>
+		<item>@string/answer118_3</item>
+	</array>
+
+	<array name="answers119">
+		<item>@string/answer119_1</item>
+		<item>@string/answer119_2</item>
+		<item>@string/answer119_3</item>
+	</array>
+
+	<array name="answers120">
+		<item>@string/answer120_1</item>
+		<item>@string/answer120_2</item>
+		<item>@string/answer120_3</item>
+	</array>
+
+	<array name="answers121">
+		<item>@string/answer121_1</item>
+		<item>@string/answer121_2</item>
+		<item>@string/answer121_3</item>
+	</array>
+
+	<array name="answers122">
+		<item>@string/answer122_1</item>
+		<item>@string/answer122_2</item>
+		<item>@string/answer122_3</item>
+	</array>
+
+	<array name="answers123">
+		<item>@string/answer123_1</item>
+		<item>@string/answer123_2</item>
+		<item>@string/answer123_3</item>
+	</array>
+
+	<array name="answers124">
+		<item>@string/answer124_1</item>
+		<item>@string/answer124_2</item>
+		<item>@string/answer124_3</item>
+	</array>
+
+	<array name="answers125">
+		<item>@string/answer125_1</item>
+		<item>@string/answer125_2</item>
+		<item>@string/answer125_3</item>
+	</array>
+
+	<array name="answers126">
+		<item>@string/answer126_1</item>
+		<item>@string/answer126_2</item>
+		<item>@string/answer126_3</item>
+	</array>
+
+	<array name="answers127">
+		<item>@string/answer127_1</item>
+		<item>@string/answer127_2</item>
+		<item>@string/answer127_3</item>
+	</array>
+
+	<array name="answers128">
+		<item>@string/answer128_1</item>
+		<item>@string/answer128_2</item>
+		<item>@string/answer128_3</item>
+	</array>
+
+	<array name="answers129">
+		<item>@string/answer129_1</item>
+		<item>@string/answer129_2</item>
+		<item>@string/answer129_3</item>
+	</array>
+
+	<array name="answers130">
+		<item>@string/answer130_1</item>
+		<item>@string/answer130_2</item>
+		<item>@string/answer130_3</item>
+	</array>
+
+	<array name="answers131">
+		<item>@string/answer131_1</item>
+		<item>@string/answer131_2</item>
+		<item>@string/answer131_3</item>
+	</array>
+
+	<array name="answers132">
+		<item>@string/answer132_1</item>
+		<item>@string/answer132_2</item>
+		<item>@string/answer132_3</item>
+	</array>
+
+	<array name="answers133">
+		<item>@string/answer133_1</item>
+		<item>@string/answer133_2</item>
+		<item>@string/answer133_3</item>
+	</array>
+
+	<array name="answers134">
+		<item>@string/answer134_1</item>
+		<item>@string/answer134_2</item>
+		<item>@string/answer134_3</item>
+	</array>
+
+	<array name="answers135">
+		<item>@string/answer135_1</item>
+		<item>@string/answer135_2</item>
+		<item>@string/answer135_3</item>
+	</array>
+
+	<array name="answers136">
+		<item>@string/answer136_1</item>
+		<item>@string/answer136_2</item>
+		<item>@string/answer136_3</item>
+	</array>
+
+	<array name="answers137">
+		<item>@string/answer137_1</item>
+		<item>@string/answer137_2</item>
+		<item>@string/answer137_3</item>
+	</array>
+
+	<array name="answers138">
+		<item>@string/answer138_1</item>
+		<item>@string/answer138_2</item>
+		<item>@string/answer138_3</item>
+	</array>
+
+	<array name="answers139">
+		<item>@string/answer139_1</item>
+		<item>@string/answer139_2</item>
+		<item>@string/answer139_3</item>
+	</array>
+
+	<array name="answers140">
+		<item>@string/answer140_1</item>
+		<item>@string/answer140_2</item>
+		<item>@string/answer140_3</item>
+	</array>
+
+	<array name="answers141">
+		<item>@string/answer141_1</item>
+		<item>@string/answer141_2</item>
+		<item>@string/answer141_3</item>
+	</array>
+
+	<array name="answers142">
+		<item>@string/answer142_1</item>
+		<item>@string/answer142_2</item>
+		<item>@string/answer142_3</item>
+	</array>
+
+	<array name="answers143">
+		<item>@string/answer143_1</item>
+		<item>@string/answer143_2</item>
+		<item>@string/answer143_3</item>
+	</array>
+
+	<array name="answers144">
+		<item>@string/answer144_1</item>
+		<item>@string/answer144_2</item>
+		<item>@string/answer144_3</item>
+	</array>
+
+	<array name="answers145">
+		<item>@string/answer145_1</item>
+		<item>@string/answer145_2</item>
+		<item>@string/answer145_3</item>
+	</array>
+
+	<array name="answers146">
+		<item>@string/answer146_1</item>
+		<item>@string/answer146_2</item>
+		<item>@string/answer146_3</item>
+	</array>
+
+	<array name="answers147">
+		<item>@string/answer147_1</item>
+		<item>@string/answer147_2</item>
+		<item>@string/answer147_3</item>
+	</array>
+
+	<array name="answers148">
+		<item>@string/answer148_1</item>
+		<item>@string/answer148_2</item>
+		<item>@string/answer148_3</item>
+	</array>
+
+	<array name="answers149">
+		<item>@string/answer149_1</item>
+		<item>@string/answer149_2</item>
+		<item>@string/answer149_3</item>
+	</array>
+
+	<array name="answers150">
+		<item>@string/answer150_1</item>
+		<item>@string/answer150_2</item>
+		<item>@string/answer150_3</item>
+	</array>
+
+	<array name="answers151">
+		<item>@string/answer151_1</item>
+		<item>@string/answer151_2</item>
+		<item>@string/answer151_3</item>
+	</array>
+
+	<array name="answers152">
+		<item>@string/answer152_1</item>
+		<item>@string/answer152_2</item>
+		<item>@string/answer152_3</item>
+	</array>
+
+	<array name="answers153">
+		<item>@string/answer153_1</item>
+		<item>@string/answer153_2</item>
+		<item>@string/answer153_3</item>
+	</array>
+
+	<array name="answers154">
+		<item>@string/answer154_1</item>
+		<item>@string/answer154_2</item>
+		<item>@string/answer154_3</item>
+	</array>
+
+	<array name="answers155">
+		<item>@string/answer155_1</item>
+		<item>@string/answer155_2</item>
+		<item>@string/answer155_3</item>
+	</array>
+
+	<array name="answers156">
+		<item>@string/answer156_1</item>
+		<item>@string/answer156_2</item>
+		<item>@string/answer156_3</item>
+	</array>
+
+	<array name="answers157">
+		<item>@string/answer157_1</item>
+		<item>@string/answer157_2</item>
+		<item>@string/answer157_3</item>
+	</array>
+
+	<array name="answers158">
+		<item>@string/answer158_1</item>
+		<item>@string/answer158_2</item>
+		<item>@string/answer158_3</item>
+	</array>
+
+	<array name="answers159">
+		<item>@string/answer159_1</item>
+		<item>@string/answer159_2</item>
+		<item>@string/answer159_3</item>
+	</array>
+
+	<array name="answers160">
+		<item>@string/answer160_1</item>
+		<item>@string/answer160_2</item>
+		<item>@string/answer160_3</item>
+	</array>
+
+	<array name="answers161">
+		<item>@string/answer161_1</item>
+		<item>@string/answer161_2</item>
+		<item>@string/answer161_3</item>
+	</array>
+
+	<array name="answers162">
+		<item>@string/answer162_1</item>
+		<item>@string/answer162_2</item>
+		<item>@string/answer162_3</item>
+	</array>
+
+	<array name="answers163">
+		<item>@string/answer163_1</item>
+		<item>@string/answer163_2</item>
+		<item>@string/answer163_3</item>
+	</array>
+
+	<array name="answers164">
+		<item>@string/answer164_1</item>
+		<item>@string/answer164_2</item>
+		<item>@string/answer164_3</item>
+	</array>
+
+	<array name="answers165">
+		<item>@string/answer165_1</item>
+		<item>@string/answer165_2</item>
+		<item>@string/answer165_3</item>
+	</array>
+
+	<array name="answers166">
+		<item>@string/answer166_1</item>
+		<item>@string/answer166_2</item>
+		<item>@string/answer166_3</item>
+	</array>
+
+	<array name="answers167">
+		<item>@string/answer167_1</item>
+		<item>@string/answer167_2</item>
+		<item>@string/answer167_3</item>
+	</array>
+
+	<array name="answers168">
+		<item>@string/answer168_1</item>
+		<item>@string/answer168_2</item>
+		<item>@string/answer168_3</item>
+	</array>
+
+	<array name="answers169">
+		<item>@string/answer169_1</item>
+		<item>@string/answer169_2</item>
+		<item>@string/answer169_3</item>
+	</array>
+
+	<array name="answers170">
+		<item>@string/answer170_1</item>
+		<item>@string/answer170_2</item>
+		<item>@string/answer170_3</item>
+	</array>
+
+	<array name="answers171">
+		<item>@string/answer171_1</item>
+		<item>@string/answer171_2</item>
+		<item>@string/answer171_3</item>
+	</array>
+
+	<array name="answers172">
+		<item>@string/answer172_1</item>
+		<item>@string/answer172_2</item>
+		<item>@string/answer172_3</item>
+	</array>
+
+	<array name="answers173">
+		<item>@string/answer173_1</item>
+		<item>@string/answer173_2</item>
+		<item>@string/answer173_3</item>
+	</array>
+
+	<array name="answers174">
+		<item>@string/answer174_1</item>
+		<item>@string/answer174_2</item>
+		<item>@string/answer174_3</item>
+	</array>
+
+	<array name="answers175">
+		<item>@string/answer175_1</item>
+		<item>@string/answer175_2</item>
+		<item>@string/answer175_3</item>
+	</array>
+
+	<array name="answers176">
+		<item>@string/answer176_1</item>
+		<item>@string/answer176_2</item>
+		<item>@string/answer176_3</item>
+	</array>
+
+	<array name="answers177">
+		<item>@string/answer177_1</item>
+		<item>@string/answer177_2</item>
+		<item>@string/answer177_3</item>
+	</array>
+
+	<array name="answers178">
+		<item>@string/answer178_1</item>
+		<item>@string/answer178_2</item>
+		<item>@string/answer178_3</item>
+	</array>
+
+	<array name="answers179">
+		<item>@string/answer179_1</item>
+		<item>@string/answer179_2</item>
+		<item>@string/answer179_3</item>
+	</array>
+
+	<array name="answers180">
+		<item>@string/answer180_1</item>
+		<item>@string/answer180_2</item>
+		<item>@string/answer180_3</item>
+	</array>
+
+	<array name="answers181">
+		<item>@string/answer181_1</item>
+		<item>@string/answer181_2</item>
+		<item>@string/answer181_3</item>
+	</array>
+
+	<array name="answers182">
+		<item>@string/answer182_1</item>
+		<item>@string/answer182_2</item>
+		<item>@string/answer182_3</item>
+	</array>
+
+	<array name="answers183">
+		<item>@string/answer183_1</item>
+		<item>@string/answer183_2</item>
+		<item>@string/answer183_3</item>
+	</array>
+
+	<array name="answers184">
+		<item>@string/answer184_1</item>
+		<item>@string/answer184_2</item>
+		<item>@string/answer184_3</item>
+	</array>
+
+	<array name="answers185">
+		<item>@string/answer185_1</item>
+		<item>@string/answer185_2</item>
+		<item>@string/answer185_3</item>
+	</array>
+
+	<array name="answers186">
+		<item>@string/answer186_1</item>
+		<item>@string/answer186_2</item>
+		<item>@string/answer186_3</item>
+	</array>
+
+	<array name="answers187">
+		<item>@string/answer187_1</item>
+		<item>@string/answer187_2</item>
+		<item>@string/answer187_3</item>
+	</array>
+
+	<array name="answers188">
+		<item>@string/answer188_1</item>
+		<item>@string/answer188_2</item>
+		<item>@string/answer188_3</item>
+	</array>
+
+	<array name="answers189">
+		<item>@string/answer189_1</item>
+		<item>@string/answer189_2</item>
+		<item>@string/answer189_3</item>
+	</array>
+
+	<array name="answers190">
+		<item>@string/answer190_1</item>
+		<item>@string/answer190_2</item>
+		<item>@string/answer190_3</item>
+	</array>
+
+	<array name="answers191">
+		<item>@string/answer191_1</item>
+		<item>@string/answer191_2</item>
+		<item>@string/answer191_3</item>
+	</array>
+
+	<array name="answers192">
+		<item>@string/answer192_1</item>
+		<item>@string/answer192_2</item>
+		<item>@string/answer192_3</item>
+	</array>
+
+	<array name="answers193">
+		<item>@string/answer193_1</item>
+		<item>@string/answer193_2</item>
+		<item>@string/answer193_3</item>
+	</array>
+
+	<array name="answers194">
+		<item>@string/answer194_1</item>
+		<item>@string/answer194_2</item>
+		<item>@string/answer194_3</item>
+	</array>
+
+	<array name="answers195">
+		<item>@string/answer195_1</item>
+		<item>@string/answer195_2</item>
+		<item>@string/answer195_3</item>
+	</array>
+
+	<array name="answers196">
+		<item>@string/answer196_1</item>
+		<item>@string/answer196_2</item>
+		<item>@string/answer196_3</item>
+	</array>
+
+	<array name="answers197">
+		<item>@string/answer197_1</item>
+		<item>@string/answer197_2</item>
+		<item>@string/answer197_3</item>
+	</array>
+
+	<array name="answers198">
+		<item>@string/answer198_1</item>
+		<item>@string/answer198_2</item>
+		<item>@string/answer198_3</item>
+	</array>
+
+	<array name="answers199">
+		<item>@string/answer199_1</item>
+		<item>@string/answer199_2</item>
+		<item>@string/answer199_3</item>
+	</array>
+
+	<array name="answers200">
+		<item>@string/answer200_1</item>
+		<item>@string/answer200_2</item>
+		<item>@string/answer200_3</item>
+	</array>
+
+	<array name="answers201">
+		<item>@string/answer201_1</item>
+		<item>@string/answer201_2</item>
+		<item>@string/answer201_3</item>
+	</array>
+
+	<array name="answers202">
+		<item>@string/answer202_1</item>
+		<item>@string/answer202_2</item>
+		<item>@string/answer202_3</item>
+	</array>
+
+	<array name="answers203">
+		<item>@string/answer203_1</item>
+		<item>@string/answer203_2</item>
+		<item>@string/answer203_3</item>
+	</array>
+
+	<array name="answers204">
+		<item>@string/answer204_1</item>
+		<item>@string/answer204_2</item>
+		<item>@string/answer204_3</item>
+	</array>
+
+	<array name="answers205">
+		<item>@string/answer205_1</item>
+		<item>@string/answer205_2</item>
+		<item>@string/answer205_3</item>
+	</array>
+
+	<array name="answers206">
+		<item>@string/answer206_1</item>
+		<item>@string/answer206_2</item>
+		<item>@string/answer206_3</item>
+	</array>
+
+	<array name="answers207">
+		<item>@string/answer207_1</item>
+		<item>@string/answer207_2</item>
+		<item>@string/answer207_3</item>
+	</array>
+
+	<array name="answers208">
+		<item>@string/answer208_1</item>
+		<item>@string/answer208_2</item>
+		<item>@string/answer208_3</item>
+	</array>
+
+	<array name="answers209">
+		<item>@string/answer209_1</item>
+		<item>@string/answer209_2</item>
+		<item>@string/answer209_3</item>
+	</array>
+
+	<array name="answers210">
+		<item>@string/answer210_1</item>
+		<item>@string/answer210_2</item>
+		<item>@string/answer210_3</item>
+	</array>
+
+	<array name="answers211">
+		<item>@string/answer211_1</item>
+		<item>@string/answer211_2</item>
+		<item>@string/answer211_3</item>
+	</array>
+
+	<array name="answers212">
+		<item>@string/answer212_1</item>
+		<item>@string/answer212_2</item>
+		<item>@string/answer212_3</item>
+	</array>
+
+	<array name="answers213">
+		<item>@string/answer213_1</item>
+		<item>@string/answer213_2</item>
+		<item>@string/answer213_3</item>
+	</array>
+
+	<array name="answers214">
+		<item>@string/answer214_1</item>
+		<item>@string/answer214_2</item>
+		<item>@string/answer214_3</item>
+	</array>
+
+	<array name="answers215">
+		<item>@string/answer215_1</item>
+		<item>@string/answer215_2</item>
+		<item>@string/answer215_3</item>
+	</array>
+
+	<array name="answers216">
+		<item>@string/answer216_1</item>
+		<item>@string/answer216_2</item>
+		<item>@string/answer216_3</item>
+	</array>
+
+	<array name="answers217">
+		<item>@string/answer217_1</item>
+		<item>@string/answer217_2</item>
+		<item>@string/answer217_3</item>
+	</array>
+
+	<array name="answers218">
+		<item>@string/answer218_1</item>
+		<item>@string/answer218_2</item>
+		<item>@string/answer218_3</item>
+	</array>
+
+	<array name="answers219">
+		<item>@string/answer219_1</item>
+		<item>@string/answer219_2</item>
+		<item>@string/answer219_3</item>
+	</array>
+
+	<array name="answers220">
+		<item>@string/answer220_1</item>
+		<item>@string/answer220_2</item>
+		<item>@string/answer220_3</item>
+	</array>
+
+	<array name="answers221">
+		<item>@string/answer221_1</item>
+		<item>@string/answer221_2</item>
+		<item>@string/answer221_3</item>
+	</array>
+
+	<array name="answers222">
+		<item>@string/answer222_1</item>
+		<item>@string/answer222_2</item>
+		<item>@string/answer222_3</item>
+	</array>
+
+	<array name="answers223">
+		<item>@string/answer223_1</item>
+		<item>@string/answer223_2</item>
+		<item>@string/answer223_3</item>
+	</array>
+
+	<array name="answers224">
+		<item>@string/answer224_1</item>
+		<item>@string/answer224_2</item>
+		<item>@string/answer224_3</item>
+	</array>
+
+	<array name="answers225">
+		<item>@string/answer225_1</item>
+		<item>@string/answer225_2</item>
+		<item>@string/answer225_3</item>
+	</array>
+
+	<array name="answers226">
+		<item>@string/answer226_1</item>
+		<item>@string/answer226_2</item>
+		<item>@string/answer226_3</item>
+	</array>
+
+	<array name="answers227">
+		<item>@string/answer227_1</item>
+		<item>@string/answer227_2</item>
+		<item>@string/answer227_3</item>
+	</array>
+
+	<array name="answers228">
+		<item>@string/answer228_1</item>
+		<item>@string/answer228_2</item>
+		<item>@string/answer228_3</item>
+	</array>
+
+	<array name="answers229">
+		<item>@string/answer229_1</item>
+		<item>@string/answer229_2</item>
+		<item>@string/answer229_3</item>
+	</array>
+
+	<array name="answers230">
+		<item>@string/answer230_1</item>
+		<item>@string/answer230_2</item>
+		<item>@string/answer230_3</item>
+	</array>
+
+	<array name="answers231">
+		<item>@string/answer231_1</item>
+		<item>@string/answer231_2</item>
+		<item>@string/answer231_3</item>
+	</array>
+
+	<array name="answers232">
+		<item>@string/answer232_1</item>
+		<item>@string/answer232_2</item>
+		<item>@string/answer232_3</item>
+	</array>
+
+	<array name="answers233">
+		<item>@string/answer233_1</item>
+		<item>@string/answer233_2</item>
+		<item>@string/answer233_3</item>
+	</array>
+
+	<array name="answers234">
+		<item>@string/answer234_1</item>
+		<item>@string/answer234_2</item>
+		<item>@string/answer234_3</item>
+	</array>
+
+	<array name="answers235">
+		<item>@string/answer235_1</item>
+		<item>@string/answer235_2</item>
+		<item>@string/answer235_3</item>
+	</array>
+
+	<array name="answers236">
+		<item>@string/answer236_1</item>
+		<item>@string/answer236_2</item>
+		<item>@string/answer236_3</item>
+	</array>
+
+	<array name="answers237">
+		<item>@string/answer237_1</item>
+		<item>@string/answer237_2</item>
+		<item>@string/answer237_3</item>
+	</array>
+
+	<array name="answers238">
+		<item>@string/answer238_1</item>
+		<item>@string/answer238_2</item>
+		<item>@string/answer238_3</item>
+	</array>
+
+	<array name="answers239">
+		<item>@string/answer239_1</item>
+		<item>@string/answer239_2</item>
+		<item>@string/answer239_3</item>
+	</array>
+
+	<array name="answers240">
+		<item>@string/answer240_1</item>
+		<item>@string/answer240_2</item>
+		<item>@string/answer240_3</item>
+	</array>
+
+	<array name="answers241">
+		<item>@string/answer241_1</item>
+		<item>@string/answer241_2</item>
+		<item>@string/answer241_3</item>
+	</array>
+
+	<array name="answers242">
+		<item>@string/answer242_1</item>
+		<item>@string/answer242_2</item>
+		<item>@string/answer242_3</item>
+	</array>
+
+	<array name="answers243">
+		<item>@string/answer243_1</item>
+		<item>@string/answer243_2</item>
+		<item>@string/answer243_3</item>
+	</array>
+
+	<array name="answers244">
+		<item>@string/answer244_1</item>
+		<item>@string/answer244_2</item>
+		<item>@string/answer244_3</item>
+	</array>
+
+	<array name="answers245">
+		<item>@string/answer245_1</item>
+		<item>@string/answer245_2</item>
+		<item>@string/answer245_3</item>
+	</array>
+
+	<array name="answers246">
+		<item>@string/answer246_1</item>
+		<item>@string/answer246_2</item>
+		<item>@string/answer246_3</item>
+	</array>
+
+	<array name="answers247">
+		<item>@string/answer247_1</item>
+		<item>@string/answer247_2</item>
+		<item>@string/answer247_3</item>
+	</array>
+
+	<array name="answers248">
+		<item>@string/answer248_1</item>
+		<item>@string/answer248_2</item>
+		<item>@string/answer248_3</item>
+	</array>
+
+	<array name="answers249">
+		<item>@string/answer249_1</item>
+		<item>@string/answer249_2</item>
+		<item>@string/answer249_3</item>
+	</array>
+
+	<array name="answers250">
+		<item>@string/answer250_1</item>
+		<item>@string/answer250_2</item>
+		<item>@string/answer250_3</item>
+	</array>
+
+	<array name="answers251">
+		<item>@string/answer251_1</item>
+		<item>@string/answer251_2</item>
+		<item>@string/answer251_3</item>
+	</array>
+
+	<array name="answers252">
+		<item>@string/answer252_1</item>
+		<item>@string/answer252_2</item>
+		<item>@string/answer252_3</item>
+	</array>
+
+	<array name="answers253">
+		<item>@string/answer253_1</item>
+		<item>@string/answer253_2</item>
+		<item>@string/answer253_3</item>
+	</array>
+
+	<array name="answers254">
+		<item>@string/answer254_1</item>
+		<item>@string/answer254_2</item>
+		<item>@string/answer254_3</item>
+	</array>
+
+	<array name="answers255">
+		<item>@string/answer255_1</item>
+		<item>@string/answer255_2</item>
+		<item>@string/answer255_3</item>
+	</array>
+
+	<array name="answers256">
+		<item>@string/answer256_1</item>
+		<item>@string/answer256_2</item>
+		<item>@string/answer256_3</item>
+	</array>
+
+	<array name="answers257">
+		<item>@string/answer257_1</item>
+		<item>@string/answer257_2</item>
+		<item>@string/answer257_3</item>
+	</array>
+
+	<array name="answers258">
+		<item>@string/answer258_1</item>
+		<item>@string/answer258_2</item>
+		<item>@string/answer258_3</item>
+	</array>
+
+	<array name="answers259">
+		<item>@string/answer259_1</item>
+		<item>@string/answer259_2</item>
+		<item>@string/answer259_3</item>
+	</array>
+
+	<array name="answers260">
+		<item>@string/answer260_1</item>
+		<item>@string/answer260_2</item>
+		<item>@string/answer260_3</item>
+	</array>
+
+	<array name="answers261">
+		<item>@string/answer261_1</item>
+		<item>@string/answer261_2</item>
+		<item>@string/answer261_3</item>
+	</array>
+
+	<array name="answers262">
+		<item>@string/answer262_1</item>
+		<item>@string/answer262_2</item>
+		<item>@string/answer262_3</item>
+	</array>
+
+	<array name="answers263">
+		<item>@string/answer263_1</item>
+		<item>@string/answer263_2</item>
+		<item>@string/answer263_3</item>
+	</array>
+
+	<array name="answers264">
+		<item>@string/answer264_1</item>
+		<item>@string/answer264_2</item>
+		<item>@string/answer264_3</item>
+	</array>
+
+	<array name="answers265">
+		<item>@string/answer265_1</item>
+		<item>@string/answer265_2</item>
+		<item>@string/answer265_3</item>
+	</array>
+
+	<array name="answers266">
+		<item>@string/answer266_1</item>
+		<item>@string/answer266_2</item>
+		<item>@string/answer266_3</item>
+	</array>
+
+	<array name="answers267">
+		<item>@string/answer267_1</item>
+		<item>@string/answer267_2</item>
+		<item>@string/answer267_3</item>
+	</array>
+
+	<array name="answers268">
+		<item>@string/answer268_1</item>
+		<item>@string/answer268_2</item>
+		<item>@string/answer268_3</item>
+	</array>
+
+	<array name="answers269">
+		<item>@string/answer269_1</item>
+		<item>@string/answer269_2</item>
+		<item>@string/answer269_3</item>
+	</array>
+
+	<array name="answers270">
+		<item>@string/answer270_1</item>
+		<item>@string/answer270_2</item>
+		<item>@string/answer270_3</item>
+	</array>
+
+	<array name="answers271">
+		<item>@string/answer271_1</item>
+		<item>@string/answer271_2</item>
+		<item>@string/answer271_3</item>
+	</array>
+
+	<array name="answers272">
+		<item>@string/answer272_1</item>
+		<item>@string/answer272_2</item>
+		<item>@string/answer272_3</item>
+	</array>
+
+	<array name="answers273">
+		<item>@string/answer273_1</item>
+		<item>@string/answer273_2</item>
+		<item>@string/answer273_3</item>
+	</array>
+
+	<array name="answers274">
+		<item>@string/answer274_1</item>
+		<item>@string/answer274_2</item>
+		<item>@string/answer274_3</item>
+	</array>
+
+	<array name="answers275">
+		<item>@string/answer275_1</item>
+		<item>@string/answer275_2</item>
+		<item>@string/answer275_3</item>
+	</array>
+
+	<array name="answers276">
+		<item>@string/answer276_1</item>
+		<item>@string/answer276_2</item>
+		<item>@string/answer276_3</item>
+	</array>
+
+	<array name="answers277">
+		<item>@string/answer277_1</item>
+		<item>@string/answer277_2</item>
+		<item>@string/answer277_3</item>
+	</array>
+
+	<array name="answers278">
+		<item>@string/answer278_1</item>
+		<item>@string/answer278_2</item>
+		<item>@string/answer278_3</item>
+	</array>
+
+	<array name="answers279">
+		<item>@string/answer279_1</item>
+		<item>@string/answer279_2</item>
+		<item>@string/answer279_3</item>
+	</array>
+
+	<array name="answers280">
+		<item>@string/answer280_1</item>
+		<item>@string/answer280_2</item>
+		<item>@string/answer280_3</item>
+	</array>
+
+	<array name="answers281">
+		<item>@string/answer281_1</item>
+		<item>@string/answer281_2</item>
+		<item>@string/answer281_3</item>
+	</array>
+
+	<array name="answers282">
+		<item>@string/answer282_1</item>
+		<item>@string/answer282_2</item>
+		<item>@string/answer282_3</item>
+	</array>
+
+	<array name="answers283">
+		<item>@string/answer283_1</item>
+		<item>@string/answer283_2</item>
+		<item>@string/answer283_3</item>
+	</array>
+
+	<array name="answers284">
+		<item>@string/answer284_1</item>
+		<item>@string/answer284_2</item>
+		<item>@string/answer284_3</item>
+	</array>
+
+	<array name="answers285">
+		<item>@string/answer285_1</item>
+		<item>@string/answer285_2</item>
+		<item>@string/answer285_3</item>
+	</array>
+
+	<array name="answers286">
+		<item>@string/answer286_1</item>
+		<item>@string/answer286_2</item>
+		<item>@string/answer286_3</item>
+	</array>
+
+	<array name="answers287">
+		<item>@string/answer287_1</item>
+		<item>@string/answer287_2</item>
+		<item>@string/answer287_3</item>
+	</array>
+
+	<array name="answers288">
+		<item>@string/answer288_1</item>
+		<item>@string/answer288_2</item>
+		<item>@string/answer288_3</item>
+	</array>
+
+	<array name="answers289">
+		<item>@string/answer289_1</item>
+		<item>@string/answer289_2</item>
+		<item>@string/answer289_3</item>
+	</array>
+
+	<array name="answers290">
+		<item>@string/answer290_1</item>
+		<item>@string/answer290_2</item>
+		<item>@string/answer290_3</item>
+	</array>
+
+	<array name="answers291">
+		<item>@string/answer291_1</item>
+		<item>@string/answer291_2</item>
+		<item>@string/answer291_3</item>
+	</array>
+
+	<array name="answers292">
+		<item>@string/answer292_1</item>
+		<item>@string/answer292_2</item>
+		<item>@string/answer292_3</item>
+	</array>
+
+	<array name="answers293">
+		<item>@string/answer293_1</item>
+		<item>@string/answer293_2</item>
+		<item>@string/answer293_3</item>
+	</array>
+
+	<array name="answers294">
+		<item>@string/answer294_1</item>
+		<item>@string/answer294_2</item>
+		<item>@string/answer294_3</item>
+	</array>
+
+	<array name="answers295">
+		<item>@string/answer295_1</item>
+		<item>@string/answer295_2</item>
+		<item>@string/answer295_3</item>
+	</array>
+
+	<array name="answers296">
+		<item>@string/answer296_1</item>
+		<item>@string/answer296_2</item>
+		<item>@string/answer296_3</item>
+	</array>
+
+	<array name="answers297">
+		<item>@string/answer297_1</item>
+		<item>@string/answer297_2</item>
+		<item>@string/answer297_3</item>
+	</array>
+
+	<array name="answers298">
+		<item>@string/answer298_1</item>
+		<item>@string/answer298_2</item>
+		<item>@string/answer298_3</item>
+	</array>
+
+	<array name="answers299">
+		<item>@string/answer299_1</item>
+		<item>@string/answer299_2</item>
+		<item>@string/answer299_3</item>
+	</array>
+
+	<array name="answers300">
+		<item>@string/answer300_1</item>
+		<item>@string/answer300_2</item>
+		<item>@string/answer300_3</item>
+	</array>
+
+	<array name="answers301">
+		<item>@string/answer301_1</item>
+		<item>@string/answer301_2</item>
+		<item>@string/answer301_3</item>
+	</array>
+
+	<array name="answers302">
+		<item>@string/answer302_1</item>
+		<item>@string/answer302_2</item>
+		<item>@string/answer302_3</item>
+	</array>
+
+	<array name="answers303">
+		<item>@string/answer303_1</item>
+		<item>@string/answer303_2</item>
+		<item>@string/answer303_3</item>
+	</array>
+
+	<array name="answers304">
+		<item>@string/answer304_1</item>
+		<item>@string/answer304_2</item>
+		<item>@string/answer304_3</item>
+	</array>
+
+	<array name="answers305">
+		<item>@string/answer305_1</item>
+		<item>@string/answer305_2</item>
+		<item>@string/answer305_3</item>
+	</array>
+
+	<array name="answers306">
+		<item>@string/answer306_1</item>
+		<item>@string/answer306_2</item>
+		<item>@string/answer306_3</item>
+	</array>
+
+	<array name="answers307">
+		<item>@string/answer307_1</item>
+		<item>@string/answer307_2</item>
+		<item>@string/answer307_3</item>
+	</array>
+
+	<array name="answers308">
+		<item>@string/answer308_1</item>
+		<item>@string/answer308_2</item>
+		<item>@string/answer308_3</item>
+	</array>
+
+	<array name="answers309">
+		<item>@string/answer309_1</item>
+		<item>@string/answer309_2</item>
+		<item>@string/answer309_3</item>
+	</array>
+
+	<array name="answers310">
+		<item>@string/answer310_1</item>
+		<item>@string/answer310_2</item>
+		<item>@string/answer310_3</item>
+	</array>
+
+	<array name="answers311">
+		<item>@string/answer311_1</item>
+		<item>@string/answer311_2</item>
+		<item>@string/answer311_3</item>
+	</array>
+
+	<array name="answers312">
+		<item>@string/answer312_1</item>
+		<item>@string/answer312_2</item>
+		<item>@string/answer312_3</item>
+	</array>
+
+	<array name="answers313">
+		<item>@string/answer313_1</item>
+		<item>@string/answer313_2</item>
+		<item>@string/answer313_3</item>
+	</array>
+
+	<array name="answers314">
+		<item>@string/answer314_1</item>
+		<item>@string/answer314_2</item>
+		<item>@string/answer314_3</item>
+	</array>
+
+	<array name="answers315">
+		<item>@string/answer315_1</item>
+		<item>@string/answer315_2</item>
+		<item>@string/answer315_3</item>
+	</array>
+
+	<array name="answers316">
+		<item>@string/answer316_1</item>
+		<item>@string/answer316_2</item>
+		<item>@string/answer316_3</item>
+	</array>
+
+	<array name="answers317">
+		<item>@string/answer317_1</item>
+		<item>@string/answer317_2</item>
+		<item>@string/answer317_3</item>
+	</array>
+
+	<array name="answers318">
+		<item>@string/answer318_1</item>
+		<item>@string/answer318_2</item>
+		<item>@string/answer318_3</item>
+	</array>
+
+	<array name="answers319">
+		<item>@string/answer319_1</item>
+		<item>@string/answer319_2</item>
+		<item>@string/answer319_3</item>
+	</array>
+
+	<array name="answers320">
+		<item>@string/answer320_1</item>
+		<item>@string/answer320_2</item>
+		<item>@string/answer320_3</item>
+	</array>
+
+	<array name="answers321">
+		<item>@string/answer321_1</item>
+		<item>@string/answer321_2</item>
+		<item>@string/answer321_3</item>
+	</array>
+
+	<array name="answers322">
+		<item>@string/answer322_1</item>
+		<item>@string/answer322_2</item>
+		<item>@string/answer322_3</item>
+	</array>
+
+	<array name="answers323">
+		<item>@string/answer323_1</item>
+		<item>@string/answer323_2</item>
+		<item>@string/answer323_3</item>
+	</array>
+
+	<array name="answers324">
+		<item>@string/answer324_1</item>
+		<item>@string/answer324_2</item>
+		<item>@string/answer324_3</item>
+	</array>
+
+	<array name="answers325">
+		<item>@string/answer325_1</item>
+		<item>@string/answer325_2</item>
+		<item>@string/answer325_3</item>
+	</array>
+
+	<array name="answers326">
+		<item>@string/answer326_1</item>
+		<item>@string/answer326_2</item>
+		<item>@string/answer326_3</item>
+	</array>
+
+	<array name="answers327">
+		<item>@string/answer327_1</item>
+		<item>@string/answer327_2</item>
+		<item>@string/answer327_3</item>
+	</array>
+
+	<array name="answers328">
+		<item>@string/answer328_1</item>
+		<item>@string/answer328_2</item>
+		<item>@string/answer328_3</item>
+	</array>
+
+	<array name="answers329">
+		<item>@string/answer329_1</item>
+		<item>@string/answer329_2</item>
+		<item>@string/answer329_3</item>
+	</array>
+
+	<array name="answers330">
+		<item>@string/answer330_1</item>
+		<item>@string/answer330_2</item>
+		<item>@string/answer330_3</item>
+	</array>
+
+	<array name="answers331">
+		<item>@string/answer331_1</item>
+		<item>@string/answer331_2</item>
+		<item>@string/answer331_3</item>
+	</array>
+
+	<array name="answers332">
+		<item>@string/answer332_1</item>
+		<item>@string/answer332_2</item>
+		<item>@string/answer332_3</item>
+	</array>
+
+	<array name="answers333">
+		<item>@string/answer333_1</item>
+		<item>@string/answer333_2</item>
+		<item>@string/answer333_3</item>
+	</array>
+
+	<array name="answers334">
+		<item>@string/answer334_1</item>
+		<item>@string/answer334_2</item>
+		<item>@string/answer334_3</item>
+	</array>
+
+	<array name="answers335">
+		<item>@string/answer335_1</item>
+		<item>@string/answer335_2</item>
+		<item>@string/answer335_3</item>
+	</array>
+
+	<array name="answers336">
+		<item>@string/answer336_1</item>
+		<item>@string/answer336_2</item>
+		<item>@string/answer336_3</item>
+	</array>
+
+	<array name="answers337">
+		<item>@string/answer337_1</item>
+		<item>@string/answer337_2</item>
+		<item>@string/answer337_3</item>
+	</array>
+
+	<array name="answers338">
+		<item>@string/answer338_1</item>
+		<item>@string/answer338_2</item>
+		<item>@string/answer338_3</item>
+	</array>
+
+	<array name="answers339">
+		<item>@string/answer339_1</item>
+		<item>@string/answer339_2</item>
+		<item>@string/answer339_3</item>
+	</array>
+
+	<array name="answers340">
+		<item>@string/answer340_1</item>
+		<item>@string/answer340_2</item>
+		<item>@string/answer340_3</item>
+	</array>
+
+	<array name="answers341">
+		<item>@string/answer341_1</item>
+		<item>@string/answer341_2</item>
+		<item>@string/answer341_3</item>
+	</array>
+
+	<array name="answers342">
+		<item>@string/answer342_1</item>
+		<item>@string/answer342_2</item>
+		<item>@string/answer342_3</item>
+	</array>
+
+	<array name="answers343">
+		<item>@string/answer343_1</item>
+		<item>@string/answer343_2</item>
+		<item>@string/answer343_3</item>
+	</array>
+
+	<array name="answers344">
+		<item>@string/answer344_1</item>
+		<item>@string/answer344_2</item>
+		<item>@string/answer344_3</item>
+	</array>
+
+	<array name="answers345">
+		<item>@string/answer345_1</item>
+		<item>@string/answer345_2</item>
+		<item>@string/answer345_3</item>
+	</array>
+
+	<array name="answers346">
+		<item>@string/answer346_1</item>
+		<item>@string/answer346_2</item>
+		<item>@string/answer346_3</item>
+	</array>
+
+	<array name="answers347">
+		<item>@string/answer347_1</item>
+		<item>@string/answer347_2</item>
+		<item>@string/answer347_3</item>
+	</array>
+
+	<array name="answers348">
+		<item>@string/answer348_1</item>
+		<item>@string/answer348_2</item>
+		<item>@string/answer348_3</item>
+	</array>
+
+	<array name="answers349">
+		<item>@string/answer349_1</item>
+		<item>@string/answer349_2</item>
+		<item>@string/answer349_3</item>
+	</array>
+
+	<array name="answers350">
+		<item>@string/answer350_1</item>
+		<item>@string/answer350_2</item>
+		<item>@string/answer350_3</item>
+	</array>
+
+	<array name="answers351">
+		<item>@string/answer351_1</item>
+		<item>@string/answer351_2</item>
+		<item>@string/answer351_3</item>
+	</array>
+
+	<array name="answers352">
+		<item>@string/answer352_1</item>
+		<item>@string/answer352_2</item>
+		<item>@string/answer352_3</item>
+	</array>
+
+	<array name="answers353">
+		<item>@string/answer353_1</item>
+		<item>@string/answer353_2</item>
+		<item>@string/answer353_3</item>
+	</array>
+
+	<array name="answers354">
+		<item>@string/answer354_1</item>
+		<item>@string/answer354_2</item>
+		<item>@string/answer354_3</item>
+	</array>
+
+	<array name="answers355">
+		<item>@string/answer355_1</item>
+		<item>@string/answer355_2</item>
+		<item>@string/answer355_3</item>
+	</array>
+
+	<array name="answers356">
+		<item>@string/answer356_1</item>
+		<item>@string/answer356_2</item>
+		<item>@string/answer356_3</item>
+	</array>
+
+	<array name="answers357">
+		<item>@string/answer357_1</item>
+		<item>@string/answer357_2</item>
+		<item>@string/answer357_3</item>
+	</array>
+
+	<array name="answers358">
+		<item>@string/answer358_1</item>
+		<item>@string/answer358_2</item>
+		<item>@string/answer358_3</item>
+	</array>
+
+	<array name="answers359">
+		<item>@string/answer359_1</item>
+		<item>@string/answer359_2</item>
+		<item>@string/answer359_3</item>
+	</array>
+
+	<array name="answers360">
+		<item>@string/answer360_1</item>
+		<item>@string/answer360_2</item>
+		<item>@string/answer360_3</item>
+	</array>
+
+	<array name="answers361">
+		<item>@string/answer361_1</item>
+		<item>@string/answer361_2</item>
+		<item>@string/answer361_3</item>
+	</array>
+
+	<array name="answers362">
+		<item>@string/answer362_1</item>
+		<item>@string/answer362_2</item>
+		<item>@string/answer362_3</item>
+	</array>
+
+	<array name="answers363">
+		<item>@string/answer363_1</item>
+		<item>@string/answer363_2</item>
+		<item>@string/answer363_3</item>
+	</array>
+
+	<array name="answers364">
+		<item>@string/answer364_1</item>
+		<item>@string/answer364_2</item>
+		<item>@string/answer364_3</item>
+	</array>
+
+	<array name="answers365">
+		<item>@string/answer365_1</item>
+		<item>@string/answer365_2</item>
+		<item>@string/answer365_3</item>
+	</array>
+
+	<array name="answers366">
+		<item>@string/answer366_1</item>
+		<item>@string/answer366_2</item>
+		<item>@string/answer366_3</item>
+	</array>
+
+	<array name="answers367">
+		<item>@string/answer367_1</item>
+		<item>@string/answer367_2</item>
+		<item>@string/answer367_3</item>
+	</array>
+
+	<array name="answers368">
+		<item>@string/answer368_1</item>
+		<item>@string/answer368_2</item>
+		<item>@string/answer368_3</item>
+	</array>
+
+	<array name="answers369">
+		<item>@string/answer369_1</item>
+		<item>@string/answer369_2</item>
+		<item>@string/answer369_3</item>
+	</array>
+
+	<array name="answers370">
+		<item>@string/answer370_1</item>
+		<item>@string/answer370_2</item>
+		<item>@string/answer370_3</item>
+	</array>
+
+	<array name="answers371">
+		<item>@string/answer371_1</item>
+		<item>@string/answer371_2</item>
+		<item>@string/answer371_3</item>
+	</array>
+
+	<array name="answers372">
+		<item>@string/answer372_1</item>
+		<item>@string/answer372_2</item>
+		<item>@string/answer372_3</item>
+	</array>
+
+	<array name="answers373">
+		<item>@string/answer373_1</item>
+		<item>@string/answer373_2</item>
+		<item>@string/answer373_3</item>
+	</array>
+
+	<array name="answers374">
+		<item>@string/answer374_1</item>
+		<item>@string/answer374_2</item>
+		<item>@string/answer374_3</item>
+	</array>
+
+	<array name="answers375">
+		<item>@string/answer375_1</item>
+		<item>@string/answer375_2</item>
+		<item>@string/answer375_3</item>
+	</array>
+
+	<array name="answers376">
+		<item>@string/answer376_1</item>
+		<item>@string/answer376_2</item>
+		<item>@string/answer376_3</item>
+	</array>
+
+	<array name="answers377">
+		<item>@string/answer377_1</item>
+		<item>@string/answer377_2</item>
+		<item>@string/answer377_3</item>
+	</array>
+
+	<array name="answers378">
+		<item>@string/answer378_1</item>
+		<item>@string/answer378_2</item>
+		<item>@string/answer378_3</item>
+	</array>
+
+	<array name="answers379">
+		<item>@string/answer379_1</item>
+		<item>@string/answer379_2</item>
+		<item>@string/answer379_3</item>
+	</array>
+
+	<array name="answers380">
+		<item>@string/answer380_1</item>
+		<item>@string/answer380_2</item>
+		<item>@string/answer380_3</item>
+	</array>
+
+	<array name="answers381">
+		<item>@string/answer381_1</item>
+		<item>@string/answer381_2</item>
+		<item>@string/answer381_3</item>
+	</array>
+
+	<array name="answers382">
+		<item>@string/answer382_1</item>
+		<item>@string/answer382_2</item>
+		<item>@string/answer382_3</item>
+	</array>
+
+	<array name="answers383">
+		<item>@string/answer383_1</item>
+		<item>@string/answer383_2</item>
+		<item>@string/answer383_3</item>
+	</array>
+
+	<array name="answers384">
+		<item>@string/answer384_1</item>
+		<item>@string/answer384_2</item>
+		<item>@string/answer384_3</item>
+	</array>
+
+	<array name="answers385">
+		<item>@string/answer385_1</item>
+		<item>@string/answer385_2</item>
+		<item>@string/answer385_3</item>
+	</array>
+
+	<array name="answers386">
+		<item>@string/answer386_1</item>
+		<item>@string/answer386_2</item>
+		<item>@string/answer386_3</item>
+	</array>
+
+	<array name="answers387">
+		<item>@string/answer387_1</item>
+		<item>@string/answer387_2</item>
+		<item>@string/answer387_3</item>
+	</array>
+
+	<array name="answers388">
+		<item>@string/answer388_1</item>
+		<item>@string/answer388_2</item>
+		<item>@string/answer388_3</item>
+	</array>
+
+	<array name="answers389">
+		<item>@string/answer389_1</item>
+		<item>@string/answer389_2</item>
+		<item>@string/answer389_3</item>
+	</array>
+
+	<array name="answers390">
+		<item>@string/answer390_1</item>
+		<item>@string/answer390_2</item>
+		<item>@string/answer390_3</item>
+	</array>
+
+	<array name="answers391">
+		<item>@string/answer391_1</item>
+		<item>@string/answer391_2</item>
+		<item>@string/answer391_3</item>
+	</array>
+
+	<array name="answers392">
+		<item>@string/answer392_1</item>
+		<item>@string/answer392_2</item>
+		<item>@string/answer392_3</item>
+	</array>
+
+	<array name="answers393">
+		<item>@string/answer393_1</item>
+		<item>@string/answer393_2</item>
+		<item>@string/answer393_3</item>
+	</array>
+
+	<array name="answers394">
+		<item>@string/answer394_1</item>
+		<item>@string/answer394_2</item>
+		<item>@string/answer394_3</item>
+	</array>
+
+	<array name="answers395">
+		<item>@string/answer395_1</item>
+		<item>@string/answer395_2</item>
+		<item>@string/answer395_3</item>
+	</array>
+
+	<array name="answers396">
+		<item>@string/answer396_1</item>
+		<item>@string/answer396_2</item>
+		<item>@string/answer396_3</item>
+	</array>
+
+	<array name="answers397">
+		<item>@string/answer397_1</item>
+		<item>@string/answer397_2</item>
+		<item>@string/answer397_3</item>
+	</array>
+
+	<array name="answers398">
+		<item>@string/answer398_1</item>
+		<item>@string/answer398_2</item>
+		<item>@string/answer398_3</item>
+	</array>
+
+	<array name="answers399">
+		<item>@string/answer399_1</item>
+		<item>@string/answer399_2</item>
+		<item>@string/answer399_3</item>
+	</array>
+
+	<array name="answers400">
+		<item>@string/answer400_1</item>
+		<item>@string/answer400_2</item>
+		<item>@string/answer400_3</item>
+	</array>
+
+	<array name="answers401">
+		<item>@string/answer401_1</item>
+		<item>@string/answer401_2</item>
+		<item>@string/answer401_3</item>
+	</array>
+
+	<array name="answers402">
+		<item>@string/answer402_1</item>
+		<item>@string/answer402_2</item>
+		<item>@string/answer402_3</item>
+	</array>
+
+	<array name="answers403">
+		<item>@string/answer403_1</item>
+		<item>@string/answer403_2</item>
+		<item>@string/answer403_3</item>
+	</array>
+
+	<array name="answers404">
+		<item>@string/answer404_1</item>
+		<item>@string/answer404_2</item>
+		<item>@string/answer404_3</item>
+	</array>
+
+	<array name="answers405">
+		<item>@string/answer405_1</item>
+		<item>@string/answer405_2</item>
+		<item>@string/answer405_3</item>
+	</array>
+
+	<array name="answers406">
+		<item>@string/answer406_1</item>
+		<item>@string/answer406_2</item>
+		<item>@string/answer406_3</item>
+	</array>
+
+	<array name="answers407">
+		<item>@string/answer407_1</item>
+		<item>@string/answer407_2</item>
+		<item>@string/answer407_3</item>
+	</array>
+
+	<array name="answers408">
+		<item>@string/answer408_1</item>
+		<item>@string/answer408_2</item>
+		<item>@string/answer408_3</item>
+	</array>
+
+	<array name="answers409">
+		<item>@string/answer409_1</item>
+		<item>@string/answer409_2</item>
+		<item>@string/answer409_3</item>
+	</array>
+
+	<array name="answers410">
+		<item>@string/answer410_1</item>
+		<item>@string/answer410_2</item>
+		<item>@string/answer410_3</item>
+	</array>
+
+	<array name="answers411">
+		<item>@string/answer411_1</item>
+		<item>@string/answer411_2</item>
+		<item>@string/answer411_3</item>
+	</array>
+
+	<array name="answers412">
+		<item>@string/answer412_1</item>
+		<item>@string/answer412_2</item>
+		<item>@string/answer412_3</item>
+	</array>
+
+	<array name="answers413">
+		<item>@string/answer413_1</item>
+		<item>@string/answer413_2</item>
+		<item>@string/answer413_3</item>
+	</array>
+
+	<array name="answers414">
+		<item>@string/answer414_1</item>
+		<item>@string/answer414_2</item>
+		<item>@string/answer414_3</item>
+	</array>
+
+	<array name="answers415">
+		<item>@string/answer415_1</item>
+		<item>@string/answer415_2</item>
+		<item>@string/answer415_3</item>
+	</array>
+
+	<array name="answers416">
+		<item>@string/answer416_1</item>
+		<item>@string/answer416_2</item>
+		<item>@string/answer416_3</item>
+	</array>
+
+	<array name="answers417">
+		<item>@string/answer417_1</item>
+		<item>@string/answer417_2</item>
+		<item>@string/answer417_3</item>
+	</array>
+
+	<array name="answers418">
+		<item>@string/answer418_1</item>
+		<item>@string/answer418_2</item>
+		<item>@string/answer418_3</item>
+	</array>
+
+	<array name="answers419">
+		<item>@string/answer419_1</item>
+		<item>@string/answer419_2</item>
+		<item>@string/answer419_3</item>
+	</array>
+
+	<array name="answers420">
+		<item>@string/answer420_1</item>
+		<item>@string/answer420_2</item>
+		<item>@string/answer420_3</item>
+	</array>
+
+	<array name="answers421">
+		<item>@string/answer421_1</item>
+		<item>@string/answer421_2</item>
+		<item>@string/answer421_3</item>
+	</array>
+
+	<array name="answers422">
+		<item>@string/answer422_1</item>
+		<item>@string/answer422_2</item>
+		<item>@string/answer422_3</item>
+	</array>
+
+	<array name="answers423">
+		<item>@string/answer423_1</item>
+		<item>@string/answer423_2</item>
+		<item>@string/answer423_3</item>
+	</array>
+
+	<array name="answers424">
+		<item>@string/answer424_1</item>
+		<item>@string/answer424_2</item>
+		<item>@string/answer424_3</item>
+	</array>
+
+	<array name="answers425">
+		<item>@string/answer425_1</item>
+		<item>@string/answer425_2</item>
+		<item>@string/answer425_3</item>
+	</array>
+
+	<array name="answers426">
+		<item>@string/answer426_1</item>
+		<item>@string/answer426_2</item>
+		<item>@string/answer426_3</item>
+	</array>
+
+	<array name="answers427">
+		<item>@string/answer427_1</item>
+		<item>@string/answer427_2</item>
+		<item>@string/answer427_3</item>
+	</array>
+
+	<array name="answers428">
+		<item>@string/answer428_1</item>
+		<item>@string/answer428_2</item>
+		<item>@string/answer428_3</item>
+	</array>
+
+	<array name="answers429">
+		<item>@string/answer429_1</item>
+		<item>@string/answer429_2</item>
+		<item>@string/answer429_3</item>
+	</array>
+
+	<array name="answers430">
+		<item>@string/answer430_1</item>
+		<item>@string/answer430_2</item>
+		<item>@string/answer430_3</item>
+	</array>
+
+	<array name="answers431">
+		<item>@string/answer431_1</item>
+		<item>@string/answer431_2</item>
+		<item>@string/answer431_3</item>
+	</array>
+
+	<array name="answers432">
+		<item>@string/answer432_1</item>
+		<item>@string/answer432_2</item>
+		<item>@string/answer432_3</item>
+	</array>
+
+	<array name="answers433">
+		<item>@string/answer433_1</item>
+		<item>@string/answer433_2</item>
+		<item>@string/answer433_3</item>
+	</array>
+
+	<array name="answers434">
+		<item>@string/answer434_1</item>
+		<item>@string/answer434_2</item>
+		<item>@string/answer434_3</item>
+	</array>
+
+	<array name="answers435">
+		<item>@string/answer435_1</item>
+		<item>@string/answer435_2</item>
+		<item>@string/answer435_3</item>
+	</array>
+
+	<array name="answers436">
+		<item>@string/answer436_1</item>
+		<item>@string/answer436_2</item>
+		<item>@string/answer436_3</item>
+	</array>
+
+	<array name="answers437">
+		<item>@string/answer437_1</item>
+		<item>@string/answer437_2</item>
+		<item>@string/answer437_3</item>
+	</array>
+
+	<array name="answers438">
+		<item>@string/answer438_1</item>
+		<item>@string/answer438_2</item>
+		<item>@string/answer438_3</item>
+	</array>
+
+	<array name="answers439">
+		<item>@string/answer439_1</item>
+		<item>@string/answer439_2</item>
+		<item>@string/answer439_3</item>
+	</array>
+
+	<array name="answers440">
+		<item>@string/answer440_1</item>
+		<item>@string/answer440_2</item>
+		<item>@string/answer440_3</item>
+	</array>
+
+	<array name="answers441">
+		<item>@string/answer441_1</item>
+		<item>@string/answer441_2</item>
+		<item>@string/answer441_3</item>
+	</array>
+
+	<array name="answers442">
+		<item>@string/answer442_1</item>
+		<item>@string/answer442_2</item>
+		<item>@string/answer442_3</item>
+	</array>
+
+	<array name="answers443">
+		<item>@string/answer443_1</item>
+		<item>@string/answer443_2</item>
+		<item>@string/answer443_3</item>
+	</array>
+
+	<array name="answers444">
+		<item>@string/answer444_1</item>
+		<item>@string/answer444_2</item>
+		<item>@string/answer444_3</item>
+	</array>
+
+	<array name="answers445">
+		<item>@string/answer445_1</item>
+		<item>@string/answer445_2</item>
+		<item>@string/answer445_3</item>
+	</array>
+
+	<array name="answers446">
+		<item>@string/answer446_1</item>
+		<item>@string/answer446_2</item>
+		<item>@string/answer446_3</item>
+	</array>
+
+	<array name="answers447">
+		<item>@string/answer447_1</item>
+		<item>@string/answer447_2</item>
+		<item>@string/answer447_3</item>
+	</array>
+
+	<array name="answers448">
+		<item>@string/answer448_1</item>
+		<item>@string/answer448_2</item>
+		<item>@string/answer448_3</item>
+	</array>
+
+	<array name="answers449">
+		<item>@string/answer449_1</item>
+		<item>@string/answer449_2</item>
+		<item>@string/answer449_3</item>
+	</array>
+
+	<array name="answers450">
+		<item>@string/answer450_1</item>
+		<item>@string/answer450_2</item>
+		<item>@string/answer450_3</item>
+	</array>
+
+	<array name="answers451">
+		<item>@string/answer451_1</item>
+		<item>@string/answer451_2</item>
+		<item>@string/answer451_3</item>
+	</array>
+
+	<array name="answers452">
+		<item>@string/answer452_1</item>
+		<item>@string/answer452_2</item>
+		<item>@string/answer452_3</item>
+	</array>
+
+	<array name="answers453">
+		<item>@string/answer453_1</item>
+		<item>@string/answer453_2</item>
+		<item>@string/answer453_3</item>
+	</array>
+
+	<array name="answers454">
+		<item>@string/answer454_1</item>
+		<item>@string/answer454_2</item>
+		<item>@string/answer454_3</item>
+	</array>
+
+	<array name="answers455">
+		<item>@string/answer455_1</item>
+		<item>@string/answer455_2</item>
+		<item>@string/answer455_3</item>
+	</array>
+
+	<array name="answers456">
+		<item>@string/answer456_1</item>
+		<item>@string/answer456_2</item>
+		<item>@string/answer456_3</item>
+	</array>
+
+	<array name="answers457">
+		<item>@string/answer457_1</item>
+		<item>@string/answer457_2</item>
+		<item>@string/answer457_3</item>
+	</array>
+
+	<array name="answers458">
+		<item>@string/answer458_1</item>
+		<item>@string/answer458_2</item>
+		<item>@string/answer458_3</item>
+	</array>
+
+	<array name="answers459">
+		<item>@string/answer459_1</item>
+		<item>@string/answer459_2</item>
+		<item>@string/answer459_3</item>
+	</array>
+
+	<array name="answers460">
+		<item>@string/answer460_1</item>
+		<item>@string/answer460_2</item>
+		<item>@string/answer460_3</item>
+	</array>
+
+	<array name="answers461">
+		<item>@string/answer461_1</item>
+		<item>@string/answer461_2</item>
+		<item>@string/answer461_3</item>
+	</array>
+
+	<array name="answers462">
+		<item>@string/answer462_1</item>
+		<item>@string/answer462_2</item>
+		<item>@string/answer462_3</item>
+	</array>
+
+	<array name="answers463">
+		<item>@string/answer463_1</item>
+		<item>@string/answer463_2</item>
+		<item>@string/answer463_3</item>
+	</array>
+
+	<array name="answers464">
+		<item>@string/answer464_1</item>
+		<item>@string/answer464_2</item>
+		<item>@string/answer464_3</item>
+	</array>
+
+	<array name="answers465">
+		<item>@string/answer465_1</item>
+		<item>@string/answer465_2</item>
+		<item>@string/answer465_3</item>
+	</array>
+
+	<array name="answers466">
+		<item>@string/answer466_1</item>
+		<item>@string/answer466_2</item>
+		<item>@string/answer466_3</item>
+	</array>
+
+	<array name="answers467">
+		<item>@string/answer467_1</item>
+		<item>@string/answer467_2</item>
+		<item>@string/answer467_3</item>
+	</array>
+
+	<array name="answers468">
+		<item>@string/answer468_1</item>
+		<item>@string/answer468_2</item>
+		<item>@string/answer468_3</item>
+	</array>
+
+	<array name="answers469">
+		<item>@string/answer469_1</item>
+		<item>@string/answer469_2</item>
+		<item>@string/answer469_3</item>
+	</array>
+
+	<array name="answers470">
+		<item>@string/answer470_1</item>
+		<item>@string/answer470_2</item>
+		<item>@string/answer470_3</item>
+	</array>
+
+	<array name="answers471">
+		<item>@string/answer471_1</item>
+		<item>@string/answer471_2</item>
+		<item>@string/answer471_3</item>
+	</array>
+
+	<array name="answers472">
+		<item>@string/answer472_1</item>
+		<item>@string/answer472_2</item>
+		<item>@string/answer472_3</item>
+	</array>
+
+	<array name="answers473">
+		<item>@string/answer473_1</item>
+		<item>@string/answer473_2</item>
+		<item>@string/answer473_3</item>
+	</array>
+
+	<array name="answers474">
+		<item>@string/answer474_1</item>
+		<item>@string/answer474_2</item>
+		<item>@string/answer474_3</item>
+	</array>
+
+	<array name="answers475">
+		<item>@string/answer475_1</item>
+		<item>@string/answer475_2</item>
+		<item>@string/answer475_3</item>
+	</array>
+
+	<array name="answers476">
+		<item>@string/answer476_1</item>
+		<item>@string/answer476_2</item>
+		<item>@string/answer476_3</item>
+	</array>
+
+	<array name="answers477">
+		<item>@string/answer477_1</item>
+		<item>@string/answer477_2</item>
+		<item>@string/answer477_3</item>
+	</array>
+
+	<array name="answers478">
+		<item>@string/answer478_1</item>
+		<item>@string/answer478_2</item>
+		<item>@string/answer478_3</item>
+	</array>
+
+	<array name="answers479">
+		<item>@string/answer479_1</item>
+		<item>@string/answer479_2</item>
+		<item>@string/answer479_3</item>
+	</array>
+
+	<array name="answers480">
+		<item>@string/answer480_1</item>
+		<item>@string/answer480_2</item>
+		<item>@string/answer480_3</item>
+	</array>
+
+	<array name="answers481">
+		<item>@string/answer481_1</item>
+		<item>@string/answer481_2</item>
+		<item>@string/answer481_3</item>
+	</array>
+
+	<array name="answers482">
+		<item>@string/answer482_1</item>
+		<item>@string/answer482_2</item>
+		<item>@string/answer482_3</item>
+	</array>
+
+	<array name="answers483">
+		<item>@string/answer483_1</item>
+		<item>@string/answer483_2</item>
+		<item>@string/answer483_3</item>
+	</array>
+
+	<array name="answers484">
+		<item>@string/answer484_1</item>
+		<item>@string/answer484_2</item>
+		<item>@string/answer484_3</item>
+	</array>
+
+	<array name="answers485">
+		<item>@string/answer485_1</item>
+		<item>@string/answer485_2</item>
+		<item>@string/answer485_3</item>
+	</array>
+
+	<array name="answers486">
+		<item>@string/answer486_1</item>
+		<item>@string/answer486_2</item>
+		<item>@string/answer486_3</item>
+	</array>
+
+	<array name="answers487">
+		<item>@string/answer487_1</item>
+		<item>@string/answer487_2</item>
+		<item>@string/answer487_3</item>
+	</array>
+
+	<array name="answers488">
+		<item>@string/answer488_1</item>
+		<item>@string/answer488_2</item>
+		<item>@string/answer488_3</item>
+	</array>
+
+	<array name="answers489">
+		<item>@string/answer489_1</item>
+		<item>@string/answer489_2</item>
+		<item>@string/answer489_3</item>
+	</array>
+
+	<array name="answers490">
+		<item>@string/answer490_1</item>
+		<item>@string/answer490_2</item>
+		<item>@string/answer490_3</item>
+	</array>
+
+	<array name="answers491">
+		<item>@string/answer491_1</item>
+		<item>@string/answer491_2</item>
+		<item>@string/answer491_3</item>
+	</array>
+
+	<array name="answers492">
+		<item>@string/answer492_1</item>
+		<item>@string/answer492_2</item>
+		<item>@string/answer492_3</item>
+	</array>
+
+	<array name="answers493">
+		<item>@string/answer493_1</item>
+		<item>@string/answer493_2</item>
+		<item>@string/answer493_3</item>
+	</array>
+
+	<array name="answers494">
+		<item>@string/answer494_1</item>
+		<item>@string/answer494_2</item>
+		<item>@string/answer494_3</item>
+	</array>
+
+	<array name="answers495">
+		<item>@string/answer495_1</item>
+		<item>@string/answer495_2</item>
+		<item>@string/answer495_3</item>
+	</array>
+
+	<array name="answers496">
+		<item>@string/answer496_1</item>
+		<item>@string/answer496_2</item>
+		<item>@string/answer496_3</item>
+	</array>
+
+	<array name="answers497">
+		<item>@string/answer497_1</item>
+		<item>@string/answer497_2</item>
+		<item>@string/answer497_3</item>
+	</array>
+
+	<array name="answers498">
+		<item>@string/answer498_1</item>
+		<item>@string/answer498_2</item>
+		<item>@string/answer498_3</item>
+	</array>
+
+	<array name="answers499">
+		<item>@string/answer499_1</item>
+		<item>@string/answer499_2</item>
+		<item>@string/answer499_3</item>
+	</array>
+
+	<array name="answers500">
+		<item>@string/answer500_1</item>
+		<item>@string/answer500_2</item>
+		<item>@string/answer500_3</item>
+	</array>
+
+	<array name="answers501">
+		<item>@string/answer501_1</item>
+		<item>@string/answer501_2</item>
+		<item>@string/answer501_3</item>
+	</array>
+
+	<array name="answers502">
+		<item>@string/answer502_1</item>
+		<item>@string/answer502_2</item>
+		<item>@string/answer502_3</item>
+	</array>
+
+	<array name="answers503">
+		<item>@string/answer503_1</item>
+		<item>@string/answer503_2</item>
+		<item>@string/answer503_3</item>
+	</array>
+
+	<array name="answers504">
+		<item>@string/answer504_1</item>
+		<item>@string/answer504_2</item>
+		<item>@string/answer504_3</item>
+	</array>
+
+	<array name="answers505">
+		<item>@string/answer505_1</item>
+		<item>@string/answer505_2</item>
+		<item>@string/answer505_3</item>
+	</array>
+
+	<array name="answers506">
+		<item>@string/answer506_1</item>
+		<item>@string/answer506_2</item>
+		<item>@string/answer506_3</item>
+	</array>
+
+	<array name="answers507">
+		<item>@string/answer507_1</item>
+		<item>@string/answer507_2</item>
+		<item>@string/answer507_3</item>
+	</array>
+
+	<array name="answers508">
+		<item>@string/answer508_1</item>
+		<item>@string/answer508_2</item>
+		<item>@string/answer508_3</item>
+	</array>
+
+	<array name="answers509">
+		<item>@string/answer509_1</item>
+		<item>@string/answer509_2</item>
+		<item>@string/answer509_3</item>
+	</array>
+
+	<array name="answers510">
+		<item>@string/answer510_1</item>
+		<item>@string/answer510_2</item>
+		<item>@string/answer510_3</item>
+	</array>
+
+	<array name="answers511">
+		<item>@string/answer511_1</item>
+		<item>@string/answer511_2</item>
+		<item>@string/answer511_3</item>
+	</array>
+
+	<array name="answers512">
+		<item>@string/answer512_1</item>
+		<item>@string/answer512_2</item>
+		<item>@string/answer512_3</item>
+	</array>
+
+	<array name="answers513">
+		<item>@string/answer513_1</item>
+		<item>@string/answer513_2</item>
+		<item>@string/answer513_3</item>
+	</array>
+
+	<array name="answers514">
+		<item>@string/answer514_1</item>
+		<item>@string/answer514_2</item>
+		<item>@string/answer514_3</item>
+	</array>
+
+	<array name="answers515">
+		<item>@string/answer515_1</item>
+		<item>@string/answer515_2</item>
+		<item>@string/answer515_3</item>
+	</array>
+
+	<array name="answers516">
+		<item>@string/answer516_1</item>
+		<item>@string/answer516_2</item>
+		<item>@string/answer516_3</item>
+	</array>
+
+	<array name="answers517">
+		<item>@string/answer517_1</item>
+		<item>@string/answer517_2</item>
+		<item>@string/answer517_3</item>
+	</array>
+
+	<array name="answers518">
+		<item>@string/answer518_1</item>
+		<item>@string/answer518_2</item>
+		<item>@string/answer518_3</item>
+	</array>
+
+	<array name="answers519">
+		<item>@string/answer519_1</item>
+		<item>@string/answer519_2</item>
+		<item>@string/answer519_3</item>
+	</array>
+
+	<array name="answers520">
+		<item>@string/answer520_1</item>
+		<item>@string/answer520_2</item>
+		<item>@string/answer520_3</item>
+	</array>
+
+	<array name="answers521">
+		<item>@string/answer521_1</item>
+		<item>@string/answer521_2</item>
+		<item>@string/answer521_3</item>
+	</array>
+
+	<array name="answers522">
+		<item>@string/answer522_1</item>
+		<item>@string/answer522_2</item>
+		<item>@string/answer522_3</item>
+	</array>
+
+	<array name="answers523">
+		<item>@string/answer523_1</item>
+		<item>@string/answer523_2</item>
+		<item>@string/answer523_3</item>
+	</array>
+
+	<array name="answers524">
+		<item>@string/answer524_1</item>
+		<item>@string/answer524_2</item>
+		<item>@string/answer524_3</item>
+	</array>
+
+</resources>

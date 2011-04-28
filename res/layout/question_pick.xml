@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<TextView android:id="@+id/question_pick_txt"
+		android:layout_width="fill_parent" android:text="TextView"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="10dip" android:layout_marginRight="10dip"></TextView>
+
+	<EditText android:id="@+id/question_pick_edit"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:inputType="phone" android:digits="1234567890"></EditText>
+</LinearLayout>
