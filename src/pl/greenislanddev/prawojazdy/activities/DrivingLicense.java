@@ -27,9 +27,9 @@ public class DrivingLicense extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		boolean result = super.onCreateOptionsMenu(menu);
-		menu.add(0, OPTION_EXERCISE_ID, 0, R.string.option_exercise);
-		menu.add(0, OPTION_EXAM_ID, 0, R.string.option_exam);
-		menu.add(0, OPTION_QUIT_ID, 0, R.string.option_quit);
+		menu.add(0, OPTION_EXERCISE_ID, 0, R.string.option_exercise).setIcon(R.drawable.train_icon);
+		menu.add(0, OPTION_EXAM_ID, 0, R.string.option_exam).setIcon(R.drawable.exam_icon);
+		menu.add(0, OPTION_QUIT_ID, 0, R.string.option_quit).setIcon(R.drawable.exit_icon);
 		return result;
 	}
 

@@ -76,8 +76,10 @@ public class QuestionViewer extends Activity {
 	protected void onDestroy() {
 		super.onDestroy();
 		dbAdapter.close();
-		if (state.isExam()) {
-			timer.destroy();
+		if (state.isExam() && !state.isFinished()) {
+			if(timer != null){
+				timer.destroy();
+			}
 		}
 	}
 
@@ -104,8 +106,8 @@ public class QuestionViewer extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		boolean result = super.onCreateOptionsMenu(menu);
-		menu.add(0, OPTION_SHOW_ID, 0, R.string.show_answer);
-		menu.add(0, OPTION_GOTO_ID, 0, R.string.goto_question);
+		menu.add(0, OPTION_SHOW_ID, 0, R.string.show_answer).setIcon(R.drawable.check_icon);
+		menu.add(0, OPTION_GOTO_ID, 0, R.string.goto_question).setIcon(R.drawable.goto_icon);
 		return result;
 	}
 
