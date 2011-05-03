@@ -23,8 +23,8 @@ public abstract class ExamTimer {
 			public void onTick(long millisUntilFinished) {
 				long millis = System.currentTimeMillis() - ExamTimer.this.startTime;
 				int seconds = (int) (millis / 1000);
-				int minutes = seconds / 60;
-				seconds = seconds % 60;
+				int minutes = 24 - (seconds / 60);
+				seconds = 59 - (seconds % 60);
 				ExamTimer.this.toUpdate.setText(String.format("%02d:%02d", minutes, seconds));
 			}
 

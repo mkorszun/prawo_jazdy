@@ -27,10 +27,10 @@ public class QuestionContentManager {
 
 	private Button previous;
 	private Button next;
-	
+
 	private String textNext;
 	private String textEnd;
-	
+
 	public QuestionContentManager(Activity activity) {
 		row1 = (TableRow) activity.findViewById(R.id.answerRow1);
 		row2 = (TableRow) activity.findViewById(R.id.answerRow2);
@@ -49,11 +49,11 @@ public class QuestionContentManager {
 	}
 
 	public void disable(boolean disable) {
-		if(disable){
+		if (disable) {
 			answer1.setEnabled(false);
 			answer2.setEnabled(false);
 			answer3.setEnabled(false);
-		}else{
+		} else {
 			answer1.setEnabled(true);
 			answer2.setEnabled(true);
 			answer3.setEnabled(true);
@@ -103,8 +103,7 @@ public class QuestionContentManager {
 	}
 
 	public boolean[] getAnswersState() {
-		return new boolean[] { answer1.isChecked(), answer2.isChecked(),
-				answer3.isChecked() };
+		return new boolean[] { answer1.isChecked(), answer2.isChecked(), answer3.isChecked() };
 	}
 
 	public void setAnswersText(String[] answers) {
@@ -132,30 +131,30 @@ public class QuestionContentManager {
 	public void setNextListener(OnClickListener listener) {
 		next.setOnClickListener(listener);
 	}
-	
+
 	public void showContent(Question question, String text, String[] answers) {
 		resetColors();
 		setQuestionText(text);
 		setAnswersText(answers);
 		setAnswersState(question.getUserAnswers());
 	}
-	
-	public void setEndButton(boolean end){
-		if(end){
+
+	public void setEndButton(boolean end) {
+		if (end) {
 			next.setText(textEnd);
-		}else{
+		} else {
 			next.setText(textNext);
 		}
 	}
-	
+
 	public TextView getTimer() {
 		return timer;
 	}
-	
-	public String getTimerDisplay(){
+
+	public String getTimerDisplay() {
 		return timer.getText().toString();
 	}
-	
+
 	public void setTimerDisplay(String display) {
 		this.timer.setText(display);
 	}

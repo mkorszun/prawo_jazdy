@@ -34,6 +34,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 
+import com.google.ads.AdRequest;
+import com.google.ads.AdView;
+
 public class QuestionViewer extends Activity {
 
 	private static final int OPTION_SHOW_ID = Menu.FIRST;
@@ -41,6 +44,7 @@ public class QuestionViewer extends Activity {
 
 	private static final int QUESTION_PICK_DIALOG_ID = 0;
 
+	private AdView admob;
 	private ExamState state;
 	private ExamTimer timer;
 	private Question actualQuestion;
@@ -62,6 +66,11 @@ public class QuestionViewer extends Activity {
 		questionContent.setNextListener(nextListener);
 		questionContent.setTimerDisplay(state.getTimerDisplay());
 
+		// Look up the AdView as a resource and load a request.
+		admob = (AdView) findViewById(R.id.admobView);
+		AdRequest adRequest = new AdRequest();
+		admob.loadAd(adRequest);
+
 		questionsSequencer = SequencerExtractor.getSequencer(this, currentState);
 		state.setQuestionsNumber(questionsSequencer.numberOfQuestions());
 		fetchQuestion(questionsSequencer.getCurrent());
@@ -76,8 +85,9 @@ public class QuestionViewer extends Activity {
 	protected void onDestroy() {
 		super.onDestroy();
 		dbAdapter.close();
+		admob.stopLoading();
 		if (state.isExam() && !state.isFinished()) {
-			if(timer != null){
+			if (timer != null) {
 				timer.destroy();
 			}
 		}

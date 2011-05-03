@@ -2,11 +2,16 @@
 <resources>
     <string name="app_name">Prawo Jazdy</string>
     <string name="menu_app_title">Prawo Jazdy</string>
-    <string name="menu_app_version">ver. 0.1</string>
+    <string name="menu_app_version">ver. 0.2</string>
     <string name="menu_choose_menu">Wybierz MENU aby rozpocząć.</string>
     
     <string name="common_ok">OK</string>
     <string name="common_cancel">Anuluj</string>
+    
+    <string name="license_dialog_title">Brak licencji</string>
+    <string name="license_dialog_msg">Nie znaleziono licencji dla tej kopii aplikacji. Proszę pobrać aplikację używając Android Market.</string>
+    <string name="license_dialog_but_ok">Pobierz</string>
+    <string name="license_dialog_but_quit">Wyjdź</string>
     
     <string name="question_pick_text">Wybierz numer pytania (1 - %1$d):</string>
     
