@@ -11,7 +11,7 @@ public class ExamState implements Serializable {
 	private static final long serialVersionUID = -6148131240864807991L;
 	
 	public static final int INITIAL_STATE = -1;
-	public static final String KEY = "STATE_KEY";
+	public static final String ID = "STATE_KEY";
 	
 	private long examStartTime;
 	private String timerDisplay;

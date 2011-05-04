@@ -3,13 +3,11 @@
 	android:layout_width="fill_parent" android:orientation="vertical"
 	android:layout_height="fill_parent">
 
-	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-		android:orientation="vertical" android:layout_width="fill_parent"
-		android:layout_height="fill_parent">
+	<ScrollView android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
 
-		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-			android:layout_width="fill_parent" android:orientation="vertical"
-			android:layout_height="fill_parent">
+		<LinearLayout android:layout_width="fill_parent"
+			android:orientation="vertical" android:layout_height="fill_parent">
 
 			<ImageView android:layout_width="wrap_content"
 				android:src="@drawable/car_appname2_beta" android:id="@+id/menu_car_pic"

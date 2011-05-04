@@ -68,8 +68,7 @@ public class QuestionViewer extends Activity {
 
 		// Look up the AdView as a resource and load a request.
 		admob = (AdView) findViewById(R.id.admobView);
-		AdRequest adRequest = new AdRequest();
-		admob.loadAd(adRequest);
+		admob.loadAd(new AdRequest());
 
 		questionsSequencer = SequencerExtractor.getSequencer(this, currentState);
 		state.setQuestionsNumber(questionsSequencer.numberOfQuestions());
@@ -96,7 +95,7 @@ public class QuestionViewer extends Activity {
 	@Override
 	protected void onSaveInstanceState(Bundle outState) {
 		super.onSaveInstanceState(outState);
-		outState.putSerializable(ExamState.KEY, state);
+		outState.putSerializable(ExamState.ID, state);
 		outState.putSerializable(QuestionsSequencer.ID, questionsSequencer);
 	}
 
@@ -230,7 +229,7 @@ public class QuestionViewer extends Activity {
 
 				@Override
 				public void executeNegative() {
-					// TODO Auto-generated method stub
+					// Auto-generated method stub
 				}
 			});
 		case EXAM_EXIT_DIALOG:

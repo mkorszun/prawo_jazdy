@@ -51,7 +51,7 @@ public class DrivingLicense extends Activity {
 			myIntent = new Intent(this, QuestionViewer.class);
 			sequencer = new TrainingQuestionsSequencer(maxQuestions);
 			myIntent.putExtra(QuestionsSequencer.ID, sequencer);
-			myIntent.putExtra(ExamState.KEY, state);
+			myIntent.putExtra(ExamState.ID, state);
 			startActivityForResult(myIntent, 0);
 			return true;
 		case OPTION_EXAM_ID:
@@ -59,7 +59,7 @@ public class DrivingLicense extends Activity {
 			myIntent = new Intent(this, QuestionViewer.class);
 			sequencer = new ExamQuestionsSequencer(maxQuestions, maxExamQuestions);
 			myIntent.putExtra(QuestionsSequencer.ID, sequencer);
-			myIntent.putExtra(ExamState.KEY, state);
+			myIntent.putExtra(ExamState.ID, state);
 			startActivityForResult(myIntent, 0);
 			return true;
 		case OPTION_QUIT_ID:

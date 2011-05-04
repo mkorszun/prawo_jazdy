@@ -4,14 +4,18 @@
 	android:orientation="vertical" android:layout_width="fill_parent"
 	android:layout_height="fill_parent">
 
-	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-		android:orientation="vertical" android:layout_width="fill_parent"
-		android:layout_height="wrap_content">
+	<com.google.ads.AdView android:id="@+id/admobView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		ads:adUnitId="a14dc02af18a67e" ads:adSize="BANNER" />
 
-		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-			android:id="@+id/question_layout" android:orientation="vertical"
-			android:layout_width="fill_parent" android:layout_height="fill_parent"
-			android:paddingLeft="10dp" android:paddingRight="10dp">
+	<ScrollView android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+		<LinearLayout android:id="@+id/question_layout"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:paddingLeft="10dp"
+			android:paddingRight="10dp">
 
 			<TableRow android:layout_height="wrap_content" android:id="@+id/tableRow1"
 				android:layout_width="fill_parent">
@@ -26,10 +30,6 @@
 				android:adjustViewBounds="true" android:scaleType="fitCenter"
 				android:layout_height="wrap_content" android:layout_width="wrap_content"
 				android:gravity="center_horizontal" android:layout_gravity="center_horizontal"></ImageView>
-
-			<com.google.ads.AdView android:id="@+id/admobView"
-				android:layout_width="fill_parent" android:layout_height="wrap_content"
-				ads:adUnitId="a14dc02af18a67e" ads:adSize="BANNER" />
 
 			<TextView android:text="Kto jest najwiekszym chujem w calej galaktyce"
 				android:id="@+id/questionText" android:layout_width="fill_parent"
@@ -54,10 +54,9 @@
 					android:textSize="15dip"></CheckBox>
 			</TableRow>
 
-			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-				android:orientation="horizontal" android:layout_width="fill_parent"
-				android:paddingTop="2dp" android:layout_height="wrap_content"
-				android:layout_gravity="bottom">
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="fill_parent" android:paddingTop="2dp"
+				android:layout_height="wrap_content" android:layout_gravity="bottom">
 				<Button android:text="@string/previous_button"
 					android:layout_weight="1" android:id="@+id/previous"
 					android:layout_width="0dip" android:layout_height="wrap_content"
