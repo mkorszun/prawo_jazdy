@@ -73,7 +73,8 @@ public class QuestionViewer extends Activity {
 		questionsSequencer = SequencerExtractor.getSequencer(this, currentState);
 		state.setQuestionsNumber(questionsSequencer.numberOfQuestions());
 		fetchQuestion(questionsSequencer.getCurrent());
-
+		questionContent.setClockIcon(state.isExam());
+		
 		if (state.isExam() && !state.isFinished()) {
 			timer = createTimer();
 			timer.start();

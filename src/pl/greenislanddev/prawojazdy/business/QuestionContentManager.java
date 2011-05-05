@@ -24,7 +24,8 @@ public class QuestionContentManager {
 	private ImageView imageView;
 	private TextView pageNumberInfo;
 	private TextView timer;
-
+	private ImageView clockIcon;
+	
 	private Button previous;
 	private Button next;
 
@@ -46,6 +47,7 @@ public class QuestionContentManager {
 		textNext = activity.getResources().getString(R.string.next_button);
 		textEnd = activity.getResources().getString(R.string.next_button_end);
 		timer = (TextView) activity.findViewById(R.id.timer);
+		clockIcon = (ImageView)activity.findViewById(R.id.clockIcon);
 	}
 
 	public void disable(boolean disable) {
@@ -157,5 +159,15 @@ public class QuestionContentManager {
 
 	public void setTimerDisplay(String display) {
 		this.timer.setText(display);
+	}
+	
+	public void setClockIcon(boolean set){
+		if(set){
+			clockIcon.setImageResource(R.drawable.clock);
+			timer.setPadding(0, 0, 10, 0);
+		}else{
+			clockIcon.setImageResource(0);
+			timer.setPadding(0, 0, 0, 0);
+		}
 	}
 }
