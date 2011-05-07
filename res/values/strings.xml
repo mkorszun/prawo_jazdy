@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Prawo Jazdy</string>
     <string name="menu_app_title">Prawo Jazdy</string>
-    <string name="menu_app_version">ver. 0.2</string>
+    <string name="menu_app_version">ver. 0.3</string>
     <string name="menu_choose_menu">Wybierz MENU aby rozpocząć.</string>
     
     <string name="common_ok">OK</string>
@@ -61,26 +61,55 @@
         <item>@string/category10</item>
         <item>@string/category11</item>
         <item>@string/category12</item>
+        <item>@string/category13</item>
+        <item>@string/category14</item>
+        <item>@string/category15</item>
+        <item>@string/category16</item>
+        <item>@string/category17</item>
+        <item>@string/category18</item> 
     </string-array>
     
-    <string name="category1">Pytania ogólne</string>
-    <string name="category2">Znaki i sygnały drogowe</string>
-    <string name="category3">Pierwszeństwo przejazdu</string>
-    <string name="category4">Manewry na drodze</string>
+    <string-array name="category_chapters">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+        <item>IX</item>
+        <item>X</item>
+        <item>XI</item>
+        <item>XII</item>
+        <item>XIII</item>
+        <item>XIV</item>
+        <item>XV</item>
+        <item>XVI</item>
+        <item>XVII</item>
+        <item>XVIII</item>
+    </string-array>
+    
+    <string name="category1">Znaki ogólnego zastosowania</string>
+    <string name="category2">Oznakowanie poziome</string>
+    <string name="category3">Sygnalizacja świetlna</string>
+    <string name="category4">Pierwszeństwo przejazdu</string>
     <string name="category5">Zachowanie wobec pieszego, rowerzysty i na przejazdach</string>
     <string name="category6">Używanie świateł i sygnałów</string>
-    <string name="category7">Pierwsza pomoc przedlekarska</string>
-    <string name="category8">Prędkość i hamowanie</string>
-    <string name="category9">Zachowanie przy znakach specjalistycznych</string>
-    <string name="category10">Używanie pojazdu</string>
-    <string name="category11">Technika kierowania pojazdem</string>
-    <string name="category12">Kategoria 12</string>
-    <string name="category13">Kategoria 13</string>
-    <string name="category14">Kategoria 14</string>
-    <string name="category15">Kategoria 15</string>
-    <string name="category16">Kategoria 16</string>
-    <string name="category17">Kategoria 17</string>
-    <string name="category18">Kategoria 18</string>
+    <string name="category7">Manewry na drodze I</string>
+    <string name="category8">Manewry na drodze II</string>
+    <string name="category9">Zachowanie wobec innych</string>
+    <string name="category10">Sytuacje nietypowe</string>
+    <string name="category11">Używanie świateł i sygnałów</string>
+    <string name="category12">Pierwsza pomoc przedlekarska</string>
+    <string name="category13">Prędkości i hamowanie I</string>
+    <string name="category14">Prędkości i hamowanie II</string>
+    <string name="category15">Używanie pojazdu I</string>
+    <string name="category16">Używanie pojazdu II</string>
+    <string name="category17">Technika kierowania pojazdem</string>
+    <string name="category18">Obsługa pojazdu</string>
+    
+    <string name="category_chapter">Dział</string>
     
    	<string name="question1">W tej sytuacji kierujący pojazdem jest ostrzegany o:</string>
 	<string name="answer1_1">jednym niebezpiecznym zakręcie w prawo, </string>

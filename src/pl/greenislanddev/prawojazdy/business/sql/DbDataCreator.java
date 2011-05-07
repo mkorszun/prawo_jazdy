@@ -1,6 +1,6 @@
-package pl.greenislanddev.prawojazdy.business.sequencer.sql;
+package pl.greenislanddev.prawojazdy.business.sql;
 
-import pl.greenislanddev.prawojazdy.business.sequencer.sql.tables.QuestionTable;
+import pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable;
 import android.content.ContentValues;
 import android.database.sqlite.SQLiteDatabase;
 

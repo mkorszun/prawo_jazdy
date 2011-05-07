@@ -1,4 +1,4 @@
-package pl.greenislanddev.prawojazdy.business.sequencer.sql.tables;
+package pl.greenislanddev.prawojazdy.business.sql.tables;
 
 public class CurrentTestTable {
 

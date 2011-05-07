@@ -1,7 +1,7 @@
-package pl.greenislanddev.prawojazdy.business.sequencer.sql;
+package pl.greenislanddev.prawojazdy.business.sql;
 
-import pl.greenislanddev.prawojazdy.business.sequencer.sql.tables.CurrentTestTable;
-import pl.greenislanddev.prawojazdy.business.sequencer.sql.tables.QuestionTable;
+import pl.greenislanddev.prawojazdy.business.sql.tables.CurrentTestTable;
+import pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
@@ -54,7 +54,6 @@ public class DrivingLicenseDbAdapter {
 			new Category8DataCreator().initData(db);
 			new Category9DataCreator().initData(db);
 		}
-
 	}
 
 	public DrivingLicenseDbAdapter(Context ctx) {
@@ -92,5 +91,23 @@ public class DrivingLicenseDbAdapter {
 			mCursor.moveToFirst();
 		}
 		return mCursor;
+	}
+
+	public long[][] minMaxCategoryQuestionIds() {
+		Cursor mCursor = //
+		mDb.query(false, QuestionTable.NAME, new String[] { "MIN(" + QuestionTable.KEY_ID + ")",
+				"MAX(" + QuestionTable.KEY_ID + ")", QuestionTable.KEY_CATEGORY_ID }, //
+				null, null, QuestionTable.KEY_CATEGORY_ID, null, QuestionTable.KEY_CATEGORY_ID, null);
+		if (mCursor != null) {
+			mCursor.moveToFirst();
+		}
+
+		long[][] results = new long[mCursor.getCount()][mCursor.getColumnCount()];
+		for (int i = 0; i < mCursor.getCount(); i++, mCursor.moveToNext()) {
+			for (int j = 0; j < mCursor.getColumnCount(); j++) {
+				results[i][j] = mCursor.getLong(j);
+			}
+		}
+		return results;
 	}
 }

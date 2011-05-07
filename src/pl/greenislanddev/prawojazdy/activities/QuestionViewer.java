@@ -1,9 +1,9 @@
 package pl.greenislanddev.prawojazdy.activities;
 
-import static pl.greenislanddev.prawojazdy.business.sequencer.sql.tables.QuestionTable.KEY_ANSWER_OPTIONS_ID;
-import static pl.greenislanddev.prawojazdy.business.sequencer.sql.tables.QuestionTable.KEY_CORRECT_ANSWER_ID;
-import static pl.greenislanddev.prawojazdy.business.sequencer.sql.tables.QuestionTable.KEY_IMAGE_ID;
-import static pl.greenislanddev.prawojazdy.business.sequencer.sql.tables.QuestionTable.KEY_QUESTION_ID;
+import static pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable.KEY_ANSWER_OPTIONS_ID;
+import static pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable.KEY_CORRECT_ANSWER_ID;
+import static pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable.KEY_IMAGE_ID;
+import static pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable.KEY_QUESTION_ID;
 
 import java.util.Map;
 
@@ -13,7 +13,7 @@ import pl.greenislanddev.prawojazdy.business.QuestionContentManager;
 import pl.greenislanddev.prawojazdy.business.TestResult;
 import pl.greenislanddev.prawojazdy.business.sequencer.QuestionsSequencer;
 import pl.greenislanddev.prawojazdy.business.sequencer.SequencerExtractor;
-import pl.greenislanddev.prawojazdy.business.sequencer.sql.DrivingLicenseDbAdapter;
+import pl.greenislanddev.prawojazdy.business.sql.DrivingLicenseDbAdapter;
 import pl.greenislanddev.prawojazdy.dialogs.DialogExecutor;
 import pl.greenislanddev.prawojazdy.dialogs.DialogFactory;
 import pl.greenislanddev.prawojazdy.dialogs.DialogFactory.DialogType;
@@ -71,10 +71,10 @@ public class QuestionViewer extends Activity {
 		admob.loadAd(new AdRequest());
 
 		questionsSequencer = SequencerExtractor.getSequencer(this, currentState);
-		state.setQuestionsNumber(questionsSequencer.numberOfQuestions());
+		state.setNumberOfQuestions(questionsSequencer.numberOfQuestions());
 		fetchQuestion(questionsSequencer.getCurrent());
 		questionContent.setClockIcon(state.isExam());
-		
+
 		if (state.isExam() && !state.isFinished()) {
 			timer = createTimer();
 			timer.start();
@@ -208,7 +208,7 @@ public class QuestionViewer extends Activity {
 		@Override
 		public void onClick(View v) {
 			saveQuestion(actualQuestion);
-			if (state.getPageCounter() < state.getQuestionsNumber()) {
+			if (state.getPageCounter() < state.getNumberOfQuestions()) {
 				state.nextPageNumber();
 				fetchQuestion(questionsSequencer.next());
 			} else {

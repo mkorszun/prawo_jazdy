@@ -3,7 +3,6 @@ package pl.greenislanddev.prawojazdy.activities;
 import pl.greenislanddev.prawojazdy.R;
 import pl.greenislanddev.prawojazdy.business.sequencer.ExamQuestionsSequencer;
 import pl.greenislanddev.prawojazdy.business.sequencer.QuestionsSequencer;
-import pl.greenislanddev.prawojazdy.business.sequencer.TrainingQuestionsSequencer;
 import pl.greenislanddev.prawojazdy.exam.state.ExamState;
 import android.app.Activity;
 import android.content.Intent;
@@ -48,12 +47,13 @@ public class DrivingLicense extends Activity {
 		switch (item.getItemId()) {
 		case OPTION_EXERCISE_ID:
 			state.setExam(false);
-			myIntent = new Intent(this, QuestionViewer.class);
-			sequencer = new TrainingQuestionsSequencer(maxQuestions);
-			myIntent.putExtra(QuestionsSequencer.ID, sequencer);
-			myIntent.putExtra(ExamState.ID, state);
+			myIntent = new Intent(this, CategoryList.class);
+			// sequencer = new TrainingQuestionsSequencer(maxQuestions);
+			// myIntent.putExtra(QuestionsSequencer.ID, sequencer);
+			// myIntent.putExtra(ExamState.ID, state);
 			startActivityForResult(myIntent, 0);
 			return true;
+
 		case OPTION_EXAM_ID:
 			state.setExam(true);
 			myIntent = new Intent(this, QuestionViewer.class);

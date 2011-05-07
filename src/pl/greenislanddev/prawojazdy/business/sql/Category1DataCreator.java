@@ -1,4 +1,4 @@
-package pl.greenislanddev.prawojazdy.business.sequencer.sql;
+package pl.greenislanddev.prawojazdy.business.sql;
 
 import android.database.sqlite.SQLiteDatabase;
 import pl.greenislanddev.prawojazdy.R;

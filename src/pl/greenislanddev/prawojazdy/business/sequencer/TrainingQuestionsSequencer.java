@@ -4,32 +4,38 @@ public class TrainingQuestionsSequencer implements QuestionsSequencer {
 
 	private static final long serialVersionUID = 3134709162175737587L;
 
-	private Long offset;
+	private Long begin;
+	private Long current;
 	private int numberOfQuestions;
 
 	public TrainingQuestionsSequencer(int maxQuestions) {
-		this.offset = 1L;
+		this(1L, maxQuestions);
+	}
+
+	public TrainingQuestionsSequencer(Long begin, int maxQuestions) {
+		this.begin = begin;
+		this.current = begin;
 		this.numberOfQuestions = maxQuestions;
 	}
 
 	public Long next() {
-		return ++offset;
+		return ++current;
 	}
 
 	public Long previous() {
-		return --offset;
+		return --current;
 	}
 
 	public Long getCurrent() {
-		return offset;
+		return current;
 	}
 
 	public void setCurrent(Long current) {
-		offset = current;
+		this.current = current;
 	}
 
 	public void reset() {
-		offset = 1L;
+		current = begin;
 	}
 
 	public int numberOfQuestions() {
