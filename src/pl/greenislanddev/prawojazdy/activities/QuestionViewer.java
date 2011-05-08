@@ -26,6 +26,7 @@ import pl.greenislanddev.prawojazdy.exam.timer.ExamTimer;
 import pl.greenislanddev.prawojazdy.utils.ResourcesUtils;
 import android.app.Activity;
 import android.app.Dialog;
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -41,6 +42,7 @@ public class QuestionViewer extends Activity {
 
 	private static final int OPTION_SHOW_ID = Menu.FIRST;
 	private static final int OPTION_GOTO_ID = OPTION_SHOW_ID + 1;
+	private static final int OPTION_EXIT_ID = OPTION_SHOW_ID + 2;
 
 	private static final int QUESTION_PICK_DIALOG_ID = 0;
 
@@ -116,8 +118,12 @@ public class QuestionViewer extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		boolean result = super.onCreateOptionsMenu(menu);
-		menu.add(0, OPTION_SHOW_ID, 0, R.string.show_answer).setIcon(R.drawable.check_icon);
-		menu.add(0, OPTION_GOTO_ID, 0, R.string.goto_question).setIcon(R.drawable.goto_icon);
+		if(!state.isExam()){
+			menu.add(0, OPTION_SHOW_ID, 0, R.string.show_answer).setIcon(R.drawable.check_icon);
+			menu.add(0, OPTION_GOTO_ID, 0, R.string.goto_question).setIcon(R.drawable.goto_icon);
+		}else{
+			menu.add(0, OPTION_EXIT_ID, 0, R.string.option_quit).setIcon(R.drawable.exit_icon);
+		}
 		return result;
 	}
 
@@ -131,6 +137,10 @@ public class QuestionViewer extends Activity {
 		case OPTION_GOTO_ID:
 			showDialog(QUESTION_PICK_DIALOG_ID);
 			return true;
+		case OPTION_EXIT_ID:
+			Intent i = new Intent(this, DrivingLicense.class); 
+			this.startActivity(i); 
+			finish(); 
 		}
 		return super.onOptionsItemSelected(item);
 	}
@@ -257,11 +267,7 @@ public class QuestionViewer extends Activity {
 	}
 
 	private boolean showMenu(int keyCode, KeyEvent event) {
-		if (!state.isExam()) {
-			return super.onKeyDown(keyCode, event);
-		} else {
-			return true;
-		}
+		return super.onKeyDown(keyCode, event);
 	}
 
 	private ExamTimer createTimer() {
