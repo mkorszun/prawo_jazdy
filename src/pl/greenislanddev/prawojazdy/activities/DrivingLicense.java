@@ -48,9 +48,6 @@ public class DrivingLicense extends Activity {
 		case OPTION_EXERCISE_ID:
 			state.setExam(false);
 			myIntent = new Intent(this, CategoryList.class);
-			// sequencer = new TrainingQuestionsSequencer(maxQuestions);
-			// myIntent.putExtra(QuestionsSequencer.ID, sequencer);
-			// myIntent.putExtra(ExamState.ID, state);
 			startActivityForResult(myIntent, 0);
 			return true;
 

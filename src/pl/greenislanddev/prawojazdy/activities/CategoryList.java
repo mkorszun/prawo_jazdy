@@ -45,16 +45,14 @@ public class CategoryList extends ListActivity {
 		super.onListItemClick(lv, v, position, id);
 
 		Long firstQuestion = mMinMaxQuestionIds[position][0];
-		Long lastQuestion = mMinMaxQuestionIds[position][1];
+		int lastQuestion = getResources().getInteger(R.integer.max_questions);
 
 		ExamState state = new ExamState();
-		// state.setExamStartTime(System.currentTimeMillis());
 		state.setExam(false);
 		state.setPageCounter(firstQuestion.intValue());
-		state.setNumberOfQuestions(lastQuestion.intValue());
 
 		Intent myIntent = new Intent(this, QuestionViewer.class);
-		QuestionsSequencer sequencer = new TrainingQuestionsSequencer(firstQuestion, lastQuestion.intValue());
+		QuestionsSequencer sequencer = new TrainingQuestionsSequencer(firstQuestion, lastQuestion);
 		myIntent.putExtra(QuestionsSequencer.ID, sequencer);
 		myIntent.putExtra(ExamState.ID, state);
 		startActivityForResult(myIntent, 0);
