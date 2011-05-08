@@ -14,6 +14,7 @@ import pl.greenislanddev.prawojazdy.business.TestResult;
 import pl.greenislanddev.prawojazdy.business.sequencer.QuestionsSequencer;
 import pl.greenislanddev.prawojazdy.business.sequencer.SequencerExtractor;
 import pl.greenislanddev.prawojazdy.business.sql.DrivingLicenseDbAdapter;
+import pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable;
 import pl.greenislanddev.prawojazdy.dialogs.DialogExecutor;
 import pl.greenislanddev.prawojazdy.dialogs.DialogFactory;
 import pl.greenislanddev.prawojazdy.dialogs.DialogFactory.DialogType;
@@ -39,7 +40,7 @@ import com.google.ads.AdRequest;
 import com.google.ads.AdView;
 
 public class QuestionViewer extends Activity {
-
+	
 	private static final int OPTION_SHOW_ID = Menu.FIRST;
 	private static final int OPTION_GOTO_ID = OPTION_SHOW_ID + 1;
 	private static final int OPTION_EXIT_ID = OPTION_SHOW_ID + 2;
@@ -151,6 +152,7 @@ public class QuestionViewer extends Activity {
 		int answersId = cursor.getInt(cursor.getColumnIndex(KEY_CORRECT_ANSWER_ID));
 		int optionsId = cursor.getInt(cursor.getColumnIndex(KEY_ANSWER_OPTIONS_ID));
 		int imageId = cursor.getInt(cursor.getColumnIndex(KEY_IMAGE_ID));
+		int categoryId = cursor.getInt(cursor.getColumnIndex(QuestionTable.KEY_CATEGORY_ID));
 		cursor.close();
 
 		state.initialize(questionId);
@@ -161,15 +163,16 @@ public class QuestionViewer extends Activity {
 		String text = ResourcesUtils.getString(getResources(), actualQuestion.getId());
 		String[] answers = ResourcesUtils.getStringArray(getResources(), Question.MAX_ANSWERS, optionsId);
 
-		showQuestion(actualQuestion, text, answers, imageId);
+		showQuestion(actualQuestion, text, answers, imageId, categoryId);
 		state.setQuestionId(questionId);
 	}
 
-	private void showQuestion(Question question, String text, String[] answers, int imageId) {
+	private void showQuestion(Question question, String text, String[] answers, int imageId, int categoryId) {
 		questionContent.setImageView(imageId);
 		questionContent.showContent(actualQuestion, text, answers);
 		questionContent.setPageNumber(state.toString());
 		questionContent.setEndButton(state.isLastQuestion());
+		questionContent.setCategory(getResources(), categoryId);
 		if (state.isFinished()) {
 			questionContent.showColors(question.validate(), true);
 		}

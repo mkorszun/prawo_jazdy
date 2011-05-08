@@ -70,24 +70,24 @@
     </string-array>
     
     <string-array name="category_chapters">
-        <item>I</item>
-        <item>II</item>
-        <item>III</item>
-        <item>IV</item>
-        <item>V</item>
-        <item>VI</item>
-        <item>VII</item>
-        <item>VIII</item>
-        <item>IX</item>
-        <item>X</item>
-        <item>XI</item>
-        <item>XII</item>
-        <item>XIII</item>
-        <item>XIV</item>
-        <item>XV</item>
-        <item>XVI</item>
-        <item>XVII</item>
-        <item>XVIII</item>
+        <item>@string/roman1</item>
+        <item>@string/roman2</item>
+        <item>@string/roman3</item>
+        <item>@string/roman4</item>
+        <item>@string/roman5</item>
+        <item>@string/roman6</item>
+        <item>@string/roman7</item>
+        <item>@string/roman8</item>
+        <item>@string/roman9</item>
+        <item>@string/roman10</item>
+        <item>@string/roman11</item>
+        <item>@string/roman12</item>
+        <item>@string/roman13</item>
+        <item>@string/roman14</item>
+        <item>@string/roman15</item>
+        <item>@string/roman16</item>
+        <item>@string/roman17</item>
+        <item>@string/roman18</item>
     </string-array>
     
     <string name="category1">Znaki ogólnego zastosowania</string>
@@ -108,6 +108,25 @@
     <string name="category16">Używanie pojazdu II</string>
     <string name="category17">Technika kierowania pojazdem</string>
     <string name="category18">Obsługa pojazdu</string>
+    
+    <string name="roman1">I</string>
+    <string name="roman2">II</string>
+    <string name="roman3">III</string>
+    <string name="roman4">IV</string>
+    <string name="roman5">V</string>
+    <string name="roman6">VI</string>
+    <string name="roman7">VII</string>
+    <string name="roman8">VIII</string>
+    <string name="roman9">IX</string>
+    <string name="roman10">X</string>
+    <string name="roman11">XI</string>
+    <string name="roman12">XII</string>
+    <string name="roman13">XIII</string>
+    <string name="roman14">XIV</string>
+    <string name="roman15">XV</string>
+    <string name="roman16">XVI</string>
+    <string name="roman17">XVII</string>
+    <string name="roman18">XVIII</string>
     
     <string name="category_chapter">Dział</string>
     

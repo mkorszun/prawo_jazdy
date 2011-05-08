@@ -1,7 +1,11 @@
 package pl.greenislanddev.prawojazdy.business;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import pl.greenislanddev.prawojazdy.R;
 import android.app.Activity;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -12,6 +16,29 @@ import android.widget.TextView;
 
 public class QuestionContentManager {
 
+	private static final Map<Integer, Integer> CATEGORIES = new HashMap<Integer, Integer>();
+	
+	static{
+		CATEGORIES.put(R.string.category1, R.string.roman1);
+		CATEGORIES.put(R.string.category2, R.string.roman2);
+		CATEGORIES.put(R.string.category3, R.string.roman3);
+		CATEGORIES.put(R.string.category4, R.string.roman4);
+		CATEGORIES.put(R.string.category5, R.string.roman5);
+		CATEGORIES.put(R.string.category6, R.string.roman6);
+		CATEGORIES.put(R.string.category7, R.string.roman7);
+		CATEGORIES.put(R.string.category8, R.string.roman8);
+		CATEGORIES.put(R.string.category9, R.string.roman9);
+		CATEGORIES.put(R.string.category10, R.string.roman10);
+		CATEGORIES.put(R.string.category11, R.string.roman11);
+		CATEGORIES.put(R.string.category12, R.string.roman12);
+		CATEGORIES.put(R.string.category13, R.string.roman13);
+		CATEGORIES.put(R.string.category14, R.string.roman14);
+		CATEGORIES.put(R.string.category15, R.string.roman15);
+		CATEGORIES.put(R.string.category16, R.string.roman16);
+		CATEGORIES.put(R.string.category17, R.string.roman17);
+		CATEGORIES.put(R.string.category18, R.string.roman18);
+	}
+	
 	private CheckBox answer1;
 	private CheckBox answer2;
 	private CheckBox answer3;
@@ -20,11 +47,13 @@ public class QuestionContentManager {
 	private TableRow row2;
 	private TableRow row3;
 
-	private TextView questionText;
 	private ImageView imageView;
-	private TextView pageNumberInfo;
-	private TextView timer;
 	private ImageView clockIcon;
+	
+	private TextView timer;
+	private TextView questionText;
+	private TextView pageNumberInfo;
+	private TextView category;
 	
 	private Button previous;
 	private Button next;
@@ -48,6 +77,7 @@ public class QuestionContentManager {
 		textEnd = activity.getResources().getString(R.string.next_button_end);
 		timer = (TextView) activity.findViewById(R.id.timer);
 		clockIcon = (ImageView)activity.findViewById(R.id.clockIcon);
+		category = (TextView)activity.findViewById(R.id.categoryText);
 	}
 
 	public void disable(boolean disable) {
@@ -164,10 +194,13 @@ public class QuestionContentManager {
 	public void setClockIcon(boolean set){
 		if(set){
 			clockIcon.setImageResource(R.drawable.clock);
-			timer.setPadding(0, 0, 10, 0);
 		}else{
 			clockIcon.setImageResource(0);
-			timer.setPadding(0, 0, 0, 0);
 		}
+	}
+	
+	public void setCategory(Resources res, int resId){
+		int value = CATEGORIES.get(Integer.valueOf(resId));
+		category.setText(String.format("%s %s", res.getString(R.string.category_chapter),res.getString(value)));
 	}
 }
