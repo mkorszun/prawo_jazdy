@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Prawo Jazdy</string>
-    <string name="menu_app_title">Prawo Jazdy</string>
-    <string name="menu_app_version">ver. 0.3</string>
+    <string name="app_name">Prawo Jazdy B</string>
+    <string name="menu_app_title">Prawo Jazdy B</string>
+    <string name="menu_app_version">ver. 1.0</string>
     <string name="menu_choose_menu">Wybierz MENU aby rozpocząć.</string>
     
     <string name="common_ok">OK</string>

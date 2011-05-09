@@ -7,19 +7,22 @@
 		android:layout_width="fill_parent" android:layout_height="fill_parent">
 
 		<LinearLayout android:layout_width="fill_parent"
-			android:orientation="vertical" android:layout_height="fill_parent">
+			android:layout_height="wrap_content" android:orientation="vertical">
 
-			<ImageView android:layout_width="wrap_content"
-				android:src="@drawable/car_appname2_beta" android:id="@+id/menu_car_pic"
-				android:layout_weight="5" android:layout_height="wrap_content"></ImageView>
+			<ImageView android:src="@drawable/car_appname2_beta"
+				android:id="@+id/menu_car_pic" android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:layout_marginTop="20dip"></ImageView>
+			<ImageView android:src="@drawable/category_b" android:id="@+id/menu_category"
+				android:layout_weight="1" android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:layout_marginTop="10dip"></ImageView>
 			<TextView android:id="@+id/menu_choose_menu_txt"
-				android:text="@string/menu_choose_menu" android:layout_weight="5"
-				android:layout_width="fill_parent" android:layout_height="wrap_content"
-				android:gravity="center_horizontal" android:textSize="16dip"></TextView>
+				android:text="@string/menu_choose_menu" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:gravity="center_horizontal"
+				android:textSize="16dip" android:layout_marginTop="20dip"></TextView>
 			<TextView android:id="@+id/menu_text" android:text="@string/menu_app_version"
 				android:gravity="center_horizontal" android:textSize="12dip"
-				android:layout_weight="1" android:layout_width="fill_parent"
-				android:layout_height="wrap_content" android:layout_marginTop="20dip"></TextView>
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="10dip"></TextView>
 		</LinearLayout>
 	</ScrollView>
 </LinearLayout>
