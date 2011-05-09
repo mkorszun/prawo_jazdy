@@ -45,7 +45,7 @@
     <string name="passed_msg">Zdałeś</string>
     <string name="failed_msg">Oblałeś</string>
     
-    <string name="show_answer">Pokaż odpowiedź</string>
+    <string name="show_answer">Sprawdź</string>
     <string name="goto_question">Idź do</string>
      
     <string-array name="categories">

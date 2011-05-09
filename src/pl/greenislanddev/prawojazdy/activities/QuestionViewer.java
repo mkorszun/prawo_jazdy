@@ -43,7 +43,7 @@ public class QuestionViewer extends Activity {
 	
 	private static final int OPTION_SHOW_ID = Menu.FIRST;
 	private static final int OPTION_GOTO_ID = OPTION_SHOW_ID + 1;
-	private static final int OPTION_EXIT_ID = OPTION_SHOW_ID + 2;
+	private static final int OPTION_EXIT_ID = OPTION_GOTO_ID + 1;
 
 	private static final int QUESTION_PICK_DIALOG_ID = 0;
 
@@ -119,12 +119,13 @@ public class QuestionViewer extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		boolean result = super.onCreateOptionsMenu(menu);
+		
 		if(!state.isExam()){
 			menu.add(0, OPTION_SHOW_ID, 0, R.string.show_answer).setIcon(R.drawable.check_icon);
 			menu.add(0, OPTION_GOTO_ID, 0, R.string.goto_question).setIcon(R.drawable.goto_icon);
-		}else{
-			menu.add(0, OPTION_EXIT_ID, 0, R.string.option_quit).setIcon(R.drawable.exit_icon);
 		}
+		
+		menu.add(0, OPTION_EXIT_ID, 0, R.string.option_quit).setIcon(R.drawable.exit_icon);
 		return result;
 	}
 
