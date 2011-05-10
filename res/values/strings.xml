@@ -47,6 +47,7 @@
     
     <string name="show_answer">Sprawdź</string>
     <string name="goto_question">Idź do</string>
+    <string name="about">O aplikacji</string>
      
     <string-array name="categories">
         <item>@string/category1</item>

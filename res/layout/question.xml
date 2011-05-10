@@ -132,21 +132,29 @@ android:layout_height="fill_parent">
 			android:layout_width="fill_parent" 
 			android:paddingTop="2dp"
 			android:layout_height="wrap_content" 
-			android:layout_gravity="bottom">
-				<Button 
-				android:text="@string/previous_button"
+			android:layout_gravity="bottom"
+			android:textSize="0dip">
+				<ImageButton 
 				android:layout_weight="1" 
 				android:id="@+id/previous"
 				android:layout_width="0dip" 
 				android:layout_height="wrap_content"
-				android:layout_gravity="bottom"></Button>
-				<Button 
-				android:text="@string/next_button"
+				android:gravity="center_horizontal"
+				android:src="@drawable/arrow_left"></ImageButton>
+				<ImageButton 
+				android:layout_weight="1" 
+				android:id="@+id/check_button"
+				android:layout_width="0dip" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:src="@drawable/check_icon"></ImageButton>
+				<ImageButton 
 				android:layout_weight="1" 
 				android:id="@+id/next"
 				android:layout_width="0dip" 
 				android:layout_height="wrap_content"
-				android:layout_gravity="bottom"></Button>
+				android:gravity="center_horizontal"
+				android:src="@drawable/arrow_right"></ImageButton>
 			</LinearLayout>
 		</LinearLayout>
 	</ScrollView>	

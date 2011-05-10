@@ -42,8 +42,8 @@ import com.google.ads.AdView;
 public class QuestionViewer extends Activity {
 	
 	private static final int OPTION_GOTO_ID = Menu.FIRST;
-	private static final int OPTION_SHOW_ID = OPTION_GOTO_ID + 1;
-	private static final int OPTION_EXIT_ID = OPTION_SHOW_ID + 1;
+	private static final int OPTION_ABOUT_ID = OPTION_GOTO_ID + 1;
+	private static final int OPTION_EXIT_ID = OPTION_ABOUT_ID + 1;
 
 	private static final int QUESTION_PICK_DIALOG_ID = 0;
 
@@ -67,7 +67,9 @@ public class QuestionViewer extends Activity {
 		questionContent = new QuestionContentManager(this);
 		questionContent.setPreviousListener(previousListener);
 		questionContent.setNextListener(nextListener);
+		questionContent.setCheckListener(checkListener);
 		questionContent.setTimerDisplay(state.getTimerDisplay());
+		questionContent.setClockIcon(state.isExam());
 
 		// Look up the AdView as a resource and load a request.
 		admob = (AdView) findViewById(R.id.admobView);
@@ -76,7 +78,6 @@ public class QuestionViewer extends Activity {
 		questionsSequencer = SequencerExtractor.getSequencer(this, currentState);
 		state.setNumberOfQuestions(questionsSequencer.numberOfQuestions());
 		fetchQuestion(questionsSequencer.getCurrent());
-		questionContent.setClockIcon(state.isExam());
 
 		if (state.isExam() && !state.isFinished()) {
 			timer = createTimer();
@@ -122,9 +123,8 @@ public class QuestionViewer extends Activity {
 		
 		if(!state.isExam()){
 			menu.add(0, OPTION_GOTO_ID, 0, R.string.goto_question).setIcon(R.drawable.goto_icon);
-			menu.add(0, OPTION_SHOW_ID, 0, R.string.show_answer).setIcon(R.drawable.check_icon);
+			menu.add(0, OPTION_ABOUT_ID, 0, R.string.about).setIcon(R.drawable.about_icon);
 		}
-		
 		menu.add(0, OPTION_EXIT_ID, 0, R.string.option_quit).setIcon(R.drawable.exit_icon);
 		return result;
 	}
@@ -132,9 +132,8 @@ public class QuestionViewer extends Activity {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
-		case OPTION_SHOW_ID:
-			actualQuestion.setUserAnswers(questionContent.getAnswersState());
-			questionContent.showColors(actualQuestion.validate(), false);
+		case OPTION_ABOUT_ID:
+			//TODO
 			return true;
 		case OPTION_GOTO_ID:
 			showDialog(QUESTION_PICK_DIALOG_ID);
@@ -172,7 +171,6 @@ public class QuestionViewer extends Activity {
 		questionContent.setImageView(imageId);
 		questionContent.showContent(actualQuestion, text, answers);
 		questionContent.setPageNumber(state.toString());
-		questionContent.setEndButton(state.isLastQuestion());
 		questionContent.setCategory(getResources(), categoryId);
 		if (state.isFinished()) {
 			questionContent.showColors(question.validate(), true);
@@ -213,7 +211,6 @@ public class QuestionViewer extends Activity {
 			if (state.getPageCounter() > 1) {
 				state.previousPageNumber();
 				fetchQuestion(questionsSequencer.previous());
-				questionContent.setEndButton(state.isLastQuestion());
 			}
 		}
 	};
@@ -227,6 +224,20 @@ public class QuestionViewer extends Activity {
 				fetchQuestion(questionsSequencer.next());
 			} else {
 				showEndDialog();
+			}
+		}
+	};
+	
+	private final OnClickListener checkListener = new OnClickListener(){
+		@Override
+		public void onClick(View v) {
+			if(!state.isExam()){
+				actualQuestion.setUserAnswers(questionContent.getAnswersState());
+				questionContent.showColors(actualQuestion.validate(), false);			
+			}else{
+				if(!state.isFinished()){
+					showEndDialog();
+				}
 			}
 		}
 	};
@@ -293,7 +304,6 @@ public class QuestionViewer extends Activity {
 			questionsSequencer.setCurrent(Long.valueOf(questionNumber));
 			state.setPageCounter(questionNumber);
 			fetchQuestion(questionsSequencer.getCurrent());
-			questionContent.setEndButton(state.isLastQuestion());
 		}
 	};
 

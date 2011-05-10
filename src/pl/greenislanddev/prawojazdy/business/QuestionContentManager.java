@@ -7,9 +7,10 @@ import pl.greenislanddev.prawojazdy.R;
 import android.app.Activity;
 import android.content.res.Resources;
 import android.graphics.Color;
+import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TableRow;
 import android.widget.TextView;
@@ -55,11 +56,9 @@ public class QuestionContentManager {
 	private TextView pageNumberInfo;
 	private TextView category;
 	
-	private Button previous;
-	private Button next;
-
-	private String textNext;
-	private String textEnd;
+	private ImageButton previous;
+	private ImageButton next;
+	private ImageButton check;
 
 	public QuestionContentManager(Activity activity) {
 		row1 = (TableRow) activity.findViewById(R.id.answerRow1);
@@ -71,13 +70,12 @@ public class QuestionContentManager {
 		questionText = (TextView) activity.findViewById(R.id.questionText);
 		imageView = (ImageView) activity.findViewById(R.id.imageView);
 		pageNumberInfo = (TextView) activity.findViewById(R.id.pageNumberText);
-		previous = (Button) activity.findViewById(R.id.previous);
-		next = (Button) activity.findViewById(R.id.next);
-		textNext = activity.getResources().getString(R.string.next_button);
-		textEnd = activity.getResources().getString(R.string.next_button_end);
+		previous = (ImageButton) activity.findViewById(R.id.previous);
+		next = (ImageButton) activity.findViewById(R.id.next);
 		timer = (TextView) activity.findViewById(R.id.timer);
 		clockIcon = (ImageView)activity.findViewById(R.id.clockIcon);
 		category = (TextView)activity.findViewById(R.id.categoryText);
+		check = (ImageButton)activity.findViewById(R.id.check_button);
 	}
 
 	public void disable(boolean disable) {
@@ -163,20 +161,16 @@ public class QuestionContentManager {
 	public void setNextListener(OnClickListener listener) {
 		next.setOnClickListener(listener);
 	}
+	
+	public void setCheckListener(OnClickListener listener){
+		check.setOnClickListener(listener);
+	}
 
 	public void showContent(Question question, String text, String[] answers) {
 		resetColors();
 		setQuestionText(text);
 		setAnswersText(answers);
 		setAnswersState(question.getUserAnswers());
-	}
-
-	public void setEndButton(boolean end) {
-		if (end) {
-			next.setText(textEnd);
-		} else {
-			next.setText(textNext);
-		}
 	}
 
 	public TextView getTimer() {
@@ -196,6 +190,14 @@ public class QuestionContentManager {
 			clockIcon.setImageResource(R.drawable.clock);
 		}else{
 			clockIcon.setImageResource(0);
+		}
+	}
+	
+	public void showCheckButton(boolean show){
+		if(show){
+			check.setVisibility(View.VISIBLE);
+		}else{
+			check.setVisibility(View.GONE);
 		}
 	}
 	
