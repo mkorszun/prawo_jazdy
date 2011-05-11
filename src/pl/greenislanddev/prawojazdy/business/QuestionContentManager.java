@@ -7,7 +7,6 @@ import pl.greenislanddev.prawojazdy.R;
 import android.app.Activity;
 import android.content.res.Resources;
 import android.graphics.Color;
-import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.CheckBox;
 import android.widget.ImageButton;
@@ -193,11 +192,11 @@ public class QuestionContentManager {
 		}
 	}
 	
-	public void showCheckButton(boolean show){
-		if(show){
-			check.setVisibility(View.VISIBLE);
+	public void showCheckButton(boolean exam){
+		if(exam){
+			check.setImageResource(R.drawable.check_exam);
 		}else{
-			check.setVisibility(View.GONE);
+			check.setImageResource(R.drawable.check_icon);
 		}
 	}
 	

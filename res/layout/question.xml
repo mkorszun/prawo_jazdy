@@ -146,8 +146,7 @@ android:layout_height="fill_parent">
 				android:id="@+id/check_button"
 				android:layout_width="0dip" 
 				android:layout_height="wrap_content"
-				android:gravity="center_horizontal"
-				android:src="@drawable/check_icon"></ImageButton>
+				android:gravity="center_horizontal"></ImageButton>
 				<ImageButton 
 				android:layout_weight="1" 
 				android:id="@+id/next"

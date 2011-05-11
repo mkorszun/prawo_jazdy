@@ -70,6 +70,7 @@ public class QuestionViewer extends Activity {
 		questionContent.setCheckListener(checkListener);
 		questionContent.setTimerDisplay(state.getTimerDisplay());
 		questionContent.setClockIcon(state.isExam());
+		questionContent.showCheckButton(state.isExam());
 
 		// Look up the AdView as a resource and load a request.
 		admob = (AdView) findViewById(R.id.admobView);

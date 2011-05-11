@@ -1491,19 +1491,20 @@ containing a value of this type.
         public static final int car_appname2_beta=0x7f02018d;
         public static final int car_thumb=0x7f02018e;
         public static final int category_b=0x7f02018f;
-        public static final int check_icon=0x7f020190;
-        public static final int clock=0x7f020191;
-        public static final int congrats2=0x7f020192;
-        public static final int exam_icon=0x7f020193;
-        public static final int exit_icon=0x7f020194;
-        public static final int fail2=0x7f020195;
-        public static final int formula_thumb=0x7f020196;
-        public static final int good2=0x7f020197;
-        public static final int goto_icon=0x7f020198;
-        public static final int icon=0x7f020199;
-        public static final int page=0x7f02019a;
-        public static final int train_icon=0x7f02019b;
-        public static final int van_thumb=0x7f02019c;
+        public static final int check_exam=0x7f020190;
+        public static final int check_icon=0x7f020191;
+        public static final int clock=0x7f020192;
+        public static final int congrats2=0x7f020193;
+        public static final int exam_icon=0x7f020194;
+        public static final int exit_icon=0x7f020195;
+        public static final int fail2=0x7f020196;
+        public static final int formula_thumb=0x7f020197;
+        public static final int good2=0x7f020198;
+        public static final int goto_icon=0x7f020199;
+        public static final int icon=0x7f02019a;
+        public static final int page=0x7f02019b;
+        public static final int train_icon=0x7f02019c;
+        public static final int van_thumb=0x7f02019d;
     }
     public static final class id {
         public static final int BANNER=0x7f050000;
