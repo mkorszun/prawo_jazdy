@@ -101,6 +101,7 @@ public class QuestionViewer extends Activity {
 	@Override
 	protected void onSaveInstanceState(Bundle outState) {
 		super.onSaveInstanceState(outState);
+		saveQuestion(actualQuestion);
 		outState.putSerializable(ExamState.ID, state);
 		outState.putSerializable(QuestionsSequencer.ID, questionsSequencer);
 	}

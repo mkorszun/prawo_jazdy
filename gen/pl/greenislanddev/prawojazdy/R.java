@@ -1501,10 +1501,11 @@ containing a value of this type.
         public static final int formula_thumb=0x7f020197;
         public static final int good2=0x7f020198;
         public static final int goto_icon=0x7f020199;
-        public static final int icon=0x7f02019a;
-        public static final int page=0x7f02019b;
-        public static final int train_icon=0x7f02019c;
-        public static final int van_thumb=0x7f02019d;
+        public static final int gradient=0x7f02019a;
+        public static final int icon=0x7f02019b;
+        public static final int page=0x7f02019c;
+        public static final int train_icon=0x7f02019d;
+        public static final int van_thumb=0x7f02019e;
     }
     public static final class id {
         public static final int BANNER=0x7f050000;
@@ -1544,8 +1545,8 @@ containing a value of this type.
         public static final int summary_mistakes_count=0x7f05000b;
         public static final int summary_questions_count=0x7f050009;
         public static final int summary_text_line=0x7f05000c;
-        public static final int tableRow1=0x7f050014;
         public static final int timer=0x7f050016;
+        public static final int top_row=0x7f050014;
     }
     public static final class integer {
         public static final int max_exam_questions=0x7f080001;
