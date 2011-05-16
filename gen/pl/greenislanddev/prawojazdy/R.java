@@ -1502,10 +1502,11 @@ containing a value of this type.
         public static final int good2=0x7f020198;
         public static final int goto_icon=0x7f020199;
         public static final int gradient=0x7f02019a;
-        public static final int icon=0x7f02019b;
-        public static final int page=0x7f02019c;
-        public static final int train_icon=0x7f02019d;
-        public static final int van_thumb=0x7f02019e;
+        public static final int gradient2=0x7f02019b;
+        public static final int icon=0x7f02019c;
+        public static final int page=0x7f02019d;
+        public static final int train_icon=0x7f02019e;
+        public static final int van_thumb=0x7f02019f;
     }
     public static final class id {
         public static final int BANNER=0x7f050000;
