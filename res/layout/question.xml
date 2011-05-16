@@ -8,7 +8,7 @@ android:layout_height="fill_parent">
 
 	<com.google.ads.AdView 
 	android:id="@+id/admobView"
-	android:layout_width="wrap_content" 
+	android:layout_width="fill_parent" 
 	android:layout_height="wrap_content"
 	android:gravity="center_horizontal" 
 	ads:adUnitId="a14dc02af18a67e"
@@ -35,11 +35,9 @@ android:layout_height="fill_parent">
 			android:paddingTop="5dp"
 			android:paddingBottom="5dip"
 			android:layout_marginBottom="5dip">
-				
 				<RelativeLayout 
 				android:layout_height="wrap_content" 
 				android:layout_width="fill_parent">
-				
 					<ImageView 
 					android:id="@+id/clockIcon"
 					android:layout_height="wrap_content"
