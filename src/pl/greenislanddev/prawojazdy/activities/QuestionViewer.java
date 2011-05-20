@@ -1,4 +1,4 @@
-package pl.greenislanddev.prawojazdy.activities;
+ package pl.greenislanddev.prawojazdy.activities;
 
 import static pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable.KEY_ANSWER_OPTIONS_ID;
 import static pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable.KEY_CORRECT_ANSWER_ID;
@@ -71,7 +71,7 @@ public class QuestionViewer extends Activity {
 		questionContent.setTimerDisplay(state.getTimerDisplay());
 		questionContent.setClockIcon(state.isExam());
 		questionContent.showCheckButton(state.isExam());
-
+		
 		// Look up the AdView as a resource and load a request.
 		admob = (AdView) findViewById(R.id.admobView);
 		admob.loadAd(new AdRequest());
@@ -142,6 +142,8 @@ public class QuestionViewer extends Activity {
 			return true;
 		case OPTION_EXIT_ID:
 			Intent i = new Intent(this, DrivingLicense.class); 
+			i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			i.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
 			this.startActivity(i); 
 			finish(); 
 		}
@@ -174,8 +176,11 @@ public class QuestionViewer extends Activity {
 		questionContent.showContent(actualQuestion, text, answers);
 		questionContent.setPageNumber(state.toString());
 		questionContent.setCategory(getResources(), categoryId);
+		
 		if (state.isFinished()) {
 			questionContent.showColors(question.validate(), true);
+		}else if(actualQuestion.isAnswered()){
+			questionContent.showColors(question.validate(), false);
 		}
 	}
 
@@ -235,7 +240,13 @@ public class QuestionViewer extends Activity {
 		public void onClick(View v) {
 			if(!state.isExam()){
 				actualQuestion.setUserAnswers(questionContent.getAnswersState());
-				questionContent.showColors(actualQuestion.validate(), false);			
+				if(!actualQuestion.isAnswered()){
+					questionContent.showColors(actualQuestion.validate(), false);
+					actualQuestion.setAnswered(true);
+				}else{
+					questionContent.resetColors();
+					actualQuestion.setAnswered(false);
+				}
 			}else{
 				if(!state.isFinished()){
 					showEndDialog();
