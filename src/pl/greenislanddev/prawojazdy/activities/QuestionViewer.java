@@ -1,4 +1,4 @@
- package pl.greenislanddev.prawojazdy.activities;
+package pl.greenislanddev.prawojazdy.activities;
 
 import static pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable.KEY_ANSWER_OPTIONS_ID;
 import static pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable.KEY_CORRECT_ANSWER_ID;
@@ -10,6 +10,7 @@ import java.util.Map;
 import pl.greenislanddev.prawojazdy.R;
 import pl.greenislanddev.prawojazdy.business.Question;
 import pl.greenislanddev.prawojazdy.business.QuestionContentManager;
+import pl.greenislanddev.prawojazdy.business.QuestionContentManager.CategoryChangedListener;
 import pl.greenislanddev.prawojazdy.business.TestResult;
 import pl.greenislanddev.prawojazdy.business.sequencer.QuestionsSequencer;
 import pl.greenislanddev.prawojazdy.business.sequencer.SequencerExtractor;
@@ -35,12 +36,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Toast;
 
 import com.google.ads.AdRequest;
 import com.google.ads.AdView;
 
 public class QuestionViewer extends Activity {
-	
+
 	private static final int OPTION_GOTO_ID = Menu.FIRST;
 	private static final int OPTION_ABOUT_ID = OPTION_GOTO_ID + 1;
 	private static final int OPTION_EXIT_ID = OPTION_ABOUT_ID + 1;
@@ -55,6 +57,13 @@ public class QuestionViewer extends Activity {
 	private QuestionContentManager questionContent;
 	private DrivingLicenseDbAdapter dbAdapter;
 
+	private QuestionContentManager.CategoryChangedListener categoryListener = new CategoryChangedListener() {
+		@Override
+		public void onChange() {
+			toast(questionContent.getCategory());
+		}
+	};
+
 	@Override
 	public void onCreate(Bundle currentState) {
 		super.onCreate(currentState);
@@ -64,14 +73,14 @@ public class QuestionViewer extends Activity {
 		dbAdapter = new DrivingLicenseDbAdapter(this);
 		dbAdapter.open();
 
-		questionContent = new QuestionContentManager(this);
+		questionContent = new QuestionContentManager(this, categoryListener);
 		questionContent.setPreviousListener(previousListener);
 		questionContent.setNextListener(nextListener);
 		questionContent.setCheckListener(checkListener);
 		questionContent.setTimerDisplay(state.getTimerDisplay());
 		questionContent.setClockIcon(state.isExam());
 		questionContent.showCheckButton(state.isExam());
-		
+
 		// Look up the AdView as a resource and load a request.
 		admob = (AdView) findViewById(R.id.admobView);
 		admob.loadAd(new AdRequest());
@@ -122,11 +131,10 @@ public class QuestionViewer extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		boolean result = super.onCreateOptionsMenu(menu);
-		
-		if(!state.isExam()){
+
+		if (!state.isExam()) {
 			menu.add(0, OPTION_GOTO_ID, 0, R.string.goto_question).setIcon(R.drawable.goto_icon);
-			//menu.add(0, OPTION_ABOUT_ID, 0, R.string.about).setIcon(R.drawable.about_icon);
-			menu.add(0, OPTION_ABOUT_ID, 0, "");
+			menu.add(0, OPTION_ABOUT_ID, 0, R.string.about).setIcon(R.drawable.about_icon);
 		}
 		menu.add(0, OPTION_EXIT_ID, 0, R.string.option_quit).setIcon(R.drawable.exit_icon);
 		return result;
@@ -136,17 +144,17 @@ public class QuestionViewer extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case OPTION_ABOUT_ID:
-			//TODO
+			// TODO
 			return true;
 		case OPTION_GOTO_ID:
 			showDialog(QUESTION_PICK_DIALOG_ID);
 			return true;
 		case OPTION_EXIT_ID:
-			Intent i = new Intent(this, DrivingLicense.class); 
+			Intent i = new Intent(this, DrivingLicense.class);
 			i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
 			i.addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
-			this.startActivity(i); 
-			finish(); 
+			this.startActivity(i);
+			finish();
 		}
 		return super.onOptionsItemSelected(item);
 	}
@@ -177,10 +185,9 @@ public class QuestionViewer extends Activity {
 		questionContent.showContent(actualQuestion, text, answers);
 		questionContent.setPageNumber(state.toString());
 		questionContent.setCategory(getResources(), categoryId);
-		
 		if (state.isFinished()) {
 			questionContent.showColors(question.validate(), true);
-		}else if(actualQuestion.isAnswered()){
+		} else if (actualQuestion.isAnswered()) {
 			questionContent.showColors(question.validate(), false);
 		}
 	}
@@ -235,21 +242,21 @@ public class QuestionViewer extends Activity {
 			}
 		}
 	};
-	
-	private final OnClickListener checkListener = new OnClickListener(){
+
+	private final OnClickListener checkListener = new OnClickListener() {
 		@Override
 		public void onClick(View v) {
-			if(!state.isExam()){
+			if (!state.isExam()) {
 				actualQuestion.setUserAnswers(questionContent.getAnswersState());
-				if(!actualQuestion.isAnswered()){
+				if (!actualQuestion.isAnswered()) {
 					questionContent.showColors(actualQuestion.validate(), false);
 					actualQuestion.setAnswered(true);
-				}else{
+				} else {
 					questionContent.resetColors();
 					actualQuestion.setAnswered(false);
 				}
-			}else{
-				if(!state.isFinished()){
+			} else {
+				if (!state.isFinished()) {
 					showEndDialog();
 				}
 			}
@@ -308,6 +315,10 @@ public class QuestionViewer extends Activity {
 				showExamSummary();
 			}
 		};
+	}
+
+	private void toast(String string) {
+		Toast.makeText(this, string, Toast.LENGTH_SHORT).show();
 	}
 
 	private QuestionPickDialog.OnNumberSetListener mNumberSetListener = new QuestionPickDialog.OnNumberSetListener() {

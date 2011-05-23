@@ -17,8 +17,8 @@ import android.widget.TextView;
 public class QuestionContentManager {
 
 	private static final Map<Integer, Integer> CATEGORIES = new HashMap<Integer, Integer>();
-	
-	static{
+
+	static {
 		CATEGORIES.put(R.string.category1, R.string.roman1);
 		CATEGORIES.put(R.string.category2, R.string.roman2);
 		CATEGORIES.put(R.string.category3, R.string.roman3);
@@ -38,7 +38,7 @@ public class QuestionContentManager {
 		CATEGORIES.put(R.string.category17, R.string.roman17);
 		CATEGORIES.put(R.string.category18, R.string.roman18);
 	}
-	
+
 	private CheckBox answer1;
 	private CheckBox answer2;
 	private CheckBox answer3;
@@ -49,17 +49,20 @@ public class QuestionContentManager {
 
 	private ImageView imageView;
 	private ImageView clockIcon;
-	
+
 	private TextView timer;
 	private TextView questionText;
 	private TextView pageNumberInfo;
 	private TextView category;
-	
+	private int categoryId;
+
 	private ImageButton previous;
 	private ImageButton next;
 	private ImageButton check;
 
-	public QuestionContentManager(Activity activity) {
+	private CategoryChangedListener categoryListener;
+
+	public QuestionContentManager(Activity activity, CategoryChangedListener categoryListener) {
 		row1 = (TableRow) activity.findViewById(R.id.answerRow1);
 		row2 = (TableRow) activity.findViewById(R.id.answerRow2);
 		row3 = (TableRow) activity.findViewById(R.id.answerRow3);
@@ -72,9 +75,14 @@ public class QuestionContentManager {
 		previous = (ImageButton) activity.findViewById(R.id.previous);
 		next = (ImageButton) activity.findViewById(R.id.next);
 		timer = (TextView) activity.findViewById(R.id.timer);
-		clockIcon = (ImageView)activity.findViewById(R.id.clockIcon);
-		category = (TextView)activity.findViewById(R.id.categoryText);
-		check = (ImageButton)activity.findViewById(R.id.check_button);
+		clockIcon = (ImageView) activity.findViewById(R.id.clockIcon);
+		category = (TextView) activity.findViewById(R.id.categoryText);
+		check = (ImageButton) activity.findViewById(R.id.check_button);
+		this.categoryListener = categoryListener;
+	}
+
+	public interface CategoryChangedListener {
+		void onChange();
 	}
 
 	public void disable(boolean disable) {
@@ -160,8 +168,8 @@ public class QuestionContentManager {
 	public void setNextListener(OnClickListener listener) {
 		next.setOnClickListener(listener);
 	}
-	
-	public void setCheckListener(OnClickListener listener){
+
+	public void setCheckListener(OnClickListener listener) {
 		check.setOnClickListener(listener);
 	}
 
@@ -183,25 +191,33 @@ public class QuestionContentManager {
 	public void setTimerDisplay(String display) {
 		this.timer.setText(display);
 	}
-	
-	public void setClockIcon(boolean set){
-		if(set){
+
+	public void setClockIcon(boolean set) {
+		if (set) {
 			clockIcon.setImageResource(R.drawable.clock);
-		}else{
+		} else {
 			clockIcon.setImageResource(0);
 		}
 	}
-	
-	public void showCheckButton(boolean exam){
-		if(exam){
+
+	public void showCheckButton(boolean exam) {
+		if (exam) {
 			check.setImageResource(R.drawable.check_exam);
-		}else{
+		} else {
 			check.setImageResource(R.drawable.check_icon);
 		}
 	}
-	
-	public void setCategory(Resources res, int resId){
+
+	public void setCategory(Resources res, int resId) {
 		int value = CATEGORIES.get(Integer.valueOf(resId));
-		category.setText(String.format("%s %s", res.getString(R.string.category_chapter),res.getString(value)));
+		category.setText(String.format("%s %s", res.getString(R.string.category_chapter), res.getString(value)));
+		if (categoryId != resId) {
+			categoryListener.onChange();
+			categoryId = resId;
+		}
+	}
+
+	public String getCategory() {
+		return category.getText().toString();
 	}
 }
