@@ -125,7 +125,8 @@ public class QuestionViewer extends Activity {
 		
 		if(!state.isExam()){
 			menu.add(0, OPTION_GOTO_ID, 0, R.string.goto_question).setIcon(R.drawable.goto_icon);
-			menu.add(0, OPTION_ABOUT_ID, 0, R.string.about).setIcon(R.drawable.about_icon);
+			//menu.add(0, OPTION_ABOUT_ID, 0, R.string.about).setIcon(R.drawable.about_icon);
+			menu.add(0, OPTION_ABOUT_ID, 0, "");
 		}
 		menu.add(0, OPTION_EXIT_ID, 0, R.string.option_quit).setIcon(R.drawable.exit_icon);
 		return result;
