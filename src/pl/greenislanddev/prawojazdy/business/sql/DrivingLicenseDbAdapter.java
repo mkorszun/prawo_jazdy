@@ -14,7 +14,7 @@ public class DrivingLicenseDbAdapter {
 	private static final String TAG = "DrivingLicenseDbAdapter";
 
 	private static final String DATABASE_NAME = "driving_license";
-	private static final int DATABASE_VERSION = 32;
+	private static final int DATABASE_VERSION = 33;
 
 	private final Context mCtx;
 
@@ -84,8 +84,7 @@ public class DrivingLicenseDbAdapter {
 				QuestionTable.KEY_QUESTION_ID, //
 				QuestionTable.KEY_ANSWER_OPTIONS_ID, //
 				QuestionTable.KEY_CORRECT_ANSWER_ID, //
-				QuestionTable.KEY_IMAGE_ID,
-				QuestionTable.KEY_CATEGORY_ID}, //
+				QuestionTable.KEY_IMAGE_ID, QuestionTable.KEY_CATEGORY_ID }, //
 				QuestionTable.KEY_ID + " = " + rowId, //
 				null, null, null, null, null);
 		if (mCursor != null) {
