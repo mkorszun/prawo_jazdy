@@ -60,7 +60,9 @@ public class QuestionViewer extends Activity {
 	private QuestionContentManager.CategoryChangedListener categoryListener = new CategoryChangedListener() {
 		@Override
 		public void onChange() {
-			toast(questionContent.getCategory());
+			if (!state.isExam()) {
+				toast(questionContent.getCategory());
+			}
 		}
 	};
 
