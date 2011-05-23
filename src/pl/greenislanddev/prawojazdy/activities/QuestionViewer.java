@@ -30,6 +30,7 @@ import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.database.Cursor;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -43,6 +44,8 @@ import com.google.ads.AdView;
 
 public class QuestionViewer extends Activity {
 
+	private static final String APP_URI_PREFIX = "market://details?id=";
+	
 	private static final int OPTION_GOTO_ID = Menu.FIRST;
 	private static final int OPTION_ABOUT_ID = OPTION_GOTO_ID + 1;
 	private static final int OPTION_EXIT_ID = OPTION_ABOUT_ID + 1;
@@ -146,7 +149,11 @@ public class QuestionViewer extends Activity {
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
 		case OPTION_ABOUT_ID:
-			// TODO
+			StringBuilder uri = new StringBuilder();
+			uri.append(APP_URI_PREFIX);
+			uri.append(this.getApplication().getPackageName());
+			Intent goToMarket = new Intent(Intent.ACTION_VIEW, Uri.parse(uri.toString()));
+			startActivity(goToMarket);
 			return true;
 		case OPTION_GOTO_ID:
 			showDialog(QUESTION_PICK_DIALOG_ID);
