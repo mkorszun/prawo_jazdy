@@ -85,7 +85,7 @@ public class QuestionViewer extends Activity {
 		questionContent.setTimerDisplay(state.getTimerDisplay());
 		questionContent.setClockIcon(state.isExam());
 		questionContent.showCheckButton(state.isExam());
-
+		
 		// Look up the AdView as a resource and load a request.
 		admob = (AdView) findViewById(R.id.admobView);
 		admob.loadAd(new AdRequest());
@@ -195,9 +195,9 @@ public class QuestionViewer extends Activity {
 		questionContent.setPageNumber(state.toString());
 		questionContent.setCategory(getResources(), categoryId);
 		if (state.isFinished()) {
-			questionContent.showColors(question.validate(), true);
+			questionContent.showColors(question.getCorrectAnswers(), true);
 		} else if (actualQuestion.isAnswered()) {
-			questionContent.showColors(question.validate(), false);
+			questionContent.showColors(question.getCorrectAnswers(), true);
 		}
 	}
 
@@ -256,12 +256,14 @@ public class QuestionViewer extends Activity {
 		@Override
 		public void onClick(View v) {
 			if (!state.isExam()) {
-				actualQuestion.setUserAnswers(questionContent.getAnswersState());
-				if (!actualQuestion.isAnswered()) {
-					questionContent.showColors(actualQuestion.validate(), false);
+				if(!actualQuestion.isAnswered()){
+					actualQuestion.setUserAnswers(questionContent.getAnswersState());
+					questionContent.showColors(actualQuestion.getCorrectAnswers(), true);
 					actualQuestion.setAnswered(true);
-				} else {
+					actualQuestion.answerToast(QuestionViewer.this);
+				}else{
 					questionContent.resetColors();
+					questionContent.disable(false);
 					actualQuestion.setAnswered(false);
 				}
 			} else {

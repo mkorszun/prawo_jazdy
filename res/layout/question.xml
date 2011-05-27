@@ -4,7 +4,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:ads="http://schemas.android.com/apk/res/pl.greenislanddev.prawojazdy"
 android:orientation="vertical" 
 android:layout_width="fill_parent"
-android:layout_height="fill_parent">
+android:layout_height="fill_parent"
+android:paddingLeft="5dp"
+android:paddingRight="5dp" >
 
 	<com.google.ads.AdView 
 	android:id="@+id/admobView"
@@ -79,6 +81,13 @@ android:layout_height="fill_parent">
 				</RelativeLayout>
 			</TableRow>
 
+			<LinearLayout
+			android:background="@drawable/gradient3" 
+			android:orientation="vertical" 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_marginBottom="7dip">
+
 			<ImageView 
 			android:id="@+id/imageView"
 			android:adjustViewBounds="true" 
@@ -88,6 +97,7 @@ android:layout_height="fill_parent">
 			android:gravity="center_horizontal" 
 			android:paddingLeft="10dp"
 			android:paddingRight="10dp"
+			android:layout_marginTop="7dip"
 			android:layout_gravity="center_horizontal"></ImageView>
 
 			<TextView
@@ -140,6 +150,7 @@ android:layout_height="fill_parent">
 				android:layout_height="wrap_content"
 				android:textSize="15dip"></CheckBox>
 			</TableRow>
+			</LinearLayout> 
 			<LinearLayout
 			android:background="@drawable/gradient2" 
 			android:orientation="horizontal" 

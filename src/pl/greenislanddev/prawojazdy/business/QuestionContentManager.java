@@ -175,6 +175,7 @@ public class QuestionContentManager {
 
 	public void showContent(Question question, String text, String[] answers) {
 		resetColors();
+		disable(false);
 		setQuestionText(text);
 		setAnswersText(answers);
 		setAnswersState(question.getUserAnswers());
