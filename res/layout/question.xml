@@ -120,7 +120,8 @@ android:paddingRight="5dp" >
 				android:text="" android:id="@+id/answer1"
 				android:layout_width="wrap_content" 
 				android:layout_height="wrap_content"
-				android:textSize="15dip"></CheckBox>
+				android:textSize="15dip"
+				android:button="@drawable/custom_checkbox"></CheckBox>
 			</TableRow>
 			<TableRow 
 			android:layout_marginLeft="10dp"
@@ -134,7 +135,8 @@ android:paddingRight="5dp" >
 				android:id="@+id/answer2"
 				android:layout_width="wrap_content" 
 				android:layout_height="wrap_content"
-				android:textSize="15dip"></CheckBox>
+				android:textSize="15dip"
+				android:button="@drawable/custom_checkbox"></CheckBox>
 			</TableRow>
 			<TableRow 
 			android:layout_marginLeft="10dp"
@@ -148,7 +150,8 @@ android:paddingRight="5dp" >
 				android:id="@+id/answer3"
 				android:layout_width="wrap_content" 
 				android:layout_height="wrap_content"
-				android:textSize="15dip"></CheckBox>
+				android:textSize="15dip"
+				android:button="@drawable/custom_checkbox"></CheckBox>
 			</TableRow>
 			</LinearLayout> 
 			<LinearLayout
