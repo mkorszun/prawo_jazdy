@@ -3,7 +3,7 @@
     <item 
     	android:state_checked="true" 
     	android:state_enabled="true"
-    	android:drawable="@drawable/checkbox_checked_disabled"/>
+    	android:drawable="@drawable/checkbox_checked_enabled"/>
     <item 
     	android:state_checked="true"
     	android:state_enabled="false"
@@ -12,7 +12,7 @@
    		android:layout_marginLeft="10dp"
     	android:state_checked="false" 
     	android:state_enabled="true"
-    	android:drawable="@drawable/checkbox_unchecked_disabled"/>
+    	android:drawable="@drawable/checkbox_unchecked_enabled"/>
     <item 
     	
     	android:state_checked="false"
