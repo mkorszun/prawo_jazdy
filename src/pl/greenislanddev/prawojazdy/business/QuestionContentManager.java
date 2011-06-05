@@ -98,24 +98,26 @@ public class QuestionContentManager {
 	}
 
 	public void setColors(boolean[] result) {
-		answer1.setTextColor(Color.BLACK);
-		answer2.setTextColor(Color.BLACK);
-		answer3.setTextColor(Color.BLACK);
-
 		if (result[0]) {
 			row1.setBackgroundColor(Color.GREEN);
-		} else {
+			answer1.setTextColor(Color.BLACK);
+		} else if(!result[0] && answer1.isChecked()){
 			row1.setBackgroundColor(Color.RED);
+			answer1.setTextColor(Color.BLACK);
 		}
 		if (result[1]) {
 			row2.setBackgroundColor(Color.GREEN);
-		} else {
+			answer2.setTextColor(Color.BLACK);
+		} else if(!result[1] && answer2.isChecked()){
 			row2.setBackgroundColor(Color.RED);
+			answer2.setTextColor(Color.BLACK);
 		}
 		if (result[2]) {
 			row3.setBackgroundColor(Color.GREEN);
-		} else {
+			answer3.setTextColor(Color.BLACK);
+		} else if(!result[2] && answer3.isChecked()){
 			row3.setBackgroundColor(Color.RED);
+			answer3.setTextColor(Color.BLACK);
 		}
 	}
 
