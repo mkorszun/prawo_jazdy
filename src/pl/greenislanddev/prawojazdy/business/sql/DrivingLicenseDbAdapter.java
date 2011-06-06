@@ -1,6 +1,5 @@
 package pl.greenislanddev.prawojazdy.business.sql;
 
-import pl.greenislanddev.prawojazdy.business.sql.tables.CurrentTestTable;
 import pl.greenislanddev.prawojazdy.business.sql.tables.QuestionTable;
 import android.content.Context;
 import android.database.Cursor;
@@ -14,7 +13,7 @@ public class DrivingLicenseDbAdapter {
 	private static final String TAG = "DrivingLicenseDbAdapter";
 
 	private static final String DATABASE_NAME = "driving_license";
-	private static final int DATABASE_VERSION = 33;
+	private static final int DATABASE_VERSION = 34;
 
 	private final Context mCtx;
 
@@ -30,7 +29,6 @@ public class DrivingLicenseDbAdapter {
 		@Override
 		public void onCreate(SQLiteDatabase db) {
 			db.execSQL(QuestionTable.TABLE_CREATE);
-			db.execSQL(CurrentTestTable.TABLE_CREATE);
 			initData(db);
 		}
 
@@ -39,7 +37,6 @@ public class DrivingLicenseDbAdapter {
 			Log.w(TAG, "Upgrading database from version " + oldVersion + " to " + newVersion
 					+ ", which will destroy all old data");
 			db.execSQL(QuestionTable.DROP_TABLE);
-			db.execSQL(CurrentTestTable.DROP_TABLE);
 			onCreate(db);
 		}
 

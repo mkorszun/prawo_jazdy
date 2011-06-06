@@ -120,6 +120,7 @@ android:paddingRight="5dp" >
 				android:text="" android:id="@+id/answer1"
 				android:layout_width="wrap_content" 
 				android:layout_height="wrap_content"
+				android:button="@drawable/custom_checkbox"
 				android:textSize="15dip"></CheckBox>
 			</TableRow>
 			<TableRow 
@@ -134,6 +135,7 @@ android:paddingRight="5dp" >
 				android:id="@+id/answer2"
 				android:layout_width="wrap_content" 
 				android:layout_height="wrap_content"
+				android:button="@drawable/custom_checkbox"
 				android:textSize="15dip"></CheckBox>
 			</TableRow>
 			<TableRow 
@@ -148,6 +150,7 @@ android:paddingRight="5dp" >
 				android:id="@+id/answer3"
 				android:layout_width="wrap_content" 
 				android:layout_height="wrap_content"
+				android:button="@drawable/custom_checkbox"
 				android:textSize="15dip"></CheckBox>
 			</TableRow>
 			</LinearLayout> 

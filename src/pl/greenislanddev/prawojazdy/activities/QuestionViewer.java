@@ -45,7 +45,7 @@ import com.google.ads.AdView;
 public class QuestionViewer extends Activity {
 
 	private static final String APP_URI_PREFIX = "market://details?id=";
-	
+
 	private static final int OPTION_GOTO_ID = Menu.FIRST;
 	private static final int OPTION_ABOUT_ID = OPTION_GOTO_ID + 1;
 	private static final int OPTION_EXIT_ID = OPTION_ABOUT_ID + 1;
@@ -85,7 +85,7 @@ public class QuestionViewer extends Activity {
 		questionContent.setTimerDisplay(state.getTimerDisplay());
 		questionContent.setClockIcon(state.isExam());
 		questionContent.showCheckButton(state.isExam());
-		
+
 		// Look up the AdView as a resource and load a request.
 		admob = (AdView) findViewById(R.id.admobView);
 		admob.loadAd(new AdRequest());
@@ -257,12 +257,11 @@ public class QuestionViewer extends Activity {
 		@Override
 		public void onClick(View v) {
 			if (!state.isExam()) {
-				if(!actualQuestion.isAnswered()){
+				if (!actualQuestion.isAnswered()) {
 					actualQuestion.setUserAnswers(questionContent.getAnswersState());
 					questionContent.showColors(actualQuestion.getCorrectAnswers(), true);
 					actualQuestion.setAnswered(true);
-					actualQuestion.answerToast(QuestionViewer.this);
-				}else{
+				} else {
 					questionContent.resetColors();
 					questionContent.disable(false);
 					actualQuestion.setAnswered(false);

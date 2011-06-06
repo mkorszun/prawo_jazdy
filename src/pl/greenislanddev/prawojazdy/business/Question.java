@@ -2,14 +2,9 @@ package pl.greenislanddev.prawojazdy.business;
 
 import java.io.Serializable;
 
-import android.app.Activity;
-import android.widget.Toast;
-
 public class Question implements Serializable {
 
 	public static final int MAX_ANSWERS = 3;
-	private static final String CORRECT_TEXT = "Poprawna odpowiedü!";
-	private static final String WRONG_TEXT = "B≥Ídna odpowiedü";
 	private static final long serialVersionUID = 3718578849929988482L;
 
 	private final int id;
@@ -33,7 +28,7 @@ public class Question implements Serializable {
 	public boolean[] getCorrectAnswers() {
 		return correctAnswers;
 	}
-	
+
 	public void setCorrectAnswers(boolean[] correctAnswers) {
 		this.correctAnswers = correctAnswers;
 	}
@@ -49,7 +44,7 @@ public class Question implements Serializable {
 	public int getId() {
 		return id;
 	}
-	
+
 	public boolean[] validate() {
 		boolean[] result = new boolean[MAX_ANSWERS];
 		for (int i = 0; i < MAX_ANSWERS; i++) {
@@ -64,15 +59,5 @@ public class Question implements Serializable {
 			result &= q;
 		}
 		return result;
-	}
-
-	public void answerToast(Activity activity) {
-		String message;
-		if (isCorrect()) {
-			message = CORRECT_TEXT;
-		} else {
-			message = WRONG_TEXT;
-		}
-		Toast.makeText(activity,message,Toast.LENGTH_SHORT).show();
 	}
 }
