@@ -219,6 +219,7 @@ public class QuestionViewer extends Activity {
 	}
 
 	private void showExamSummary() {
+		saveQuestion(actualQuestion);
 		state.setFinished(true);
 		state.setPageCounter(1);
 		int totalQuestions = getResources().getInteger(R.integer.max_exam_questions);
