@@ -97,25 +97,25 @@ public class QuestionContentManager {
 		}
 	}
 
-	public void setColors(boolean[] result) {
+	private void setColors(boolean[] result) {
 		if (result[0]) {
 			row1.setBackgroundColor(Color.GREEN);
 			answer1.setTextColor(Color.BLACK);
-		} else if(!result[0] && answer1.isChecked()){
+		} else if (!result[0] && answer1.isChecked()) {
 			row1.setBackgroundColor(Color.RED);
 			answer1.setTextColor(Color.BLACK);
 		}
 		if (result[1]) {
 			row2.setBackgroundColor(Color.GREEN);
 			answer2.setTextColor(Color.BLACK);
-		} else if(!result[1] && answer2.isChecked()){
+		} else if (!result[1] && answer2.isChecked()) {
 			row2.setBackgroundColor(Color.RED);
 			answer2.setTextColor(Color.BLACK);
 		}
 		if (result[2]) {
 			row3.setBackgroundColor(Color.GREEN);
 			answer3.setTextColor(Color.BLACK);
-		} else if(!result[2] && answer3.isChecked()){
+		} else if (!result[2] && answer3.isChecked()) {
 			row3.setBackgroundColor(Color.RED);
 			answer3.setTextColor(Color.BLACK);
 		}
