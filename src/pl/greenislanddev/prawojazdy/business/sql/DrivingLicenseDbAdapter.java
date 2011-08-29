@@ -13,7 +13,7 @@ public class DrivingLicenseDbAdapter {
 	private static final String TAG = "DrivingLicenseDbAdapter";
 
 	private static final String DATABASE_NAME = "driving_license";
-	private static final int DATABASE_VERSION = 34;
+	private static final int DATABASE_VERSION = 35;
 
 	private final Context mCtx;
 
