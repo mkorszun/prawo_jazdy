@@ -43,12 +43,12 @@ public class Category8DataCreator extends DbDataCreator {
 		insertQuestion(db,R.string.question402, R.array.answers402,R.array.correct_answers402, R.string.category13, R.drawable.b378);
 		insertQuestion(db,R.string.question403, R.array.answers403,R.array.correct_answers403, R.string.category13, R.drawable.b379);
 		insertQuestion(db,R.string.question404, R.array.answers404,R.array.correct_answers404, R.string.category13, R.drawable.b380);
-		insertQuestion(db,R.string.question405, R.array.answers405,R.array.correct_answers405, R.string.category13, R.drawable.b362);
-		insertQuestion(db,R.string.question406, R.array.answers406,R.array.correct_answers406, R.string.category13, R.drawable.b369);
-		insertQuestion(db,R.string.question407, R.array.answers407,R.array.correct_answers407, R.string.category13, R.drawable.b363n);
-		insertQuestion(db,R.string.question408, R.array.answers408,R.array.correct_answers408, R.string.category13, R.drawable.b363n);
-		insertQuestion(db,R.string.question409, R.array.answers409,R.array.correct_answers409, R.string.category13, R.drawable.b365n);
-		insertQuestion(db,R.string.question410, R.array.answers410,R.array.correct_answers410, R.string.category13, R.drawable.b366n);
+		insertQuestion(db,R.string.question405, R.array.answers405,R.array.correct_answers405, R.string.category13, R.drawable.b1068);
+		insertQuestion(db,R.string.question406, R.array.answers406,R.array.correct_answers406, R.string.category13, R.drawable.b1070);
+		insertQuestion(db,R.string.question407, R.array.answers407,R.array.correct_answers407, R.string.category13, R.drawable.b1198);
+		insertQuestion(db,R.string.question408, R.array.answers408,R.array.correct_answers408, R.string.category13, R.drawable.b1199);
+		insertQuestion(db,R.string.question409, R.array.answers409,R.array.correct_answers409, R.string.category13, R.drawable.b1200);
+		insertQuestion(db,R.string.question410, R.array.answers410,R.array.correct_answers410, R.string.category13, R.drawable.b1201);
 		insertQuestion(db,R.string.question411, R.array.answers411,R.array.correct_answers411, R.string.category14, R.drawable.b381);
 		insertQuestion(db,R.string.question412, R.array.answers412,R.array.correct_answers412, R.string.category14, R.drawable.b382);
 		insertQuestion(db,R.string.question413, R.array.answers413,R.array.correct_answers413, R.string.category14, R.drawable.b383);
@@ -69,8 +69,8 @@ public class Category8DataCreator extends DbDataCreator {
 		insertQuestion(db,R.string.question428, R.array.answers428,R.array.correct_answers428, R.string.category14, R.drawable.b398);
 		insertQuestion(db,R.string.question429, R.array.answers429,R.array.correct_answers429, R.string.category14, R.drawable.b399);
 		insertQuestion(db,R.string.question430, R.array.answers430,R.array.correct_answers430, R.string.category14, R.drawable.b400);
-		insertQuestion(db,R.string.question431, R.array.answers431,R.array.correct_answers431, R.string.category14, R.drawable.b524n);
-		insertQuestion(db,R.string.question432, R.array.answers432,R.array.correct_answers432, R.string.category14, R.drawable.b525n);
+		insertQuestion(db,R.string.question431, R.array.answers431,R.array.correct_answers431, R.string.category14, R.drawable.b1254);
+		insertQuestion(db,R.string.question432, R.array.answers432,R.array.correct_answers432, R.string.category14, R.drawable.b1255);
 		insertQuestion(db,R.string.question433, R.array.answers433,R.array.correct_answers433, R.string.category15, R.drawable.brak);
 		insertQuestion(db,R.string.question434, R.array.answers434,R.array.correct_answers434, R.string.category15, R.drawable.brak);
 		insertQuestion(db,R.string.question435, R.array.answers435,R.array.correct_answers435, R.string.category15, R.drawable.brak);
@@ -90,7 +90,7 @@ public class Category8DataCreator extends DbDataCreator {
 		insertQuestion(db,R.string.question449, R.array.answers449,R.array.correct_answers449, R.string.category15, R.drawable.brak);
 		insertQuestion(db,R.string.question450, R.array.answers450,R.array.correct_answers450, R.string.category15, R.drawable.brak);
 		insertQuestion(db,R.string.question451, R.array.answers451,R.array.correct_answers451, R.string.category15, R.drawable.b420);
-		insertQuestion(db,R.string.question452, R.array.answers452,R.array.correct_answers452, R.string.category15, R.drawable.b409n);
+		insertQuestion(db,R.string.question452, R.array.answers452,R.array.correct_answers452, R.string.category15, R.drawable.b1202);
 		insertQuestion(db,R.string.question453, R.array.answers453,R.array.correct_answers453, R.string.category15, R.drawable.brak);
 	}
 

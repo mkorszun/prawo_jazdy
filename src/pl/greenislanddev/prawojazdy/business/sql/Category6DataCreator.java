@@ -30,11 +30,11 @@ public class Category6DataCreator extends DbDataCreator {
 		insertQuestion(db,R.string.question263, R.array.answers263,R.array.correct_answers263, R.string.category7, R.drawable.b255);
 		insertQuestion(db,R.string.question264, R.array.answers264,R.array.correct_answers264, R.string.category7, R.drawable.b257);
 		insertQuestion(db,R.string.question265, R.array.answers265,R.array.correct_answers265, R.string.category7, R.drawable.b258);
-		insertQuestion(db,R.string.question266, R.array.answers266,R.array.correct_answers266, R.string.category7, R.drawable.b247);
-		insertQuestion(db,R.string.question267, R.array.answers267,R.array.correct_answers267, R.string.category7, R.drawable.b244n);
-		insertQuestion(db,R.string.question268, R.array.answers268,R.array.correct_answers268, R.string.category7, R.drawable.b245n);
-		insertQuestion(db,R.string.question269, R.array.answers269,R.array.correct_answers269, R.string.category7, R.drawable.b256n);
-		insertQuestion(db,R.string.question270, R.array.answers270,R.array.correct_answers270, R.string.category7, R.drawable.b510n);
+		insertQuestion(db,R.string.question266, R.array.answers266,R.array.correct_answers266, R.string.category7, R.drawable.b1065);
+		insertQuestion(db,R.string.question267, R.array.answers267,R.array.correct_answers267, R.string.category7, R.drawable.b1190);
+		insertQuestion(db,R.string.question268, R.array.answers268,R.array.correct_answers268, R.string.category7, R.drawable.b1191);
+		insertQuestion(db,R.string.question269, R.array.answers269,R.array.correct_answers269, R.string.category7, R.drawable.b1192);
+		insertQuestion(db,R.string.question270, R.array.answers270,R.array.correct_answers270, R.string.category7, R.drawable.b1241);
 		insertQuestion(db,R.string.question271, R.array.answers271,R.array.correct_answers271, R.string.category7, R.drawable.brak);
 		insertQuestion(db,R.string.question272, R.array.answers272,R.array.correct_answers272, R.string.category7, R.drawable.brak);
 	}

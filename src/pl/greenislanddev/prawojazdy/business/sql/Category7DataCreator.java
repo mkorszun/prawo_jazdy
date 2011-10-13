@@ -26,8 +26,8 @@ public class Category7DataCreator extends DbDataCreator {
 		insertQuestion(db,R.string.question290, R.array.answers290,R.array.correct_answers290, R.string.category8, R.drawable.b278);
 		insertQuestion(db,R.string.question291, R.array.answers291,R.array.correct_answers291, R.string.category8, R.drawable.b279);
 		insertQuestion(db,R.string.question292, R.array.answers292,R.array.correct_answers292, R.string.category8, R.drawable.b280);
-		insertQuestion(db,R.string.question293, R.array.answers293,R.array.correct_answers293, R.string.category8, R.drawable.b261n);
-		insertQuestion(db,R.string.question294, R.array.answers294,R.array.correct_answers294, R.string.category8, R.drawable.b276n);
+		insertQuestion(db,R.string.question293, R.array.answers293,R.array.correct_answers293, R.string.category8, R.drawable.b1193);
+		insertQuestion(db,R.string.question294, R.array.answers294,R.array.correct_answers294, R.string.category8, R.drawable.b1194);
 		insertQuestion(db,R.string.question295, R.array.answers295,R.array.correct_answers295, R.string.category8, R.drawable.brak);
 		insertQuestion(db,R.string.question296, R.array.answers296,R.array.correct_answers296, R.string.category8, R.drawable.brak);
 		insertQuestion(db,R.string.question297, R.array.answers297,R.array.correct_answers297, R.string.category8, R.drawable.brak);
@@ -69,9 +69,9 @@ public class Category7DataCreator extends DbDataCreator {
 		insertQuestion(db,R.string.question333, R.array.answers333,R.array.correct_answers333, R.string.category10, R.drawable.brak);
 		insertQuestion(db,R.string.question334, R.array.answers334,R.array.correct_answers334, R.string.category10, R.drawable.b319);
 		insertQuestion(db,R.string.question335, R.array.answers335,R.array.correct_answers335, R.string.category10, R.drawable.b320);
-		insertQuestion(db,R.string.question336, R.array.answers336,R.array.correct_answers336, R.string.category10, R.drawable.b316);
+		insertQuestion(db,R.string.question336, R.array.answers336,R.array.correct_answers336, R.string.category10, R.drawable.b1066);
 		insertQuestion(db,R.string.question337, R.array.answers337,R.array.correct_answers337, R.string.category10, R.drawable.brak);
-		insertQuestion(db,R.string.question338, R.array.answers338,R.array.correct_answers338, R.string.category10, R.drawable.b306n);
+		insertQuestion(db,R.string.question338, R.array.answers338,R.array.correct_answers338, R.string.category10, R.drawable.b1196);
 		insertQuestion(db,R.string.question339, R.array.answers339,R.array.correct_answers339, R.string.category10, R.drawable.brak);
 		insertQuestion(db,R.string.question340, R.array.answers340,R.array.correct_answers340, R.string.category10, R.drawable.brak);
 		insertQuestion(db,R.string.question341, R.array.answers341,R.array.correct_answers341, R.string.category10, R.drawable.brak);
@@ -98,7 +98,7 @@ public class Category7DataCreator extends DbDataCreator {
 		insertQuestion(db,R.string.question362, R.array.answers362,R.array.correct_answers362, R.string.category11, R.drawable.brak);
 		insertQuestion(db,R.string.question363, R.array.answers363,R.array.correct_answers363, R.string.category11, R.drawable.brak);
 		insertQuestion(db,R.string.question364, R.array.answers364,R.array.correct_answers364, R.string.category11, R.drawable.brak);
-		insertQuestion(db,R.string.question365, R.array.answers365,R.array.correct_answers365, R.string.category11, R.drawable.b321);
+		insertQuestion(db,R.string.question365, R.array.answers365,R.array.correct_answers365, R.string.category11, R.drawable.b1067);
 		insertQuestion(db,R.string.question366, R.array.answers366,R.array.correct_answers366, R.string.category11, R.drawable.brak);
 		insertQuestion(db,R.string.question367, R.array.answers367,R.array.correct_answers367, R.string.category11, R.drawable.brak);
 	}
