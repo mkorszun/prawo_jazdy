@@ -156,7 +156,7 @@ public class QuestionContentManager {
 	}
 
 	public void setImageView(int resId) {
-		imageView.setBackgroundResource(resId);
+		imageView.setImageResource(resId);
 	}
 
 	public void setPageNumber(String pageNumberInfo) {
